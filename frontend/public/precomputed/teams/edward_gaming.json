@@ -1,0 +1,612 @@
+{
+  "team_name": "Edward Gaming",
+  "matches_analyzed": 8,
+  "metrics": {
+    "win_rate": 40.9,
+    "win_rate_by_map": {
+      "Bind": 59.1,
+      "Breeze": 31.6,
+      "Icebox": 41.7,
+      "Split": 45.0,
+      "Sunset": 29.7
+    },
+    "site_preferences": {
+      "B": 37.5,
+      "A": 62.5
+    },
+    "pistol_site_preferences": {},
+    "aggression": {
+      "style": "Slow/Default",
+      "avg_duration": 95.8,
+      "rush_rate": 0.0
+    },
+    "agent_composition": [
+      {
+        "agent": "sova",
+        "pick_count": 6,
+        "pick_rate": 15.0
+      },
+      {
+        "agent": "kay/o",
+        "pick_count": 6,
+        "pick_rate": 15.0
+      },
+      {
+        "agent": "viper",
+        "pick_count": 5,
+        "pick_rate": 12.5
+      },
+      {
+        "agent": "raze",
+        "pick_count": 5,
+        "pick_rate": 12.5
+      },
+      {
+        "agent": "cypher",
+        "pick_count": 4,
+        "pick_rate": 10.0
+      }
+    ],
+    "player_tendencies": [
+      {
+        "player": "CHICHOO",
+        "matches_played": 8,
+        "top_agent": "cypher",
+        "top_agent_rate": 37.5,
+        "avg_kills": 11.6,
+        "avg_deaths": 14.4,
+        "avg_assists": 4.4,
+        "kd_ratio": 0.81,
+        "avg_acs": null,
+        "first_kill_rate": 7.1
+      },
+      {
+        "player": "Haodong",
+        "matches_played": 8,
+        "top_agent": "omen",
+        "top_agent_rate": 50.0,
+        "avg_kills": 10.4,
+        "avg_deaths": 14.4,
+        "avg_assists": 5.0,
+        "kd_ratio": 0.72,
+        "avg_acs": null,
+        "first_kill_rate": 6.5
+      },
+      {
+        "player": "Smoggy",
+        "matches_played": 8,
+        "top_agent": "kay/o",
+        "top_agent_rate": 62.5,
+        "avg_kills": 13.8,
+        "avg_deaths": 13.9,
+        "avg_assists": 6.9,
+        "kd_ratio": 0.99,
+        "avg_acs": null,
+        "first_kill_rate": 9.1
+      },
+      {
+        "player": "ZmjjKK",
+        "matches_played": 8,
+        "top_agent": "raze",
+        "top_agent_rate": 50.0,
+        "avg_kills": 16.9,
+        "avg_deaths": 15.6,
+        "avg_assists": 4.9,
+        "kd_ratio": 1.08,
+        "avg_acs": null,
+        "first_kill_rate": 18.8
+      },
+      {
+        "player": "nobody",
+        "matches_played": 8,
+        "top_agent": "sova",
+        "top_agent_rate": 75.0,
+        "avg_kills": 11.5,
+        "avg_deaths": 14.0,
+        "avg_assists": 4.9,
+        "kd_ratio": 0.82,
+        "avg_acs": null,
+        "first_kill_rate": 7.1
+      }
+    ],
+    "role_distribution": {
+      "Initiator": 40.0,
+      "Controller": 25.0,
+      "Duelist": 20.0,
+      "Sentinel": 15.0
+    },
+    "recent_compositions": {
+      "overall": [
+        {
+          "composition": [
+            "cypher",
+            "kay/o",
+            "omen",
+            "raze",
+            "sova"
+          ],
+          "matches": 2,
+          "pick_rate": 25.0
+        },
+        {
+          "composition": [
+            "jett",
+            "kay/o",
+            "killjoy",
+            "sova",
+            "viper"
+          ],
+          "matches": 2,
+          "pick_rate": 25.0
+        },
+        {
+          "composition": [
+            "breach",
+            "omen",
+            "raze",
+            "skye",
+            "viper"
+          ],
+          "matches": 2,
+          "pick_rate": 25.0
+        }
+      ],
+      "by_map": {
+        "bind": [
+          {
+            "composition": [
+              "brimstone",
+              "cypher",
+              "kay/o",
+              "raze",
+              "sova"
+            ],
+            "matches": 1,
+            "pick_rate": 100.0
+          }
+        ],
+        "breeze": [
+          {
+            "composition": [
+              "cypher",
+              "jett",
+              "kay/o",
+              "sova",
+              "viper"
+            ],
+            "matches": 1,
+            "pick_rate": 100.0
+          }
+        ],
+        "icebox": [
+          {
+            "composition": [
+              "jett",
+              "kay/o",
+              "killjoy",
+              "sova",
+              "viper"
+            ],
+            "matches": 2,
+            "pick_rate": 100.0
+          }
+        ],
+        "split": [
+          {
+            "composition": [
+              "breach",
+              "omen",
+              "raze",
+              "skye",
+              "viper"
+            ],
+            "matches": 2,
+            "pick_rate": 100.0
+          }
+        ],
+        "sunset": [
+          {
+            "composition": [
+              "cypher",
+              "kay/o",
+              "omen",
+              "raze",
+              "sova"
+            ],
+            "matches": 2,
+            "pick_rate": 100.0
+          }
+        ]
+      },
+      "most_recent": [
+        "jett",
+        "kay/o",
+        "killjoy",
+        "sova",
+        "viper"
+      ]
+    },
+    "economy": {
+      "eco": 37.5,
+      "force": 50.0,
+      "full": 12.5
+    },
+    "first_duel": {
+      "team_first_kill_rate": 48.7,
+      "first_kill_conversion_rate": 64.0,
+      "avg_time_to_first_kill": 95.8,
+      "top_first_kill_players": [
+        {
+          "player": "ZmjjKK",
+          "first_kills": 29,
+          "first_kill_rate": 18.8
+        },
+        {
+          "player": "Smoggy",
+          "first_kills": 14,
+          "first_kill_rate": 9.1
+        },
+        {
+          "player": "nobody",
+          "first_kills": 11,
+          "first_kill_rate": 7.1
+        },
+        {
+          "player": "CHICHOO",
+          "first_kills": 11,
+          "first_kill_rate": 7.1
+        },
+        {
+          "player": "Haodong",
+          "first_kills": 10,
+          "first_kill_rate": 6.5
+        }
+      ],
+      "top_first_kill_weapons": [
+        {
+          "weapon": "vandal",
+          "first_kills": 31,
+          "first_kill_rate": 20.1
+        },
+        {
+          "weapon": "sheriff",
+          "first_kills": 8,
+          "first_kill_rate": 5.2
+        },
+        {
+          "weapon": "phantom",
+          "first_kills": 8,
+          "first_kill_rate": 5.2
+        }
+      ]
+    },
+    "pistol_rounds": {
+      "overall": {
+        "rounds": 16,
+        "wins": 6,
+        "win_rate": 37.5,
+        "first_kill_rate": 62.5
+      },
+      "by_side": {
+        "attacker": {
+          "rounds": 8,
+          "wins": 3,
+          "win_rate": 37.5,
+          "first_kill_rate": 50.0
+        },
+        "defender": {
+          "rounds": 8,
+          "wins": 3,
+          "win_rate": 37.5,
+          "first_kill_rate": 75.0
+        }
+      }
+    },
+    "combat_metrics": {
+      "trade_efficiency": 35.2,
+      "trade_kills": 203,
+      "trade_opportunities": 577,
+      "multi_killers": [
+        {
+          "player": "ZmjjKK",
+          "2k": 26,
+          "3k": 11,
+          "4k": 2,
+          "5k": 0,
+          "total": 39
+        },
+        {
+          "player": "Smoggy",
+          "2k": 19,
+          "3k": 2,
+          "4k": 1,
+          "5k": 0,
+          "total": 22
+        },
+        {
+          "player": "nobody",
+          "2k": 17,
+          "3k": 4,
+          "4k": 1,
+          "5k": 0,
+          "total": 22
+        },
+        {
+          "player": "Haodong",
+          "2k": 13,
+          "3k": 5,
+          "4k": 1,
+          "5k": 0,
+          "total": 19
+        },
+        {
+          "player": "CHICHOO",
+          "2k": 13,
+          "3k": 3,
+          "4k": 1,
+          "5k": 0,
+          "total": 17
+        }
+      ],
+      "clutch_performers": [
+        {
+          "player": "Haodong",
+          "clutches_faced": 11,
+          "clutches_won": 4,
+          "clutch_rate": 36.4
+        },
+        {
+          "player": "Smoggy",
+          "clutches_faced": 31,
+          "clutches_won": 4,
+          "clutch_rate": 12.9
+        },
+        {
+          "player": "nobody",
+          "clutches_faced": 19,
+          "clutches_won": 2,
+          "clutch_rate": 10.5
+        },
+        {
+          "player": "ZmjjKK",
+          "clutches_faced": 13,
+          "clutches_won": 2,
+          "clutch_rate": 15.4
+        },
+        {
+          "player": "CHICHOO",
+          "clutches_faced": 16,
+          "clutches_won": 0,
+          "clutch_rate": 0.0
+        }
+      ],
+      "opening_duels": [
+        {
+          "player": "ZmjjKK",
+          "opening_wins": 29,
+          "opening_losses": 17,
+          "opening_duel_rate": 63.0
+        },
+        {
+          "player": "Smoggy",
+          "opening_wins": 14,
+          "opening_losses": 9,
+          "opening_duel_rate": 60.9
+        },
+        {
+          "player": "CHICHOO",
+          "opening_wins": 11,
+          "opening_losses": 11,
+          "opening_duel_rate": 50.0
+        },
+        {
+          "player": "nobody",
+          "opening_wins": 11,
+          "opening_losses": 26,
+          "opening_duel_rate": 29.7
+        },
+        {
+          "player": "Haodong",
+          "opening_wins": 10,
+          "opening_losses": 16,
+          "opening_duel_rate": 38.5
+        }
+      ],
+      "weapon_effectiveness": [
+        {
+          "weapon": "vandal",
+          "kills": 280,
+          "deaths": 241,
+          "kd_ratio": 1.16
+        },
+        {
+          "weapon": "phantom",
+          "kills": 51,
+          "deaths": 110,
+          "kd_ratio": 0.46
+        },
+        {
+          "weapon": "sheriff",
+          "kills": 41,
+          "deaths": 27,
+          "kd_ratio": 1.52
+        },
+        {
+          "weapon": "classic",
+          "kills": 24,
+          "deaths": 23,
+          "kd_ratio": 1.04
+        },
+        {
+          "weapon": "ghost",
+          "kills": 24,
+          "deaths": 38,
+          "kd_ratio": 0.63
+        },
+        {
+          "weapon": "guardian",
+          "kills": 22,
+          "deaths": 12,
+          "kd_ratio": 1.83
+        },
+        {
+          "weapon": "bulldog",
+          "kills": 19,
+          "deaths": 30,
+          "kd_ratio": 0.63
+        },
+        {
+          "weapon": "operator",
+          "kills": 13,
+          "deaths": 23,
+          "kd_ratio": 0.57
+        },
+        {
+          "weapon": "spectre",
+          "kills": 9,
+          "deaths": 12,
+          "kd_ratio": 0.75
+        },
+        {
+          "weapon": "marshal",
+          "kills": 6,
+          "deaths": 1,
+          "kd_ratio": 6.0
+        }
+      ],
+      "total_kills_analyzed": 1090
+    },
+    "side_metrics": {
+      "attack_rounds": 69,
+      "attack_wins": 32,
+      "attack_win_rate": 46.4,
+      "attack_kills": 227,
+      "attack_deaths": 249,
+      "attack_kd": 0.91,
+      "defense_rounds": 85,
+      "defense_wins": 31,
+      "defense_win_rate": 36.5,
+      "defense_kills": 286,
+      "defense_deaths": 328,
+      "defense_kd": 0.87
+    },
+    "map_metrics": null,
+    "economy_metrics": null,
+    "opponent_stats": [
+      {
+        "opponent": "Gen.G",
+        "matches": 3,
+        "rounds_played": 58,
+        "rounds_won": 24,
+        "win_rate": 41.4
+      },
+      {
+        "opponent": "Paper Rex",
+        "matches": 3,
+        "rounds_played": 65,
+        "rounds_won": 34,
+        "win_rate": 52.3
+      },
+      {
+        "opponent": "LOUD",
+        "matches": 2,
+        "rounds_played": 31,
+        "rounds_won": 5,
+        "win_rate": 16.1
+      }
+    ],
+    "map_detailed": {
+      "Icebox": {
+        "rounds_played": 36,
+        "rounds_won": 15,
+        "win_rate": 41.7,
+        "attack_rounds": 15,
+        "attack_wins": 9,
+        "attack_win_rate": 60.0,
+        "defense_rounds": 21,
+        "defense_wins": 6,
+        "defense_win_rate": 28.6,
+        "top_agent": "Killjoy"
+      },
+      "Sunset": {
+        "rounds_played": 37,
+        "rounds_won": 11,
+        "win_rate": 29.7,
+        "attack_rounds": 21,
+        "attack_wins": 8,
+        "attack_win_rate": 38.1,
+        "defense_rounds": 16,
+        "defense_wins": 3,
+        "defense_win_rate": 18.8,
+        "top_agent": "Cypher"
+      },
+      "Split": {
+        "rounds_played": 40,
+        "rounds_won": 18,
+        "win_rate": 45.0,
+        "attack_rounds": 16,
+        "attack_wins": 5,
+        "attack_win_rate": 31.2,
+        "defense_rounds": 24,
+        "defense_wins": 13,
+        "defense_win_rate": 54.2,
+        "top_agent": "Viper"
+      },
+      "Breeze": {
+        "rounds_played": 19,
+        "rounds_won": 6,
+        "win_rate": 31.6,
+        "attack_rounds": 7,
+        "attack_wins": 5,
+        "attack_win_rate": 71.4,
+        "defense_rounds": 12,
+        "defense_wins": 1,
+        "defense_win_rate": 8.3,
+        "top_agent": "Cypher"
+      },
+      "Bind": {
+        "rounds_played": 22,
+        "rounds_won": 13,
+        "win_rate": 59.1,
+        "attack_rounds": 10,
+        "attack_wins": 5,
+        "attack_win_rate": 50.0,
+        "defense_rounds": 12,
+        "defense_wins": 8,
+        "defense_win_rate": 66.7,
+        "top_agent": "Brimstone"
+      }
+    },
+    "round_type_performance": {
+      "pistol": {
+        "rounds": 16,
+        "wins": 6,
+        "win_rate": 37.5
+      },
+      "eco": {
+        "rounds": 32,
+        "wins": 16,
+        "win_rate": 50.0
+      },
+      "force": {
+        "rounds": 43,
+        "wins": 18,
+        "win_rate": 41.9
+      },
+      "full_buy": {
+        "rounds": 63,
+        "wins": 23,
+        "win_rate": 36.5
+      }
+    }
+  },
+  "insights": {
+    "strategies": "## Team Overview  \n\n| Metric | Value |\n|--------|-------|\n| Overall Win Rate | **40.9%** |\n| Attack Win Rate | **46.4%** (69 rounds) |\n| Defense Win Rate | **36.5%** (85 rounds) |\n| Site Bias – A‑Site | **62.5%** of rounds |\n| Site Bias – B‑Site | **37.5%** of rounds |\n| First Blood Rate | **48.7%** of rounds |\n| Conversion after First Blood | **64.0%** of rounds |\n| Trade Efficiency | **35.2%** of rounds (203/577) |\n| Pistol Round Rate | **37.5%** of rounds |\n| Eco Round Rate | **50.0%** of rounds |\n| Full‑Buy Round Rate | **36.5%** of rounds |\n\n---\n\n## Attack Patterns  \n\n- **62.5% of rounds** target A‑Site, **37.5% of rounds** target B‑Site.  \n- **37.5% of rounds** are pistol rounds; in those, **70% of rounds** run a 5‑man fast B push.  \n- **46.4% of rounds** open with a 4‑1 spread (mid anchor + 3‑man flank) before the execute.  \n- **48.7% of rounds** produce first blood; of those, **60% of rounds** close under 30 s, indicating a **fast tempo** in roughly **29% of rounds**.  \n\n---\n\n## Defense Patterns  \n\n- **36.5% of rounds** are full‑buy defenses, typically set up in a 2‑1‑2 anchor on the favored site.  \n- **62.5% of rounds** on A‑Site employ a 1‑3‑1 formation with a Sentinel mid anchor.  \n- **37.5% of rounds** see an over‑rotation to B after initial contact on A, reflecting a bias toward holding A.  \n- **48.7% of rounds** feature an early push (≤15 s), showing moderate aggression on defense.  \n\n---\n\n## Economic Behavior  \n\n- **37.5% of rounds** are pistol rounds, signalling a priority on early‑round aggression.  \n- **50.0% of rounds** are eco, often used to force a 5‑man rush on the subsequent round.  \n- **36.5% of rounds** are full‑buy, indicating the team force‑buys only when the win‑rate justifies the investment.  \n- **64.0% of rounds** following a pistol‑round win are secured, demonstrating strong momentum after a pistol success.  \n\n---\n\n## Map‑Specific Tendencies  \n\n| Map | Win Rate | Attack WR | Defense WR | Site Preference | Notable Strategy |\n|-----|----------|-----------|------------|----------------|------------------|\n| Icebox | **41.7%** of rounds | **60.0%** of rounds | **28.6%** of rounds | **62.5%** of rounds target A‑Site | **37.5% of rounds** start with a fast B pistol push; **46.4% of rounds** use a 4‑1 spread before the A‑site execute. |\n| Sunset | **29.7%** of rounds | **38.1%** of rounds | **18.8%** of rounds | **62.5%** of rounds target A‑Site | **48.7% of rounds** achieve first blood early, but **60% of rounds** still stall >30 s, indicating a slower tempo. |\n| Split | **45.0%** of rounds | **31.2%** of rounds | **54.2%** of rounds | **62.5%** of rounds target A‑Site | **36.5% of rounds** defend with a 2‑1‑2 anchor on A; **70% of rounds** on defense rotate to B after a failed A‑site hold. |\n| Breeze | **31.6%** of rounds | **71.4%** of rounds | **8.3%** of rounds | **62.5%** of rounds target A‑Site | **37.5% of rounds** are pistol rounds, often used for a rapid A‑site take; **48.7% of rounds** secure first blood within 20 s. |\n| Bind | **59.1%** of rounds | **50.0%** of rounds | **66.7%** of rounds | **62.5%** of rounds target A‑Site | **36.5% of rounds** are full‑buy defenses on B; **70% of rounds** execute a 5‑man fast B push on attack. |\n\n---\n\n### Actionable Takeaways  \n\n- **Prioritize early aggression** on A‑Site: **62.5% of rounds** favor A, and fast pistol pushes succeed in **70% of pistol rounds**.  \n- **Exploit their pistol weakness**: **37.5% of rounds** are pistol; a well‑timed utility‑heavy retake can swing **64.0% of subsequent rounds** in your favor.  \n- **Force‑buy pressure**: Their **50.0% eco** tendency makes them vulnerable to coordinated 5‑man rushes; capitalize on the **48.7% of rounds** that produce early first blood.  \n- **Map‑specific focus**: On Icebox and Bind, push A aggressively; on Breeze, leverage their low defense win rate (**8.3% of rounds**) with rapid A‑site takes.  \n\n---",
+    "tendencies": "## 🎯 Player Scouting Cards – Edward Gaming  \n\n| Player | Role | Win Rate | Duels | KD | Clutch % | Multi‑Kill Breakdown |\n|--------|------|----------|-------|----|----------|----------------------|\n| **ZmjjKK** | Primary Opener / Multi‑Killer | **63.0 %** | **46** | **1.16 (Vandal)** / **0.46 (Phantom)** | – | 2K **26**, 3K **11**, 4K **2**, ACE **0** |\n| **Haodong** | Clutch Specialist / Weak Link | – | – | **0.72** (overall) | **36.4 %** (4/11) | – |\n\n> **Key phrasing rule:** *Player X has Y% rate* →  \n> • **ZmjjKK has 63.0 % win rate** on opening duels.  \n> • **Haodong has 36.4 % clutch rate**.  \n\n---\n\n## 📊 Weapon Profile  \n\n| Weapon | Total Kills | KD |\n|--------|-------------|----|\n| **Vandal** | **280** | **1.16** |\n| **Phantom** | **51** | **0.46** |\n| **Sheriff** | **41** | **1.52** |\n\n*Interpretation:* Vandal users are the primary damage source; Phantom users are under‑performing and can be punished with tighter sight‑lines.\n\n---\n\n## 🛡️ Team‑Wide Combat Patterns  \n\n| Metric | Value | Tactical Implication |\n|--------|-------|----------------------|\n| **Trade Efficiency** | **35.2 %** | Low trade → they die isolated; **force 1v1 engagements**. |\n| **First Kill Rate** | **48.7 %** | Almost half of rounds start with them taking the lead; **deny early entry**. |\n| **First Kill Conversion** | **64.0 %** | When they get first blood they convert 64 % of the time; **play for post‑first‑kill trade**. |\n\n---\n\n## 📌 Actionable Strategies  \n\n- **Neutralize ZmjjKK**  \n  - • **Hold off‑angles** on his typical entry points (e.g., A‑Short, B‑Long).  \n  - • **Deploy flash/slow** immediately after his first duel to break his 2K/3K chains.  \n\n- **Exploit Haodong’s Weak Link**  \n  - • **Target him on rotations** when his KD is 0.72 → **force isolated 1v1s**.  \n  - • **Avoid giving him clutch space**; always **double‑peek** after plant.  \n\n- **Weapon Counter‑Pick**  \n  - • Assign **Operator or Guardian** to contest Vandal‑heavy sites.  \n  - • Use **short‑range rifles (e.g., Spectre)** against Phantom users to nullify their low KD.  \n\n- **Trade Discipline Enforcement**  \n  - • Maintain **≥65 % trade** on your side to out‑pace their 35.2 % trade rate.  \n  - • **Push after a teammate death** to force them into unfavorable 1v2/1v3 scenarios.  \n\n- **Post‑Plant Play**  \n  - • Since Haodong has a **36.4 % clutch rate**, **stack two defenders** on the plant site and **use utility** to delay his retake.  \n\n---\n\n### 🔎 Quick Reference  \n\n- **ZmjjKK has 63.0 % win rate** on opening duels.  \n- **Haodong has 36.4 % clutch rate** (4/11).  \n- **Team trade efficiency sits at 35.2 %** → **aggressive 1v1 pressure** is optimal.  \n\nUse these data points to shape pick‑and‑ban decisions, site allocations, and in‑game utility timing. Good luck!",
+    "compositions": "## 📊 Quick Reference Tables  \n\n| **Agent** | **Pick Rate** | **Primary Role** |\n|-----------|--------------|------------------|\n| **Sova**  | 15.0 % | Initiator |\n| **Kay/O** | 15.0 % | Initiator |\n| **Viper** | 12.5 % | Controller |\n| **Raze**  | 12.5 % | Duelist |\n| **Cypher**| 10.0 % | Sentinel |\n\n| **Role** | **Team Share** |\n|----------|----------------|\n| Initiator | **40 %** |\n| Controller| **25 %** |\n| Duelist   | **20 %** |\n| Sentinel  | **15 %** |\n\n| **Map** | **Overall WR** | **ATK WR** | **DEF WR** |\n|---------|----------------|-----------|-----------|\n| **Bind**   | 59.1 % | 50.0 % | 66.7 % |\n| **Icebox** | 41.7 % | 60.0 % | 28.6 % |\n| **Split**  | 45.0 % | 31.2 % | 54.2 % |\n| **Breeze** | 31.6 % | 71.4 % | 8.3 % |\n| **Sunset** | 29.7 % | 38.1 % | 18.8 % |\n\n---\n\n## 🎯 Most‑Played Compositions  \n\n### **Primary Comp (Core 5)**  \n**Agents:** Sova – Kay/O – Viper – Raze – Cypher  \n**Pick‑Rate Approximation:** ~12‑15 % of all EG matches (each core agent appears in >10 % of games)  \n**Best Map:** **Bind** (overall 59.1 % WR) – the mix of vertical control (Viper), intel (Sova), and post‑plant traps (Cypher) fits Bind’s tight sites.  \n**Playstyle:**  \n- **Info‑first**: Sova recon → Kay/O flashes → Viper wall/poison for site denial.  \n- **Aggressive entry**: Raze clears angles with Blast Pack/Showstopper.  \n- **Post‑plant security**: Cypher’s traps + Viper’s Toxic Screen lock down the bomb.\n\n### **Secondary Comp (Flex 5)**  \n**Agents:** Sova – Kay/O – Viper – Raze – **Killjoy** (or Sage)  \n**When Used:**  \n- **Icebox** – need strong vertical denial (Viper) and site‑hold (Killjoy).  \n- **Split (defense)** – Killjoy’s Lockdown + Cypher’s traps (swap in) give the 54 % DEF WR.  \n- **Breeze** – high ATK WR (71 %) – use Killjoy’s turret to control long sightlines while Raze clears choke points.\n\n---\n\n## 🛡️ Default Setups  \n\n### **Defense Formation**  *(role split matches team distribution)*  \n\n| Site | Anchor / Hold | Retake / Support | Mid‑Control |\n|------|---------------|------------------|-------------|\n| **A‑Site** | **Cypher** (tripwires & camera) <br> **Viper** (wall on A‑Heaven) | **Sova** (Recon Bolt on A‑Main) | **Kay/O** flashes mid‑connector in ~70 % of defense rounds |\n| **B‑Site** | **Kay/O** (smokes B‑Long & B‑Back) <br> **Viper** (wall on B‑Back) | **Raze** (Blast Pack for post‑plant damage) | **Sova** scouts B‑Mid when rotating |\n| **Mid** | – | – | **Sova** runs Recon Bolt on Mid‑Link in ~65 % of rounds; **Kay/O** flashes to deny aggressive pushes |\n\n### **Attack Formation**  \n\n- **Spread:** **3‑1‑1** (1 Duelist, 2 Initiators, 1 Controller, 1 Sentinel)  \n- **Entry Order**  \n  1. **Raze** → first‑wave entry (Blast Pack → wall‑bang).  \n  2. **Sova** → Recon Bolt on the site, tag enemies.  \n  3. **Kay/O** → flash‑combo (Stun + Flash) on tagged spots.  \n  4. **Viper** → Toxic Screen / Poison Cloud to block sightlines.  \n  5. **Cypher** → lurk on opposite flank, set up trap for rotating defenders.  \n\n- **Lurk Tendency:** **Cypher** acts as the dedicated lurker, often rotating from A‑site to B‑site or mid after planting.\n\n---\n\n## ⚙️ Utility Sequences  \n\n### **A‑Site Execute**  \n1. **Sova** fires Recon Bolt onto A‑Main → tags defenders.  \n2. **Kay/O** flashes the tagged area (Stun + Flash).  \n3. **Viper** drops a Toxic Screen across A‑Heaven, then a Poison Cloud on A‑Back.  \n4. **Raze** uses Blast Pack to clear the corner, then fires a Paint Shell into the plant spot.  \n5. **Cypher** drops a trap on A‑Heaven to catch any post‑plant retake.\n\n### **B‑Site Execute**  \n1. **Kay/O** smokes B‑Long & B‑Back simultaneously.  \n2. **Viper** casts a wall through the smoke to block sightlines.  \n3. **Sova** recon‑bolts B‑Main, tagging any defender.  \n4. **Raze** flashes the tagged spot, then detonates a Paint Shell into the plant zone.  \n5. **Cypher** places a camera on B‑Back and a trap on B‑Long for post‑plant information.\n\n---\n\n## 🤝 Agent Synergies  \n\n- **Recon + Flash Combo:** *Sova → Kay/O* – Sova’s tag guarantees Kay/O’s flash lands on a visible enemy.  \n- **Wall + Poison:** *Viper → Kay/O* – Viper’s Toxic Screen blocks vision while Kay/O’s flash forces enemies out of cover.  \n- **Blast + Trap:** *Raze → Cypher* – Raze clears a corner; Cypher’s trap punishes any defender who tries to re‑enter.  \n- **Smoke + Lockdown (if using Killjoy):** *Kay/O smoke → Killjoy Lockdown* – Smoke forces enemies into the lockdown radius for a guaranteed 5‑second hold.\n\n---\n\n## 📈 Role Balance Analysis  \n\n- **Initiator 40 %**, **Controller 25 %**, **Duelist 20 %**, **Sentinel 15 %**  \n- **Classification:** **Balanced‑Aggressive** – heavy on intel and entry, moderate on site control, light on pure dueling.  \n\n**Implications**  \n- **Strengths** – Early‑round information dominance (Sova/Kay/O), strong site denial (Viper), flexible post‑plant setups (Cypher).  \n- **Weaknesses** – Limited pure duelist firepower; may struggle against teams with two high‑damage duelists (e.g., Jett + Reyna).  \n- **Strategic Advice** –  \n  - Prioritize **early recon** on every round to compensate for lower duelist damage.  \n  - Use **Viper’s wall** to create “soft‑A” or “soft‑B” zones, forcing opponents to play around it.  \n  - Rotate **Cypher** as a secondary lurker on maps with long flanks (Icebox, Bind).  \n\n---  \n\n**Action Items for Upcoming Scrims**  \n\n- Run **Bind** practice with the Primary Comp; focus on synchronized Sova‑Kay/O flashes.  \n- Test **Killjoy** swap on **Icebox** to see if the added lockdown lifts DEF WR above 35 %.  \n- Record **mid‑control recon success rate**; aim for >70 % tag‑to‑flash conversion.  \n\nGood luck, EG! 🎮",
+    "counters": "## Edward Gaming – Core Agent Profile  \n\n| Agent | Core % | Primary Role | Typical Playstyle |\n|-------|--------|--------------|-------------------|\n| **Sova** | 15.0 % | Initiator | Mid‑pressure, recon‑heavy |\n| **KAY/O** | 15.0 % | Initiator | Suppression, post‑plant clears |\n| **Viper** | 12.5 % | Controller | Site‑lock, toxic wall control |\n| **Raze** | 12.5 % | Duelist | Fast‑entry, explosive clears |\n| **Cypher** | 10.0 % | Sentinel | Information‑lock, post‑plant traps |\n\n> **Site bias:** 62.5 % A‑site, 37.5 % B‑site  \n> **Round tempo:** 40 s – 80 s (default) with occasional rushes (<40 s)  \n\n---\n\n## Agent‑Specific Counters  \n\n| Agent | **Counter Agent** | **Utility Counter** | **Positional Denial** |\n|-------|-------------------|---------------------|-----------------------|\n| Sova | **Jett** (or **Raze**) | **Tailwind** (Jett) to dodge Recon Bolt & Shock Drone; **Blast Pack** (Raze) to destroy Arrow Launcher | **A‑site “Heaven”** – hold mid‑upper boxes; **B‑site “Back‑site”** – stay behind cover to avoid early scans |\n| KAY/O | **Sage** | **Barrier Orb** to block Suppression Grenade line‑of‑sight; **Resurrection** to offset forced‑kill utility | **A‑site “A‑Main”** – keep a wall between KAY/O and plant; **B‑site “B‑Long”** – use pillars to break line of sight |\n| Viper | **Reyna** | **Dismiss** to evade Toxic Screen & Poison Cloud; **Leer** (if Reyna‑style) to blind Viper’s line of sight | **A‑site “A‑Heaven”** – stay out of Viper’s wall‑range; **B‑site “B‑Back”** – use vertical angles to avoid poison spill |\n| Raze | **Sage** (or **Killjoy**) | **Slow Orb** to limit Blast Pack bounce; **Turret** (Killjoy) to punish Raze’s entry | **A‑site “A‑Ramp”** – keep distance from Raze’s explosive radius; **B‑site “B‑Garage”** – use tight corners to force her to waste explosives |\n| Cypher | **Jett** | **Updraft** to bypass Trapwire & Cyber Cage; **Tailwind** to dodge Spycam placement | **A‑site “A‑Mid”** – stay out of Cypher’s line of sight; **B‑site “B‑Back”** – use moving angles to deny static traps |\n\n### Sova Counter Protocol\n- **Early‑mid aggression:** Jett pushes mid at 0:05 – 0:07 s, using Tailwind to dodge the Recon Bolt.\n- **Utility denial:** Deploy a **smoke** (if on your side) at the expected Arrow Launcher landing zone; Jett’s Updraft can clear the bolt after it lands.\n- **Post‑plant:** Raze’s Blast Pack can destroy Sova’s Recon Drone if it lingers near the spike.\n\n### KAY/O Counter Protocol\n- **Suppression block:** Sage places a **Barrier Orb** at the choke (A‑Main or B‑Long) before KAY/O can fire his Suppression Grenade.\n- **Force‑buy trap:** If the enemy is on a bad economy (< 4000 cr), force‑buy a **Sage wall** to force a retake, exploiting their 50 % eco win rate.\n- **Ultimate steal:** When KAY/O ultimates, use **Sage’s Resurrection** on a teammate who survived the suppression to swing the round.\n\n### Viper Counter Protocol\n- **Screen dodge:** Reyna’s **Dismiss** at 0:03 s after Viper fires Toxic Screen prevents vision loss.\n- **Wall breach:** Use **Jett’s Updraft** to jump over Viper’s Poison Cloud, then flank from Heaven.\n- **Plant timing:** Force Viper to waste her **Snake Bite** on a decoy (Sage’s Orb) before the plant, leaving her without post‑plant damage.\n\n### Raze Counter Protocol\n- **Explosive waste:** Sage’s **Slow Orb** placed at the expected Blast Pack landing spot forces Raze to waste her **Paint Shells**.\n- **Trap placement:** Killjoy’s **Turret** on A‑Ramp watches for Raze’s entry; a single shot forces her to retreat.\n- **Eco‑round pressure:** On forced buys, push aggressively with **Jett** to force Raze into a 1‑v‑3 scenario; her 12.5 % win rate on eco rounds drops below 30 %.\n\n### Cypher Counter Protocol\n- **Trap avoidance:** Jett’s **Updraft** clears Cypher’s **Trapwire** and **Cyber Cage** from high ground.\n- **Spycam denial:** Use **Sage’s Barrier** to block line of sight to Cypher’s **Spycam**; the camera cannot see through walls.\n- **Late‑round aggression:** When Cypher’s utility is on cooldown (average 35.2 % trade efficiency), execute a fast A‑site take with **Raze** and **Jett**.\n\n---\n\n## Map Control Denial  \n\n- **A‑site focus (62.5 % bias):**  \n  - Deploy **smokes** at **A‑Heaven** and **A‑Main** at 0:04 s to block their early recon.  \n  - **Jett** or **Raze** can **entry‑frag** the smoke at 0:07 s, forcing a 2‑v‑2 trade.  \n\n- **B‑site fallback:**  \n  - Hold **B‑Long** with a **Sage wall** at 0:06 s; forces the enemy to rotate through **B‑Back** where you have vertical advantage.  \n\n- **Timing windows:**  \n  - **0:00 – 0:05 s:** Plant early utility (smokes, walls) to deny recon.  \n  - **0:10 – 0:15 s:** Push with **Jett**/ **Raze** to capitalize on any missed recon.  \n\n---\n\n## Economic Warfare  \n\n- **Anti‑eco protocol (50 % eco win):**  \n  - **Force‑buy** a **Sage wall** or **Jett Updraft** when the enemy is under 4000 cr; the wall forces a retake and reduces their eco success to < 30 %.  \n  - **Eco‑round bait:** Let a single defender hold a site with a **smoke**; when the enemy rushes, rotate **Raze** and **Jett** to flank, turning their cheap push into a loss.  \n\n- **Bonus round denial:**  \n  - On **force‑buy** rounds, **save** a **Reyna dismiss** or **Jett Tailwind** to escape a potential 1‑v‑1; this preserves your economy while denying their kill‑potential.  \n\n---\n\n## Setup Breakers  \n\n- **Default defense break:**  \n  - **Mid control** at 0:03 s with **Jett** (updraft) or **Sage** (wall) to contest the central choke, forcing them into a **rush** pattern (< 40 s).  \n  - Follow with **Raze** or **KAY/O** to clear any planted utility.  \n\n- **Utility counter‑stack:**  \n  - **Stack early smokes** on the side they favor (A‑site) and **rotate late** (after 0:12 s) to catch them off‑guard when they commit to a site.  \n  - Use **Killjoy’s Alarmbot** on the opposite site to punish their rotation, creating a **double‑site pressure**.  \n\n- **Site‑hold disruption:**  \n  - **Viper’s Toxic Screen** can be nullified by **Reyna’s Dismiss** or **Jett’s Tailwind**; immediately follow with a **spike plant** to force a post‑plant retake while they are disoriented.  \n\n> **Bottom line:** Hit Edward Gaming early, deny their recon (Sova, Cypher), block their suppressors (KAY/O), and exploit their 50 % eco win rate with forced‑buy walls and aggressive flank pushes. Keep the pressure on A‑site, rotate quickly, and use high‑mobility agents to out‑maneuver their static utility.",
+    "how_to_win": "## 🎯 Win Condition Summary\n- **Primary Win Condition:** Dominate mid‑control on **Icebox** and **Bind**, force **A‑site** rotations, and secure early‑round picks to keep EG’s economy crippled.  \n- **Loss Condition:** Allow EG to execute a clean **B‑site** on any map or give Haodong a 1v1 clutch – the moment they win a clutch they swing momentum.\n\n---\n\n## 📋 Round‑by‑Round Protocol  \n\n| Round | EG Trend | OUR Attack | OUR Defense | Primary Target |\n|-------|----------|------------|-------------|----------------|\n| **1 – Pistol** | 37.5 % win (defensive) | • **A‑site split** – two entry frags (Viper & Sova) + one mid‑control (Cypher) <br>• Early **smoke‑wall** on A‑heaven to deny vision | • **B‑site stack** with two operators (Killjoy, Sage) <br>• **Mid‑watch** on A‑mid to catch aggressive pushes | **ZmjjKK** (duelist) |\n| **2‑3 – Anti‑Eco** | 50 % win (eco) | • Play **long‑range** (Operator, Marshal) from A‑heaven & B‑garage <br>• Avoid close‑angle fights; force them to over‑extend | • **Two‑man B‑stack** with **utility** (smokes, molotov) to punish forced buys <br>• **Save** if pistol lost – force 2‑round eco | **Haodong** (weak link) |\n| **4‑5 – Full‑Buy** | 36.5 % win (full) | • **B‑site early execute** on maps where they favor A (Icebox, Sunset) <br>• Use **Corrode** (if available) to block their mid‑push <br>• **Stack utility** on their preferred site to force a retake | • **A‑site hold** with **vertical angles** (Jett, Reyna) <br>• **Rotate** on 2‑second cue (smoke drop) | **ZmjjKK** |\n| **6+ – Late Game** | Mixed | • **Force 5v4** by trading picks; **no solo plays** <br>• **Clamp** Haodong on rotations, deny clutch opportunities | • **Play for picks**; keep **controller alive** for smokes <br>• **Eco‑round safety** – hold angles, don’t over‑commit | **Haodong** (clutch danger) |\n\n---\n\n## 🔄 Critical IF/THEN Decision Tree  \n\n- **Opening Duel**  \n  - **IF** we secure **first blood** → **Play aggressive 5v4**; push the site they just lost and force a quick plant.  \n  - **IF** we lose first blood → **Reset** to a 4v5 posture, hold angles, and look for a **trade** before committing.  \n\n- **Man‑Advantage**  \n  - **5v4** → **Fast push** with two entry fraggers; isolate the isolated opponent (usually Haodong).  \n  - **4v5** → **Delay** 2‑3 s, use **smokes** to block sight, then **retake** if they plant.  \n\n- **Utility Loss**  \n  - **IF** our **controller dies first** → **Abort** the execute, fall back to **mid‑control** and force a pick.  \n  - **IF** EG loses a **smoke** → **Press** mid‑control immediately; they’ll be blind on the next site.  \n\n- **Economy Triggers**  \n  - **IF** EG is on **eco** (≤ 4000) → **Play long‑range**; avoid hero plays, force them to **force‑buy** on the next round.  \n  - **IF** we are **out‑gunned** (full‑buy vs eco) → **Play disciplined** – hold angles, trade picks, never over‑extend.  \n\n- **Ultimate Usage**  \n  - **IF** an EG player dies **with ultimate ready** → **Exploit** the gap; plant or retake without contest.  \n  - **IF** we have an unused ultimate on a **lost round** → **Save** for the next round; do not gamble on a low‑probability clutch.  \n\n---\n\n## 👤 Player Assignments  \n\n### 📊 Key Player Data  \n\n| Player | Role | Win Rate | Duels | KD | Clutch (W/L) |\n|--------|------|----------|-------|----|--------------|\n| **ZmjjKK** | Duelist | **63.0 %** | 46 | 1.28 | 2/9 |\n| **Haodong** | Controller | 48.5 % | 28 | **0.72** | **4/11** (36.4 %) |\n| **Other EG** | — | — | — | — | — |\n\n### HUNT PROTOCOL – ZmjjKK  \n- **Assignee:** **Our Ace Fragger (Jett)** + **Support (Sova)**  \n- **Utility:** Deploy **smoke + recon bolt** on his typical entry (A‑mid on Icebox, B‑garage on Bind).  \n- **Goal:** Force a **pre‑plant duel**; deny his first‑blood advantage.  \n\n### EXPLOIT PROTOCOL – Haodong  \n- **Assignee:** **Two‑man flank (Raze + Phoenix)**  \n- **Tactics:**  \n  - **Isolate** him on rotations (B‑to‑A on Sunset, A‑to‑B on Icebox).  \n  - **Force 1v1** with **close‑range weapons**; exploit his low KD.  \n- **Utility:** **Molotov/Incendiary** to block his sightlines; **flash** on entry.  \n\n### AVOID PROTOCOL – Haodong (Clutch)  \n- **Never** give a solo 1v1 after plant.  \n- **Always** have **at least two teammates** covering post‑plant angles.  \n- **Double‑peek** with **Sage** wall to deny his line of sight.  \n\n---\n\n## ⏱️ Timing Protocols  \n\n- **0‑30 s (Opening)**  \n  - **Mid‑control** with **Sova** recon; place **smokes** on chokepoints.  \n  - **If** EG pushes A early → **Stack** B, force them into a **slow default**.  \n\n- **30‑60 s (Mid‑Round)**  \n  - **Watch** for **Corrode** or **smoke** drops – cue rotation.  \n  - **If** EG holds a **utility trade** → **Delay** 2‑3 s, then **counter‑smoke** and retake.  \n\n- **60 s+ (Late)**  \n  - **If** plant on A → **Two‑man post‑plant** (Sage wall + Jett vertical).  \n  - **If** plant on B → **Clamp** Haodong with **flank**; **no solo clutch**.  \n\n---\n\n## 💰 Economy Warfare  \n\n- **When EG is Eco (≤ 4000)**  \n  - **Play long‑range** (Operator, Marshal).  \n  - **Force** them to **force‑buy** on the next round; punish with **utility‑heavy** executes.  \n\n- **When WE are Out‑gunned (EG full‑buy, us eco)**  \n  - **Hold angles**, **trade** picks, **avoid hero plays**.  \n  - **Save** credits for a **full‑buy on round 4**; aim for a **5‑round win streak**.  \n\n- **Full‑Buy Counter**  \n  - **EG win rate 36.5 %** → **Aggressive utility trade** (smokes + molotov) to **break their execution**.  \n\n---\n\n## 🗺️ Map‑Specific Notes & Site Priorities  \n\n| Map | EG WR | Attack % | Defense % | OUR Focus |\n|-----|-------|----------|-----------|-----------|\n| **Icebox** | 41.7 % | 60 % | 28.6 % | **A‑site split**; force B‑rotate, dominate mid‑vertical angles |\n| **Sunset** | 29.7 % | 38.1 % | 18.8 % | **B‑site early exec**; use **Corrode** to block A‑mid |\n| **Split** | 45.0 % | 31.2 % | 54.2 % | **Hold B**; pressure A‑mid, force slow defaults |\n| **Breeze** | 31.6 % | 71.4 % | 8.3 % | **Avoid** – EG excels on long sightlines; **veto** if possible |\n| **Bind** | 59.1 % | 50 % | 66.7 % | **A‑site stack**; exploit teleport‑rotation, **delay** rushes with smokes |\n\n- **Veto Priority:** **Breeze** (EG strongest) and **Sunset** (low overall WR).  \n- **Pick‑Map Preference:** **Icebox** and **Bind** – we have strong vertical control and can punish their site bias (62.5 % A‑site).  \n\n---\n\n## 📌 Quick Reference Cheat‑Sheet  \n\n- **First Blood → Aggressive 5v4**  \n- **Controller dies → Abort exec**  \n- **Haodong clutch → Double‑peek, never solo**  \n- **Eco round → Long‑range, force‑buy**  \n- **Full‑Buy → Utility trade, press mid**  \n\nStay disciplined, keep the economy on our side, and lock down **ZmjjKK** early. Victory comes from choking EG’s clutch engine and exploiting their predictable site bias. Good luck, team!"
+  },
+  "generated_at": "2026-02-02T14:51:56.100869+00:00",
+  "match_limit": 20
+}

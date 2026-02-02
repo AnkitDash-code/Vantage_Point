@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+pydantic
+pandas
+numpy
+requests
+aiohttp
+python-dotenv
+langchain
+langchain-text-splitters
+langchain-groq
+groq
+sentence-transformers
+faiss-cpu
+beautifulsoup4
+pytest

@@ -1,0 +1,580 @@
+{
+  "team_name": "Team Heretics",
+  "matches_analyzed": 6,
+  "metrics": {
+    "win_rate": 48.5,
+    "win_rate_by_map": {
+      "Bind": 45.8,
+      "Lotus": 48.9,
+      "Split": 35.0,
+      "Sunset": 56.1
+    },
+    "site_preferences": {
+      "B": 37.5,
+      "A": 43.8,
+      "C": 18.8
+    },
+    "pistol_site_preferences": {},
+    "aggression": {
+      "style": "Slow/Default",
+      "avg_duration": 91.8,
+      "rush_rate": 0.0
+    },
+    "agent_composition": [
+      {
+        "agent": "omen",
+        "pick_count": 5,
+        "pick_rate": 16.7
+      },
+      {
+        "agent": "neon",
+        "pick_count": 4,
+        "pick_rate": 13.3
+      },
+      {
+        "agent": "viper",
+        "pick_count": 4,
+        "pick_rate": 13.3
+      },
+      {
+        "agent": "sova",
+        "pick_count": 3,
+        "pick_rate": 10.0
+      },
+      {
+        "agent": "cypher",
+        "pick_count": 3,
+        "pick_rate": 10.0
+      }
+    ],
+    "player_tendencies": [
+      {
+        "player": "Boo",
+        "matches_played": 6,
+        "top_agent": "omen",
+        "top_agent_rate": 83.3,
+        "avg_kills": 13.2,
+        "avg_deaths": 15.2,
+        "avg_assists": 7.7,
+        "kd_ratio": 0.87,
+        "avg_acs": null,
+        "first_kill_rate": 3.8
+      },
+      {
+        "player": "MiniBoo",
+        "matches_played": 6,
+        "top_agent": "neon",
+        "top_agent_rate": 66.7,
+        "avg_kills": 19.0,
+        "avg_deaths": 15.3,
+        "avg_assists": 6.2,
+        "kd_ratio": 1.24,
+        "avg_acs": null,
+        "first_kill_rate": 16.9
+      },
+      {
+        "player": "RieNs",
+        "matches_played": 6,
+        "top_agent": "sova",
+        "top_agent_rate": 50.0,
+        "avg_kills": 17.2,
+        "avg_deaths": 15.0,
+        "avg_assists": 7.3,
+        "kd_ratio": 1.14,
+        "avg_acs": null,
+        "first_kill_rate": 10.8
+      },
+      {
+        "player": "benjyfishy",
+        "matches_played": 6,
+        "top_agent": "cypher",
+        "top_agent_rate": 50.0,
+        "avg_kills": 16.8,
+        "avg_deaths": 15.0,
+        "avg_assists": 4.8,
+        "kd_ratio": 1.12,
+        "avg_acs": null,
+        "first_kill_rate": 10.8
+      },
+      {
+        "player": "paTiTek",
+        "matches_played": 6,
+        "top_agent": "kay/o",
+        "top_agent_rate": 50.0,
+        "avg_kills": 10.2,
+        "avg_deaths": 15.7,
+        "avg_assists": 10.3,
+        "kd_ratio": 0.65,
+        "avg_acs": null,
+        "first_kill_rate": 9.2
+      }
+    ],
+    "role_distribution": {
+      "Controller": 33.3,
+      "Initiator": 30.0,
+      "Duelist": 20.0,
+      "Sentinel": 16.7
+    },
+    "recent_compositions": {
+      "overall": [
+        {
+          "composition": [
+            "gekko",
+            "killjoy",
+            "neon",
+            "omen",
+            "viper"
+          ],
+          "matches": 2,
+          "pick_rate": 33.3
+        },
+        {
+          "composition": [
+            "cypher",
+            "kay/o",
+            "neon",
+            "omen",
+            "sova"
+          ],
+          "matches": 2,
+          "pick_rate": 33.3
+        },
+        {
+          "composition": [
+            "breach",
+            "cypher",
+            "omen",
+            "raze",
+            "viper"
+          ],
+          "matches": 1,
+          "pick_rate": 16.7
+        }
+      ],
+      "by_map": {
+        "bind": [
+          {
+            "composition": [
+              "astra",
+              "kay/o",
+              "sova",
+              "viper",
+              "yoru"
+            ],
+            "matches": 1,
+            "pick_rate": 100.0
+          }
+        ],
+        "lotus": [
+          {
+            "composition": [
+              "gekko",
+              "killjoy",
+              "neon",
+              "omen",
+              "viper"
+            ],
+            "matches": 2,
+            "pick_rate": 100.0
+          }
+        ],
+        "split": [
+          {
+            "composition": [
+              "breach",
+              "cypher",
+              "omen",
+              "raze",
+              "viper"
+            ],
+            "matches": 1,
+            "pick_rate": 100.0
+          }
+        ],
+        "sunset": [
+          {
+            "composition": [
+              "cypher",
+              "kay/o",
+              "neon",
+              "omen",
+              "sova"
+            ],
+            "matches": 2,
+            "pick_rate": 100.0
+          }
+        ]
+      },
+      "most_recent": [
+        "cypher",
+        "kay/o",
+        "neon",
+        "omen",
+        "sova"
+      ]
+    },
+    "economy": {
+      "eco": 50.0,
+      "force": 16.7,
+      "full": 33.3
+    },
+    "first_duel": {
+      "team_first_kill_rate": 51.5,
+      "first_kill_conversion_rate": 67.2,
+      "avg_time_to_first_kill": 91.8,
+      "top_first_kill_players": [
+        {
+          "player": "MiniBoo",
+          "first_kills": 22,
+          "first_kill_rate": 16.9
+        },
+        {
+          "player": "benjyfishy",
+          "first_kills": 14,
+          "first_kill_rate": 10.8
+        },
+        {
+          "player": "RieNs",
+          "first_kills": 14,
+          "first_kill_rate": 10.8
+        },
+        {
+          "player": "paTiTek",
+          "first_kills": 12,
+          "first_kill_rate": 9.2
+        },
+        {
+          "player": "Boo",
+          "first_kills": 5,
+          "first_kill_rate": 3.8
+        }
+      ],
+      "top_first_kill_weapons": [
+        {
+          "weapon": "vandal",
+          "first_kills": 39,
+          "first_kill_rate": 30.0
+        },
+        {
+          "weapon": "phantom",
+          "first_kills": 9,
+          "first_kill_rate": 6.9
+        },
+        {
+          "weapon": "ghost",
+          "first_kills": 6,
+          "first_kill_rate": 4.6
+        }
+      ]
+    },
+    "pistol_rounds": {
+      "overall": {
+        "rounds": 12,
+        "wins": 4,
+        "win_rate": 33.3,
+        "first_kill_rate": 58.3
+      },
+      "by_side": {
+        "attacker": {
+          "rounds": 6,
+          "wins": 1,
+          "win_rate": 16.7,
+          "first_kill_rate": 66.7
+        },
+        "defender": {
+          "rounds": 6,
+          "wins": 3,
+          "win_rate": 50.0,
+          "first_kill_rate": 50.0
+        }
+      }
+    },
+    "combat_metrics": {
+      "trade_efficiency": 37.2,
+      "trade_kills": 170,
+      "trade_opportunities": 457,
+      "multi_killers": [
+        {
+          "player": "MiniBoo",
+          "2k": 25,
+          "3k": 7,
+          "4k": 1,
+          "5k": 0,
+          "total": 33
+        },
+        {
+          "player": "RieNs",
+          "2k": 18,
+          "3k": 6,
+          "4k": 1,
+          "5k": 0,
+          "total": 25
+        },
+        {
+          "player": "benjyfishy",
+          "2k": 14,
+          "3k": 5,
+          "4k": 2,
+          "5k": 0,
+          "total": 21
+        },
+        {
+          "player": "Boo",
+          "2k": 14,
+          "3k": 4,
+          "4k": 2,
+          "5k": 0,
+          "total": 20
+        },
+        {
+          "player": "paTiTek",
+          "2k": 11,
+          "3k": 2,
+          "4k": 0,
+          "5k": 0,
+          "total": 13
+        }
+      ],
+      "clutch_performers": [
+        {
+          "player": "MiniBoo",
+          "clutches_faced": 13,
+          "clutches_won": 2,
+          "clutch_rate": 15.4
+        },
+        {
+          "player": "Boo",
+          "clutches_faced": 12,
+          "clutches_won": 2,
+          "clutch_rate": 16.7
+        },
+        {
+          "player": "benjyfishy",
+          "clutches_faced": 17,
+          "clutches_won": 2,
+          "clutch_rate": 11.8
+        },
+        {
+          "player": "paTiTek",
+          "clutches_faced": 7,
+          "clutches_won": 1,
+          "clutch_rate": 14.3
+        },
+        {
+          "player": "RieNs",
+          "clutches_faced": 15,
+          "clutches_won": 0,
+          "clutch_rate": 0.0
+        }
+      ],
+      "opening_duels": [
+        {
+          "player": "MiniBoo",
+          "opening_wins": 22,
+          "opening_losses": 18,
+          "opening_duel_rate": 55.0
+        },
+        {
+          "player": "RieNs",
+          "opening_wins": 14,
+          "opening_losses": 7,
+          "opening_duel_rate": 66.7
+        },
+        {
+          "player": "benjyfishy",
+          "opening_wins": 14,
+          "opening_losses": 12,
+          "opening_duel_rate": 53.8
+        },
+        {
+          "player": "paTiTek",
+          "opening_wins": 12,
+          "opening_losses": 10,
+          "opening_duel_rate": 54.5
+        },
+        {
+          "player": "Boo",
+          "opening_wins": 5,
+          "opening_losses": 16,
+          "opening_duel_rate": 23.8
+        }
+      ],
+      "weapon_effectiveness": [
+        {
+          "weapon": "vandal",
+          "kills": 273,
+          "deaths": 204,
+          "kd_ratio": 1.34
+        },
+        {
+          "weapon": "phantom",
+          "kills": 40,
+          "deaths": 68,
+          "kd_ratio": 0.59
+        },
+        {
+          "weapon": "ghost",
+          "kills": 33,
+          "deaths": 31,
+          "kd_ratio": 1.06
+        },
+        {
+          "weapon": "guardian",
+          "kills": 23,
+          "deaths": 7,
+          "kd_ratio": 3.29
+        },
+        {
+          "weapon": "sheriff",
+          "kills": 21,
+          "deaths": 11,
+          "kd_ratio": 1.91
+        },
+        {
+          "weapon": "classic",
+          "kills": 17,
+          "deaths": 30,
+          "kd_ratio": 0.57
+        },
+        {
+          "weapon": "spectre",
+          "kills": 8,
+          "deaths": 13,
+          "kd_ratio": 0.62
+        },
+        {
+          "weapon": "odin",
+          "kills": 8,
+          "deaths": 6,
+          "kd_ratio": 1.33
+        },
+        {
+          "weapon": "bulldog",
+          "kills": 7,
+          "deaths": 23,
+          "kd_ratio": 0.3
+        },
+        {
+          "weapon": "operator",
+          "kills": 4,
+          "deaths": 11,
+          "kd_ratio": 0.36
+        }
+      ],
+      "total_kills_analyzed": 915
+    },
+    "side_metrics": {
+      "attack_rounds": 60,
+      "attack_wins": 29,
+      "attack_win_rate": 48.3,
+      "attack_kills": 199,
+      "attack_deaths": 212,
+      "attack_kd": 0.94,
+      "defense_rounds": 70,
+      "defense_wins": 34,
+      "defense_win_rate": 48.6,
+      "defense_kills": 259,
+      "defense_deaths": 245,
+      "defense_kd": 1.06
+    },
+    "map_metrics": null,
+    "economy_metrics": null,
+    "opponent_stats": [
+      {
+        "opponent": "Paper Rex",
+        "matches": 3,
+        "rounds_played": 66,
+        "rounds_won": 30,
+        "win_rate": 45.5
+      },
+      {
+        "opponent": "Sentinels",
+        "matches": 3,
+        "rounds_played": 64,
+        "rounds_won": 33,
+        "win_rate": 51.6
+      }
+    ],
+    "map_detailed": {
+      "Sunset": {
+        "rounds_played": 41,
+        "rounds_won": 23,
+        "win_rate": 56.1,
+        "attack_rounds": 17,
+        "attack_wins": 9,
+        "attack_win_rate": 52.9,
+        "defense_rounds": 24,
+        "defense_wins": 14,
+        "defense_win_rate": 58.3,
+        "top_agent": "Neon"
+      },
+      "Lotus": {
+        "rounds_played": 45,
+        "rounds_won": 22,
+        "win_rate": 48.9,
+        "attack_rounds": 23,
+        "attack_wins": 14,
+        "attack_win_rate": 60.9,
+        "defense_rounds": 22,
+        "defense_wins": 8,
+        "defense_win_rate": 36.4,
+        "top_agent": "Neon"
+      },
+      "Split": {
+        "rounds_played": 20,
+        "rounds_won": 7,
+        "win_rate": 35.0,
+        "attack_rounds": 8,
+        "attack_wins": 1,
+        "attack_win_rate": 12.5,
+        "defense_rounds": 12,
+        "defense_wins": 6,
+        "defense_win_rate": 50.0,
+        "top_agent": "Raze"
+      },
+      "Bind": {
+        "rounds_played": 24,
+        "rounds_won": 11,
+        "win_rate": 45.8,
+        "attack_rounds": 12,
+        "attack_wins": 5,
+        "attack_win_rate": 41.7,
+        "defense_rounds": 12,
+        "defense_wins": 6,
+        "defense_win_rate": 50.0,
+        "top_agent": "Yoru"
+      }
+    },
+    "round_type_performance": {
+      "pistol": {
+        "rounds": 12,
+        "wins": 4,
+        "win_rate": 33.3
+      },
+      "eco": {
+        "rounds": 24,
+        "wins": 12,
+        "win_rate": 50.0
+      },
+      "force": {
+        "rounds": 36,
+        "wins": 21,
+        "win_rate": 58.3
+      },
+      "full_buy": {
+        "rounds": 58,
+        "wins": 26,
+        "win_rate": 44.8
+      }
+    }
+  },
+  "insights": {
+    "strategies": "## Attack Patterns\n- **Site Distribution**: A-Site 43.8%, B-Site 37.5%\n- **Tempo**: Fast (high first blood rate) - 51.5% first blood rate\n- **Post-FB Conversion**: 67.2% - Throw leads often\n\n## Defense Patterns\n- **Side Strength**: Attack 48.3% vs Defense 48.6%\n- **Style**: Anchor-heavy\n- **Trade Discipline**: 37.2%\n\n## Economic Behavior\n- **Pistol Win Rate**: 33.3%\n- **Eco Win Rate**: 50.0% (league avg ~15%)\n- **Full Buy Win Rate**: 44.8%\n\n## Overall\n- **Win Rate**: 48.5%",
+    "tendencies": "## Player Scouting Cards\n\n### 🎯 Entry Fragger (Primary Threat)\n**MiniBoo**\n- **Stats**: 55.0% win rate on 40 duels\n- **Threat Level**: CRITICAL\n- **Counter**: Hold off-angles, use utility to deny entry\n\n### 🔻 Weak Link (Isolation Target)\n**paTiTek**\n- **Stats**: KD: 0.65\n- **Exploitation**: Hunt on rotations, force isolated 1v1s\n\n### 🏆 Clutch King (Avoid 1vX)\n**MiniBoo**\n- **Stats**: 2/13 clutches\n- **Protocol**: ALWAYS double-peek, never give 1v1 clutch\n\n## Team Patterns\n- **Trade Efficiency**: 37.2% - Die isolated\n- **First Blood**: 51.5% rate, 67.2% conversion",
+    "compositions": "## Agent Core\nomen (16.7%), neon (13.3%), viper (13.3%), sova (10.0%), cypher (10.0%)\n\n## Role Distribution\nController: 33.3%, Initiator: 30.0%, Duelist: 20.0%, Sentinel: 16.7%\n\n## Default Setups\n\n### Defense Formation\n- **Primary Site**: A-Site (43.8% preference)\n- **Classification**: Duelist-heavy\n\n### Attack Formation\n- **Target Site**: A-Site favored\n- **Style**: Fast execute",
+    "counters": "## Agent Counters\nBased on their agent pool, prepare counters for:\n- omen (16.7%), neon (13.3%), viper (13.3%), sova (10.0%), cypher (10.0%)\n\n## Site Control Denial\n- **Their Preference**: A-Site (43.8%)\n- **Counter**: Stack A on defense\n\n## Economic Warfare\n- **Anti-Eco Protocol**: Play long range - {eco_wr:.1f}% eco danger\n- **Anti-Pistol**: 33.3% pistol rate - Winnable\n\n## Setup Breakers\n- **Trading**: They die alone - take 1v1s",
+    "how_to_win": "## 🎯 Win Condition Summary\n**Primary**: Neutralize MiniBoo early, hunt paTiTek\n**Avoid**: Giving MiniBoo clutch opportunities\n\n## 📋 Round Protocol\n\n### Pistol (Round 1)\n- Their rate: 33.3%\n- **Strategy**: Aggressive entry\n\n### Anti-Eco (Rounds 2-3)\n- Their eco rate: 50.0%\n- **Protocol**: Long range, no hero plays\n\n### Gun Rounds\n- **Attack**: Target B-Site (they stack other)\n- **Defense**: Stack their preferred site\n\n## 🔄 IF/THEN Decision Tree\n\n### Opening Duel\n- **IF** we get FB (their conv: 67.2%) → Play fast 5v4\n- **IF** we lose FB → Reset\n\n### Man Advantage\n- **5v4**: Push - they die alone\n- **4v5**: Try retake\n\n## 👤 Player Assignments\n- **HUNT**: MiniBoo\n- **ISOLATE**: paTiTek\n- **AVOID 1v1**: MiniBoo\n\n## 💰 Economy\n- **Their Eco**: RESPECT\n- **Full Buy**: 44.8% rate"
+  },
+  "generated_at": "2026-02-02T14:52:20.856047+00:00",
+  "match_limit": 20
+}

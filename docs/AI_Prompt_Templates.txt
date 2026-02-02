@@ -1,0 +1,76 @@
+﻿AI Coding Assistant Prompt Templates
+Optimized Prompts for LLM-Assisted Development of Vantage Point
+
+1. Context-Setting Master Prompt
+Use this prompt at the start of each coding session to establish context:
+
+MASTER CONTEXT PROMPT:
+I am building "Vantage Point", an AI-powered VALORANT esports analytics platform for the Sky's the Limit hackathon. The project has two phases:  PHASE 1 (Priority): Automated Scouting Report Generator (Category 2) - Fetches opponent match history from GRID API - Calculates win rates, site preferences, agent compositions, aggression index - Uses RAG (FAISS + LangChain + Groq/Llama3) to generate strategic insights  PHASE 2 (Extension): Assistant Coach with micro-error detection (Category 1) - Analyzes specific matches for player mistakes - Detects free deaths, bad economy decisions, role failures - Correlates errors with round losses  Tech Stack: - Backend: Python 3.11, FastAPI, Pandas, LangChain, FAISS, SentenceTransformers - Frontend: Next.js 14, TypeScript, Tailwind CSS, Recharts, Shadcn/UI - APIs: GRID GraphQL, Groq (Llama3)  Key Constraints: - Solo developer, 10-day timeline - Must work in debug mode (cached data) during development - Deadline: February 3, 2026  Please help me implement [SPECIFIC TASK] following best practices for hackathon speed and code quality.
+
+2. Component-Specific Prompts
+2.1 Data Layer Prompts
+For GRID API Integration:
+Create a Python class GridClient that: 1. Uses requests library to query GRID GraphQL API 2. Has a debug_mode flag that switches between live API and local JSON cache 3. Implements fetch_team_matches(team_name, limit) returning list of match dicts 4. Caches responses in data/debug_cache/ as {team_name}_matches.json 5. Handles errors gracefully with proper exception messages  The GraphQL query should fetch: match.id, teams, map.name, segments (with winner, duration, endReason, plantLocation), and players (with agent.name, playerStats including kills, deaths, assists, acs, economy).  Include type hints and docstrings. Optimize for readability over cleverness.
+
+For Data Normalization:
+Create ScoutingAnalyzer class that: 1. Takes list of match dicts in __init__ 2. Normalizes nested JSON to two Pandas DataFrames: df_rounds and df_players 3. Implements these methods:    - get_win_rate(map_name=None) → float    - get_site_preferences() → Dict[str, float]    - get_aggression_index() → Dict with style, avg_duration, rush_rate    - get_agent_composition() → List[Dict] with top 5 agents    - get_economy_distribution() → Dict with eco/force/full percentages    - generate_metrics_summary() → Dict combining all metrics  Use vectorized Pandas operations (groupby, value_counts) for performance. Add comments explaining each calculation's strategic meaning in VALORANT context.
+
+2.2 AI/RAG Layer Prompts
+For Knowledge Base Construction:
+Create RAGEngine class that: 1. Uses WebBaseLoader from LangChain to scrape VALORANT strategy guides 2. Splits documents into 1000-token chunks with 200 overlap using RecursiveCharacterTextSplitter 3. Embeds chunks with SentenceTransformer('all-MiniLM-L6-v2') 4. Builds FAISS IndexFlatL2 vector store 5. Implements retrieve_context(query, k=3) for similarity search  Start with these URLs as examples: - https://www.valorantzone.gg/guides - https://www.thespike.gg/tactics  Handle missing URLs gracefully. Include progress logging during build.
+
+For LLM Report Generation:
+Extend RAGEngine with generate_insights(metrics, team_name) that: 1. Uses ChatGroq with llama3-70b-8192 model, temperature=0.3 2. Generates four sections: Strategies, Tendencies, Compositions, How to Win 3. For "How to Win": retrieves counter-strategy context from knowledge base using site preference and top agents as query 4. Formats prompts to include specific metrics (win rate, site %, agent picks) 5. Returns dict with section keys mapped to LLM-generated text  Prompts should be 2-3 sentences per section. Emphasize actionable insights over generic descriptions. Include the actual numerical data in prompts to ground LLM responses.
+
+2.3 Frontend Prompts
+For Dashboard Component:
+Create Next.js 14 page.tsx that: 1. Uses "use client" directive 2. Manages state with useState for teamName, loading, error, data 3. Has SearchBar component with autocomplete of team names 4. Shows loading spinner during fetch 5. Displays error messages in red-themed alert box 6. Renders ReportView with fetched data  Style with Tailwind using esports dark theme: - Background: slate-950 - Accents: blue-400, cyan-300 gradients - Cards: slate-800 with subtle borders - Use Inter or similar sans-serif font  Keep layout simple and scannable. Prioritize data visibility over decoration.
+
+For Data Visualization:
+Create Charts.tsx with Recharts that displays: 1. BarChart for agent pick rates (x=agent name, y=percentage) 2. LineChart for win rate trend over last 20 matches 3. RadarChart for role distribution (Duelist/Controller/Initiator/Sentinel)  Use consistent color scheme: - Win/Positive: green-500 - Loss/Negative: red-500 - Neutral: blue-500  Add tooltips showing exact values on hover. Make charts responsive (width: 100%, height: 300px).
+
+3. Debugging and Testing Prompts
+For Unit Testing:
+Create pytest test suite for ScoutingAnalyzer that: 1. Uses a "golden dataset" of 10 known matches cached in tests/fixtures/ 2. Tests each metric calculation against expected values 3. Validates that win_rate matches public VLR.gg stats within 2% tolerance 4. Checks edge cases like: empty matches, single-map filter, ties  Include fixture generation script that creates reproducible test data from real GRID responses.
+
+For LLM Output Validation:
+Review the generated scouting report for: 1. Hallucinations - does it cite stats NOT in the prompt? 2. Relevance - are recommendations specific to VALORANT tactical gameplay? 3. Actionability - can a coach implement these suggestions?  If output is generic or wrong, adjust prompt temperature (try 0.1-0.5 range) or add more grounding data to the system message. Consider adding negative examples: "Do NOT say generic phrases like 'play better' or 'improve aim'."
+
+4. Phase 2 Advanced Prompts
+For Micro-Error Detection:
+Create CoachAnalyzer class that: 1. Parses granular event data from GRID (kill feed with timestamps) 2. Implements heuristic functions:    - detect_free_deaths(segment) → checks kills within 15s with 0 damage dealt    - detect_bad_economy(buy_phase) → flags force buys when credits < 4000    - detect_role_failures(player_stats, role) → validates role-specific KPIs 3. Assigns impact scores (1-10 scale) to each error type 4. Calculates correlation between high-impact rounds and losses  Use DataFrame operations where possible. Add detailed comments explaining VALORANT-specific logic (e.g., "Controllers dying first is catastrophic because team loses smokes").
+
+For Interactive Timeline:
+Create Timeline.tsx component that: 1. Displays horizontal strip of round buttons (1-24) 2. Color codes: green for wins, red for losses 3. Adds yellow ring indicator if round has detected errors 4. On click, opens ErrorModal showing:    - List of errors in that round    - Player names, timestamps, error types    - Impact score badge 5. Modal has close button and "Next Round" navigation  Use Radix UI Dialog primitive for modal. Animate modal entrance with fadeIn.
+
+5. Optimization and Deployment Prompts
+For Performance Optimization:
+Profile the backend and identify bottlenecks: 1. Add timing decorators to each API endpoint 2. Use asyncio to parallelize GRID API calls if fetching multiple teams 3. Cache LLM responses for identical metric inputs (use hashlib to create cache key) 4. Lazy-load FAISS index on first use, not at startup  Target: <3 second response time for scouting report in debug mode.
+
+For Docker Deployment:
+Create Dockerfile for backend that: 1. Uses python:3.11-slim base image 2. Installs requirements.txt dependencies 3. Copies app/ directory and data/ caches 4. Exposes port 8000 5. Runs: uvicorn app.main:app --host 0.0.0.0  Also create docker-compose.yml linking backend and frontend services. Include .env template with placeholder API keys.
+
+6. Documentation Prompts
+For README.md:
+Write a comprehensive README with: 1. Project overview (1 paragraph) 2. Features list (bullet points for Phase 1 and Phase 2) 3. Tech stack table with justifications 4. Setup instructions:    - Clone repo    - Install dependencies (backend + frontend)    - Set environment variables in .env    - Run seed script for debug data    - Start both servers 5. Demo video link (YouTube) 6. Architecture diagram (text-based or link to image) 7. Credits to GRID, Groq, JetBrains, Cloud9 8. MIT License badge  Use clear headers and code blocks. Include screenshots if available.
+
+7. Common Pitfalls and Solutions
+ProblemCauseSolutionLLM hallucinating statsTemperature too high or insufficient groundingSet temp to 0.1-0.3, include actual numbers in promptCORS errors in frontendFastAPI not configured for localhost:3000Add CORSMiddleware with allow_origins=['http://localhost:3000']Slow GRID API responsesSequential requests for 50 matchesUse asyncio.gather() to parallelize, or batch request in single queryCharts not renderingData format mismatch or missing keysValidate data shape with console.log, ensure arrays not emptyFAISS index fails to buildEmbedding dimension mismatchCheck embeddings.shape, ensure all-MiniLM outputs 384-dim vectorsGroq API rate limitFree tier has 30 requests/minAdd exponential backoff retry logic, cache LLM responses
+8. Quick Reference Commands
+Backend Commands:
+• Install deps: pip install -r requirements.txt
+• Seed data: python scripts/seed_match_data.py
+• Run server: uvicorn app.main:app --reload
+• Run tests: pytest tests/
+
+Frontend Commands:
+• Install deps: npm install
+• Run dev server: npm run dev
+• Build production: npm run build
+• Type check: npm run type-check
+
+Environment Variables:
+• GRID_API_KEY=your_key_here
+• GROQ_API_KEY=your_key_here
+• DEBUG_MODE=true
+

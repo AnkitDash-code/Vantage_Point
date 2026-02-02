@@ -1,0 +1,49 @@
+VALORANT Strategy and Metrics Cheat Sheet
+
+Round Structure
+- Matches are first to 13 rounds (24 in regulation).
+- Sides swap after round 12.
+- Round phases: buy phase (45s), action phase (100s), post-plant (45s).
+
+Economy States (per player)
+- Eco: under 2000 credits. Minimal buys, expect low win odds.
+- Force: 2000 to 3899 credits. Risky buy to break enemy economy or swing momentum.
+- Full: 3900+ credits. Rifles, armor, full utility.
+
+Role Expectations and KPIs
+- Duelist: entry and first bloods. Track first blood percent and entry success.
+- Controller: smokes and survival. Track KAST and early deaths (avoid dying first).
+- Initiator: intel and setup. Track assists, damage per round, flash assists.
+- Sentinel: defensive anchor. Track KAST, multi-kills on defense, trap value.
+
+Playstyle Taxonomy (by round duration)
+- Rush: under 40s average. Fast hits, often eco or force rounds.
+- Default: 40s to 80s. Standard map control then exec.
+- Slow: over 80s. Late executes, heavy utility trading.
+
+Map and Site Notes
+- Ascent: A/B, mid control, doors and open sightlines.
+- Bind: A/B, no mid, teleporters enable fast rotations.
+- Haven: A/B/C, three-site map, rotation timing is critical.
+- Split: A/B, vertical fights, tight chokepoints.
+- Icebox: A/B, verticality and long angles.
+- Breeze: A/B, large open spaces and long sightlines.
+- Fracture: A/B, attackers spawn on both sides.
+- Pearl: A/B, traditional lanes, mid pressure matters.
+- Lotus: A/B/C, rotating doors, split site hits.
+- Sunset: A/B, layered mid control.
+- Abyss: A/B, high risk edges and spacing.
+- Corrode: A/B, mid pressure and timing windows.
+
+Common Micro-Errors (Coach Signals)
+- Free death: death within 15s with no damage or impact.
+- Controller dying first: team loses smokes for the round.
+- Duelist baiting: high K/D but low first blood rate.
+- Bad economy: force buys when team should save under 4000 credits.
+- Unused ultimate: dies with ultimate available in a lost round.
+
+How To Counter Tendencies
+- If a team repeats a site, stack early utility and rotate late.
+- Against rush teams, hold choke points and delay with utility.
+- Against slow teams, take map control early and contest defaults.
+- If they rely on a few agents, plan counters for those abilities.

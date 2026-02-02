@@ -1,0 +1,686 @@
+{
+  "team_name": "Sentinels",
+  "matches_analyzed": 20,
+  "metrics": {
+    "win_rate": 55.0,
+    "win_rate_by_map": {
+      "Ascent": 31.6,
+      "Bind": 38.1,
+      "Corrode": 57.3,
+      "Haven": 66.7,
+      "Icebox": 55.9,
+      "Lotus": 58.3,
+      "Sunset": 52.4
+    },
+    "site_preferences": {
+      "C": 13.8,
+      "B": 36.2,
+      "A": 50.0
+    },
+    "pistol_site_preferences": {},
+    "aggression": {
+      "style": "Slow/Default",
+      "avg_duration": 149.1,
+      "rush_rate": 0.0
+    },
+    "agent_composition": [
+      {
+        "agent": "omen",
+        "pick_count": 16,
+        "pick_rate": 16.0
+      },
+      {
+        "agent": "viper",
+        "pick_count": 15,
+        "pick_rate": 15.0
+      },
+      {
+        "agent": "fade",
+        "pick_count": 14,
+        "pick_rate": 14.0
+      },
+      {
+        "agent": "neon",
+        "pick_count": 10,
+        "pick_rate": 10.0
+      },
+      {
+        "agent": "vyse",
+        "pick_count": 9,
+        "pick_rate": 9.0
+      }
+    ],
+    "player_tendencies": [
+      {
+        "player": "N4RRATE",
+        "matches_played": 20,
+        "top_agent": "fade",
+        "top_agent_rate": 65.0,
+        "avg_kills": 15.8,
+        "avg_deaths": 13.2,
+        "avg_assists": 6.6,
+        "kd_ratio": 1.19,
+        "avg_acs": null,
+        "first_kill_rate": 13.8
+      },
+      {
+        "player": "Zellsis",
+        "matches_played": 20,
+        "top_agent": "vyse",
+        "top_agent_rate": 45.0,
+        "avg_kills": 13.2,
+        "avg_deaths": 12.8,
+        "avg_assists": 6.8,
+        "kd_ratio": 1.03,
+        "avg_acs": null,
+        "first_kill_rate": 6.5
+      },
+      {
+        "player": "bang",
+        "matches_played": 20,
+        "top_agent": "omen",
+        "top_agent_rate": 80.0,
+        "avg_kills": 13.7,
+        "avg_deaths": 12.4,
+        "avg_assists": 7.7,
+        "kd_ratio": 1.1,
+        "avg_acs": null,
+        "first_kill_rate": 8.0
+      },
+      {
+        "player": "johnqt",
+        "matches_played": 20,
+        "top_agent": "viper",
+        "top_agent_rate": 55.0,
+        "avg_kills": 13.1,
+        "avg_deaths": 10.9,
+        "avg_assists": 7.9,
+        "kd_ratio": 1.2,
+        "avg_acs": null,
+        "first_kill_rate": 6.0
+      },
+      {
+        "player": "zekken",
+        "matches_played": 20,
+        "top_agent": "neon",
+        "top_agent_rate": 50.0,
+        "avg_kills": 16.4,
+        "avg_deaths": 14.1,
+        "avg_assists": 3.6,
+        "kd_ratio": 1.17,
+        "avg_acs": null,
+        "first_kill_rate": 22.2
+      }
+    ],
+    "role_distribution": {
+      "Controller": 32.0,
+      "Initiator": 24.0,
+      "Sentinel": 23.0,
+      "Duelist": 21.0
+    },
+    "recent_compositions": {
+      "overall": [
+        {
+          "composition": [
+            "fade",
+            "omen",
+            "raze",
+            "viper",
+            "vyse"
+          ],
+          "matches": 5,
+          "pick_rate": 25.0
+        },
+        {
+          "composition": [
+            "fade",
+            "neon",
+            "omen",
+            "viper",
+            "vyse"
+          ],
+          "matches": 4,
+          "pick_rate": 20.0
+        },
+        {
+          "composition": [
+            "breach",
+            "cypher",
+            "fade",
+            "neon",
+            "omen"
+          ],
+          "matches": 4,
+          "pick_rate": 20.0
+        }
+      ],
+      "by_map": {
+        "ascent": [
+          {
+            "composition": [
+              "cypher",
+              "deadlock",
+              "omen",
+              "sova",
+              "yoru"
+            ],
+            "matches": 1,
+            "pick_rate": 100.0
+          }
+        ],
+        "bind": [
+          {
+            "composition": [
+              "brimstone",
+              "fade",
+              "raze",
+              "viper",
+              "yoru"
+            ],
+            "matches": 1,
+            "pick_rate": 100.0
+          }
+        ],
+        "corrode": [
+          {
+            "composition": [
+              "fade",
+              "neon",
+              "omen",
+              "viper",
+              "vyse"
+            ],
+            "matches": 4,
+            "pick_rate": 100.0
+          }
+        ],
+        "haven": [
+          {
+            "composition": [
+              "killjoy",
+              "neon",
+              "omen",
+              "sova",
+              "viper"
+            ],
+            "matches": 2,
+            "pick_rate": 100.0
+          }
+        ],
+        "icebox": [
+          {
+            "composition": [
+              "jett",
+              "killjoy",
+              "sage",
+              "sova",
+              "viper"
+            ],
+            "matches": 3,
+            "pick_rate": 100.0
+          }
+        ],
+        "lotus": [
+          {
+            "composition": [
+              "fade",
+              "omen",
+              "raze",
+              "viper",
+              "vyse"
+            ],
+            "matches": 5,
+            "pick_rate": 100.0
+          }
+        ],
+        "sunset": [
+          {
+            "composition": [
+              "breach",
+              "cypher",
+              "fade",
+              "neon",
+              "omen"
+            ],
+            "matches": 4,
+            "pick_rate": 100.0
+          }
+        ]
+      },
+      "most_recent": [
+        "fade",
+        "omen",
+        "raze",
+        "viper",
+        "vyse"
+      ]
+    },
+    "economy": {
+      "eco": 20.0,
+      "force": 35.0,
+      "full": 45.0
+    },
+    "first_duel": {
+      "team_first_kill_rate": 56.5,
+      "first_kill_conversion_rate": 71.2,
+      "avg_time_to_first_kill": 81.5,
+      "top_first_kill_players": [
+        {
+          "player": "zekken",
+          "first_kills": 89,
+          "first_kill_rate": 22.2
+        },
+        {
+          "player": "N4RRATE",
+          "first_kills": 55,
+          "first_kill_rate": 13.8
+        },
+        {
+          "player": "bang",
+          "first_kills": 32,
+          "first_kill_rate": 8.0
+        },
+        {
+          "player": "Zellsis",
+          "first_kills": 26,
+          "first_kill_rate": 6.5
+        },
+        {
+          "player": "johnqt",
+          "first_kills": 24,
+          "first_kill_rate": 6.0
+        }
+      ],
+      "top_first_kill_weapons": [
+        {
+          "weapon": "phantom",
+          "first_kills": 111,
+          "first_kill_rate": 27.8
+        },
+        {
+          "weapon": "vandal",
+          "first_kills": 30,
+          "first_kill_rate": 7.5
+        },
+        {
+          "weapon": "stinger",
+          "first_kills": 12,
+          "first_kill_rate": 3.0
+        }
+      ]
+    },
+    "pistol_rounds": {
+      "overall": {
+        "rounds": 40,
+        "wins": 21,
+        "win_rate": 52.5,
+        "first_kill_rate": 47.5
+      },
+      "by_side": {
+        "attacker": {
+          "rounds": 20,
+          "wins": 11,
+          "win_rate": 55.0,
+          "first_kill_rate": 35.0
+        },
+        "defender": {
+          "rounds": 20,
+          "wins": 10,
+          "win_rate": 50.0,
+          "first_kill_rate": 60.0
+        }
+      }
+    },
+    "combat_metrics": {
+      "trade_efficiency": 38.7,
+      "trade_kills": 490,
+      "trade_opportunities": 1267,
+      "multi_killers": [
+        {
+          "player": "zekken",
+          "2k": 66,
+          "3k": 21,
+          "4k": 4,
+          "5k": 0,
+          "total": 91
+        },
+        {
+          "player": "N4RRATE",
+          "2k": 49,
+          "3k": 24,
+          "4k": 3,
+          "5k": 0,
+          "total": 76
+        },
+        {
+          "player": "bang",
+          "2k": 52,
+          "3k": 15,
+          "4k": 2,
+          "5k": 0,
+          "total": 69
+        },
+        {
+          "player": "Zellsis",
+          "2k": 42,
+          "3k": 17,
+          "4k": 2,
+          "5k": 0,
+          "total": 61
+        },
+        {
+          "player": "johnqt",
+          "2k": 40,
+          "3k": 15,
+          "4k": 0,
+          "5k": 0,
+          "total": 55
+        }
+      ],
+      "clutch_performers": [
+        {
+          "player": "johnqt",
+          "clutches_faced": 51,
+          "clutches_won": 8,
+          "clutch_rate": 15.7
+        },
+        {
+          "player": "bang",
+          "clutches_faced": 36,
+          "clutches_won": 6,
+          "clutch_rate": 16.7
+        },
+        {
+          "player": "Zellsis",
+          "clutches_faced": 37,
+          "clutches_won": 6,
+          "clutch_rate": 16.2
+        },
+        {
+          "player": "zekken",
+          "clutches_faced": 31,
+          "clutches_won": 5,
+          "clutch_rate": 16.1
+        },
+        {
+          "player": "N4RRATE",
+          "clutches_faced": 26,
+          "clutches_won": 4,
+          "clutch_rate": 15.4
+        }
+      ],
+      "opening_duels": [
+        {
+          "player": "zekken",
+          "opening_wins": 89,
+          "opening_losses": 70,
+          "opening_duel_rate": 56.0
+        },
+        {
+          "player": "N4RRATE",
+          "opening_wins": 55,
+          "opening_losses": 33,
+          "opening_duel_rate": 62.5
+        },
+        {
+          "player": "bang",
+          "opening_wins": 32,
+          "opening_losses": 28,
+          "opening_duel_rate": 53.3
+        },
+        {
+          "player": "Zellsis",
+          "opening_wins": 26,
+          "opening_losses": 29,
+          "opening_duel_rate": 47.3
+        },
+        {
+          "player": "johnqt",
+          "opening_wins": 24,
+          "opening_losses": 14,
+          "opening_duel_rate": 63.2
+        }
+      ],
+      "weapon_effectiveness": [
+        {
+          "weapon": "phantom",
+          "kills": 708,
+          "deaths": 380,
+          "kd_ratio": 1.86
+        },
+        {
+          "weapon": "vandal",
+          "kills": 228,
+          "deaths": 381,
+          "kd_ratio": 0.6
+        },
+        {
+          "weapon": "classic",
+          "kills": 94,
+          "deaths": 69,
+          "kd_ratio": 1.36
+        },
+        {
+          "weapon": "stinger",
+          "kills": 91,
+          "deaths": 54,
+          "kd_ratio": 1.69
+        },
+        {
+          "weapon": "ghost",
+          "kills": 84,
+          "deaths": 67,
+          "kd_ratio": 1.25
+        },
+        {
+          "weapon": "sheriff",
+          "kills": 50,
+          "deaths": 66,
+          "kd_ratio": 0.76
+        },
+        {
+          "weapon": "bulldog",
+          "kills": 43,
+          "deaths": 70,
+          "kd_ratio": 0.61
+        },
+        {
+          "weapon": "operator",
+          "kills": 24,
+          "deaths": 17,
+          "kd_ratio": 1.41
+        },
+        {
+          "weapon": "guardian",
+          "kills": 21,
+          "deaths": 32,
+          "kd_ratio": 0.66
+        },
+        {
+          "weapon": "shorty",
+          "kills": 18,
+          "deaths": 14,
+          "kd_ratio": 1.29
+        }
+      ],
+      "total_kills_analyzed": 2709
+    },
+    "side_metrics": {
+      "attack_rounds": 200,
+      "attack_wins": 122,
+      "attack_win_rate": 61.0,
+      "attack_kills": 730,
+      "attack_deaths": 625,
+      "attack_kd": 1.17,
+      "defense_rounds": 200,
+      "defense_wins": 98,
+      "defense_win_rate": 49.0,
+      "defense_kills": 712,
+      "defense_deaths": 642,
+      "defense_kd": 1.11
+    },
+    "map_metrics": null,
+    "economy_metrics": null,
+    "opponent_stats": [
+      {
+        "opponent": "Cloud9",
+        "matches": 5,
+        "rounds_played": 108,
+        "rounds_won": 61,
+        "win_rate": 56.5
+      },
+      {
+        "opponent": "NRG",
+        "matches": 4,
+        "rounds_played": 85,
+        "rounds_won": 36,
+        "win_rate": 42.4
+      },
+      {
+        "opponent": "G2 Esports",
+        "matches": 4,
+        "rounds_played": 83,
+        "rounds_won": 36,
+        "win_rate": 43.4
+      },
+      {
+        "opponent": "2GAME eSports",
+        "matches": 3,
+        "rounds_played": 56,
+        "rounds_won": 35,
+        "win_rate": 62.5
+      },
+      {
+        "opponent": "Evil Geniuses",
+        "matches": 2,
+        "rounds_played": 38,
+        "rounds_won": 26,
+        "win_rate": 68.4
+      },
+      {
+        "opponent": "FURIA",
+        "matches": 2,
+        "rounds_played": 30,
+        "rounds_won": 26,
+        "win_rate": 86.7
+      }
+    ],
+    "map_detailed": {
+      "Lotus": {
+        "rounds_played": 96,
+        "rounds_won": 56,
+        "win_rate": 58.3,
+        "attack_rounds": 44,
+        "attack_wins": 21,
+        "attack_win_rate": 47.7,
+        "defense_rounds": 52,
+        "defense_wins": 35,
+        "defense_win_rate": 67.3,
+        "top_agent": "Omen"
+      },
+      "Icebox": {
+        "rounds_played": 59,
+        "rounds_won": 33,
+        "win_rate": 55.9,
+        "attack_rounds": 36,
+        "attack_wins": 26,
+        "attack_win_rate": 72.2,
+        "defense_rounds": 23,
+        "defense_wins": 7,
+        "defense_win_rate": 30.4,
+        "top_agent": "Viper"
+      },
+      "Sunset": {
+        "rounds_played": 84,
+        "rounds_won": 44,
+        "win_rate": 52.4,
+        "attack_rounds": 39,
+        "attack_wins": 21,
+        "attack_win_rate": 53.8,
+        "defense_rounds": 45,
+        "defense_wins": 23,
+        "defense_win_rate": 51.1,
+        "top_agent": "Omen"
+      },
+      "Corrode": {
+        "rounds_played": 82,
+        "rounds_won": 47,
+        "win_rate": 57.3,
+        "attack_rounds": 38,
+        "attack_wins": 28,
+        "attack_win_rate": 73.7,
+        "defense_rounds": 44,
+        "defense_wins": 19,
+        "defense_win_rate": 43.2,
+        "top_agent": "Omen"
+      },
+      "Bind": {
+        "rounds_played": 21,
+        "rounds_won": 8,
+        "win_rate": 38.1,
+        "attack_rounds": 12,
+        "attack_wins": 5,
+        "attack_win_rate": 41.7,
+        "defense_rounds": 9,
+        "defense_wins": 3,
+        "defense_win_rate": 33.3,
+        "top_agent": "Viper"
+      },
+      "Haven": {
+        "rounds_played": 39,
+        "rounds_won": 26,
+        "win_rate": 66.7,
+        "attack_rounds": 24,
+        "attack_wins": 18,
+        "attack_win_rate": 75.0,
+        "defense_rounds": 15,
+        "defense_wins": 8,
+        "defense_win_rate": 53.3,
+        "top_agent": "Omen"
+      },
+      "Ascent": {
+        "rounds_played": 19,
+        "rounds_won": 6,
+        "win_rate": 31.6,
+        "attack_rounds": 7,
+        "attack_wins": 3,
+        "attack_win_rate": 42.9,
+        "defense_rounds": 12,
+        "defense_wins": 3,
+        "defense_win_rate": 25.0,
+        "top_agent": "Omen"
+      }
+    },
+    "round_type_performance": {
+      "pistol": {
+        "rounds": 40,
+        "wins": 21,
+        "win_rate": 52.5
+      },
+      "eco": {
+        "rounds": 78,
+        "wins": 33,
+        "win_rate": 42.3
+      },
+      "force": {
+        "rounds": 112,
+        "wins": 70,
+        "win_rate": 62.5
+      },
+      "full_buy": {
+        "rounds": 170,
+        "wins": 96,
+        "win_rate": 56.5
+      }
+    }
+  },
+  "insights": {
+    "strategies": "## Attack Patterns\n- **Site Distribution**: A-Site 50.0%, B-Site 36.2%\n- **Tempo**: Fast (high first blood rate) - 56.5% first blood rate\n- **Post-FB Conversion**: 71.2% - Strong closers\n\n## Defense Patterns\n- **Side Strength**: Attack 61.0% vs Defense 49.0%\n- **Style**: Retake-focused\n- **Trade Discipline**: 38.7%\n\n## Economic Behavior\n- **Pistol Win Rate**: 52.5%\n- **Eco Win Rate**: 42.3% (league avg ~15%)\n- **Full Buy Win Rate**: 56.5%\n\n## Overall\n- **Win Rate**: 55.0%",
+    "tendencies": "## Player Scouting Cards\n\n### 🎯 Entry Fragger (Primary Threat)\n**zekken**\n- **Stats**: 56.0% win rate on 159 duels\n- **Threat Level**: CRITICAL\n- **Counter**: Hold off-angles, use utility to deny entry\n\n### 🔻 Weak Link (Isolation Target)\n**Zellsis**\n- **Stats**: KD: 1.03\n- **Exploitation**: Hunt on rotations, force isolated 1v1s\n\n### 🏆 Clutch King (Avoid 1vX)\n**johnqt**\n- **Stats**: 8/51 clutches\n- **Protocol**: ALWAYS double-peek, never give 1v1 clutch\n\n## Team Patterns\n- **Trade Efficiency**: 38.7% - Die isolated\n- **First Blood**: 56.5% rate, 71.2% conversion",
+    "compositions": "## Agent Core\nomen (16.0%), viper (15.0%), fade (14.0%), neon (10.0%), vyse (9.0%)\n\n## Role Distribution\nController: 32.0%, Initiator: 24.0%, Sentinel: 23.0%, Duelist: 21.0%\n\n## Default Setups\n\n### Defense Formation\n- **Primary Site**: A-Site (50.0% preference)\n- **Classification**: Duelist-heavy\n\n### Attack Formation\n- **Target Site**: A-Site favored\n- **Style**: Fast execute",
+    "counters": "## Agent Counters\nBased on their agent pool, prepare counters for:\n- omen (16.0%), viper (15.0%), fade (14.0%), neon (10.0%), vyse (9.0%)\n\n## Site Control Denial\n- **Their Preference**: A-Site (50.0%)\n- **Counter**: Stack A on defense\n\n## Economic Warfare\n- **Anti-Eco Protocol**: Play long range - {eco_wr:.1f}% eco danger\n- **Anti-Pistol**: 52.5% pistol rate - Winnable\n\n## Setup Breakers\n- **Trading**: They die alone - take 1v1s",
+    "how_to_win": "## 🎯 Win Condition Summary\n**Primary**: Neutralize zekken early, hunt Zellsis\n**Avoid**: Giving johnqt clutch opportunities\n\n## 📋 Round Protocol\n\n### Pistol (Round 1)\n- Their rate: 52.5%\n- **Strategy**: Aggressive entry\n\n### Anti-Eco (Rounds 2-3)\n- Their eco rate: 42.3%\n- **Protocol**: Long range, no hero plays\n\n### Gun Rounds\n- **Attack**: Target B-Site (they stack other)\n- **Defense**: Stack their preferred site\n\n## 🔄 IF/THEN Decision Tree\n\n### Opening Duel\n- **IF** we get FB (their conv: 71.2%) → Methodical\n- **IF** we lose FB → Reset\n\n### Man Advantage\n- **5v4**: Push - they die alone\n- **4v5**: Save\n\n## 👤 Player Assignments\n- **HUNT**: zekken\n- **ISOLATE**: Zellsis\n- **AVOID 1v1**: johnqt\n\n## 💰 Economy\n- **Their Eco**: RESPECT\n- **Full Buy**: 56.5% rate"
+  },
+  "generated_at": "2026-02-02T14:52:18.809217+00:00",
+  "match_limit": 20
+}

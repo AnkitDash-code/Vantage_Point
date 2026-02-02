@@ -1,0 +1,119 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-02-02T14:52:20.858278+00:00",
+  "match_limit": 20,
+  "teams": [
+    {
+      "name": "100 Thieves",
+      "slug": "100_thieves",
+      "match_count": 5,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:51:49.882678+00:00"
+    },
+    {
+      "name": "2GAME eSports",
+      "slug": "2game_esports",
+      "match_count": 28,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:51:51.948235+00:00"
+    },
+    {
+      "name": "Cloud9",
+      "slug": "cloud9",
+      "match_count": 5,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:51:54.013637+00:00"
+    },
+    {
+      "name": "Edward Gaming",
+      "slug": "edward_gaming",
+      "match_count": 8,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:51:56.100869+00:00"
+    },
+    {
+      "name": "Evil Geniuses",
+      "slug": "evil_geniuses",
+      "match_count": 20,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:51:58.150558+00:00"
+    },
+    {
+      "name": "FURIA",
+      "slug": "furia",
+      "match_count": 50,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:52:00.198252+00:00"
+    },
+    {
+      "name": "Funplus Phoenix",
+      "slug": "funplus_phoenix",
+      "match_count": 4,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:52:02.269964+00:00"
+    },
+    {
+      "name": "G2 Esports",
+      "slug": "g2_esports",
+      "match_count": 50,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:52:04.336399+00:00"
+    },
+    {
+      "name": "Gen.G",
+      "slug": "gen_g",
+      "match_count": 16,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:52:06.391122+00:00"
+    },
+    {
+      "name": "KRÜ Esports",
+      "slug": "krü_esports",
+      "match_count": 50,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:52:08.475608+00:00"
+    },
+    {
+      "name": "LOUD (1)",
+      "slug": "loud__1",
+      "match_count": 50,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:52:10.535087+00:00"
+    },
+    {
+      "name": "Leviatán Esports",
+      "slug": "leviatán_esports",
+      "match_count": 50,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:52:12.595793+00:00"
+    },
+    {
+      "name": "NRG",
+      "slug": "nrg",
+      "match_count": 50,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:52:14.671851+00:00"
+    },
+    {
+      "name": "Paper Rex",
+      "slug": "paper_rex",
+      "match_count": 17,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:52:16.757254+00:00"
+    },
+    {
+      "name": "Sentinels",
+      "slug": "sentinels",
+      "match_count": 20,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:52:18.809217+00:00"
+    },
+    {
+      "name": "Team Heretics",
+      "slug": "team_heretics",
+      "match_count": 6,
+      "has_insights": true,
+      "generated_at": "2026-02-02T14:52:20.856047+00:00"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+GRID API NOTES (Cloud9 x JetBrains Hackathon)
+
+Auth
+- Use HTTP header: x-api-key: <GRID_API_KEY>
+- No Bearer prefix for this key.
+
+Portal documentation links (reference)
+- https://portal.grid.gg/documentation/api-reference/central-data-feeds/central-data-feed-api
+- https://portal.grid.gg/documentation/api-reference/stats-feed/stats-feed-api
+- https://portal.grid.gg/documentation/api-reference/live-data-feed/grid-file-download-reference
+- https://portal.grid.gg/documentation/api-reference/live-data-feed/series-events-api
+- https://portal.grid.gg/documentation/api-reference/live-data-feed/api-reference-series-state-api
+- https://portal.grid.gg/documentation/api-documentation/static-data/static-data-entities
+- https://portal.grid.gg/documentation/api-documentation/in-game-data/series-state
+- https://portal.grid.gg/documentation/api-documentation/in-game-data/series-events
+- https://portal.grid.gg/documentation/api-documentation/in-game-data/grid-file-download-api
+- https://portal.grid.gg/documentation/api-documentation/data-analysis/stats-feed-overview
+
+Project doc links (scouting-related)
+- https://api.grid.gg/central-data/graphql (legacy Central Data GraphQL endpoint mentioned in docs)
+- https://grid.gg/hackathon-application-form/ (API access request)
+- https://dashboard.grid.gg/dev-center/playground (GraphQL Playground)
+- https://dashboard.grid.gg/dev-center/feed-viewer (Data Feed Viewer)
+
+Confirmed working endpoints (probe)
+- Central Data GraphQL: https://api-op.grid.gg/central-data/graphql
+- Series State GraphQL: https://api-op.grid.gg/live-data-feed/series-state/graphql
+- File Download REST: https://api.grid.gg/file-download
+
+Not working for this key
+- Central data REST feed (403)
+- Live REST endpoints (/live/...) return 404
+- Stats feed GraphQL/REST not enabled (unauthorized / not configured)
+
+Portal docs summary (aligned with probe + current implementation)
+
+Central Data Feed API (REST)
+- Docs: https://portal.grid.gg/documentation/api-reference/central-data-feeds/central-data-feed-api
+- Base URL: https://api.grid.gg/central-data
+- Query API endpoint (GraphQL): https://api-op.grid.gg/central-data/graphql
+- Common endpoints used in this repo:
+  - GET /matches (params: teamName, gameTitle, limit, orderBy)
+  - GET /matches/{match_id}
+  - GET /teams
+- For hackathon key, use GraphQL instead of REST (REST is forbidden).
+
+Static Data Entities (GraphQL)
+- Docs: https://portal.grid.gg/documentation/api-documentation/static-data/static-data-entities
+- Entities exposed by Central Data GraphQL include:
+  - Organization, Team, Player, Tournament, Series, SeriesFormat, Title
+- GraphQL pagination uses: first, after, pageInfo { hasNextPage endCursor }.
+- allSeries filters include titleId and types (ESPORTS, SCRIM, COMPETITIVE).
+
+Series State (live in-game snapshot)
+- API ref: https://portal.grid.gg/documentation/api-reference/live-data-feed/api-reference-series-state-api
+- Guide: https://portal.grid.gg/documentation/api-documentation/in-game-data/series-state
+- GraphQL endpoint: https://api-op.grid.gg/live-data-feed/series-state/graphql
+- Use seriesState(id: "<SERIES_ID>") to fetch current snapshot (teams, status, etc).
+- For historical analysis, prefer File Download end-state (complete series).
+
+Series Events (live event stream)
+- API ref: https://portal.grid.gg/documentation/api-reference/live-data-feed/series-events-api
+- Guide: https://portal.grid.gg/documentation/api-documentation/in-game-data/series-events
+- REST endpoint (not enabled for this key): /live/series/{series_id}/events
+- Optional since parameter to resume from last event.
+- Event stream is intended for real-time tracking, not historical analysis.
+
+GRID File Download API (historical data)
+- API ref: https://portal.grid.gg/documentation/api-reference/live-data-feed/grid-file-download-reference
+- Guide: https://portal.grid.gg/documentation/api-documentation/in-game-data/grid-file-download-api
+- Base URL: https://api.grid.gg/file-download
+- Flow:
+  1) GET /file-download/list/{series_id}
+  2) Find the "state" file (fullURL) and GET that URL
+  3) Fallback: GET /file-download/end-state/grid/series/{series_id}
+- Files typically include:
+  - state-grid (JSON): final end-state snapshot for the series
+  - events-grid-compressed (JSONL zip): event stream for the series
+  - fullURL for events typically maps to /file-download/events/grid/series/{series_id}
+
+Stats Feed API
+- API ref: https://portal.grid.gg/documentation/api-reference/stats-feed/stats-feed-api
+- Overview: https://portal.grid.gg/documentation/api-documentation/data-analysis/stats-feed-overview
+- GraphQL queries include teamStatistics and playerStatistics with filters:
+  - timeWindow (e.g., LAST_3_MONTHS)
+  - tournamentIds (in: [ ... ])
+- REST base: https://api.grid.gg/stats
+- Example REST endpoint in this repo: /matches/{match_id}/stats
+- Note: stats feed is not authorized for this hackathon key.
+
+Notes from project docs
+- Legacy docs reference the "matches" GraphQL field and Authorization: Bearer. For this key, use allSeries + file-download and x-api-key.
+
+Event-level data notes (for scouting depth)
+- Project docs include a GraphQL "match(id)" example with segments.events and buyPhase data.
+- With this key, use File Download events-grid JSONL or Series Events (if enabled) to get kill feed, buys, and ability usage.
+
+Live data WebSocket (from docs)
+- wss://api.grid.gg/live-data-feed/series/{series_id}?key=<API_KEY>
+- Use ping frames to keep the socket alive; suitable for live series monitoring only.
+
+GraphQL usage notes (from docs)
+- Use x-api-key header for GraphQL auth.
+- Cursor-based pagination with pageInfo { hasNextPage endCursor } and edges.
+
+Implementation alignment checks
+- Code path uses Central Data GraphQL (allSeries) + File Download end-state.
+- REST central data is disabled by default to avoid 403s.
+- Series State GraphQL is available for live snapshots, but not required for scouting.
+- Series Events and Stats Feed are documented but not enabled for this key.
+
+Data fields to extract for scouting (from VALORANT domain notes)
+- match.id, match.map.name, match.teams
+- match.segments: segmentIndex, winner, duration, endReason, plantLocation
+- player.id, player.inGameName, player.agent.name, player.agent.role
+- playerStats: kills, deaths, assists, acs, economy
+
+Recommended scouting flow (VALORANT)
+1) Central Data GraphQL: allSeries filtered by titleId "6" and types ESPORTS.
+2) Filter series by team name from teams[].baseInfo.name.
+3) For each series id, download end-state via File Download.
+4) Normalize end-state -> match/round/player stats.
+
+Title IDs
+- VALORANT: "6"
+- League of Legends: "3"
+- Rainbow 6: Siege: "25"
+
+Rate limits (from hackathon docs; subject to change)
+- Central Data GraphQL: ~40 req/min
+- Series State GraphQL: ~1200 req/min
+- File Download: ~20 downloads/min

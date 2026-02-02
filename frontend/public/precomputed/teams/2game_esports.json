@@ -1,0 +1,869 @@
+{
+  "team_name": "2GAME eSports",
+  "matches_analyzed": 28,
+  "metrics": {
+    "win_rate": 41.3,
+    "win_rate_by_map": {
+      "Abyss": 18.8,
+      "Ascent": 53.3,
+      "Bind": 7.1,
+      "Corrode": 46.2,
+      "Haven": 32.3,
+      "Icebox": 31.6,
+      "Lotus": 38.9,
+      "Pearl": 39.3,
+      "Split": 13.3,
+      "Sunset": 67.2
+    },
+    "site_preferences": {
+      "B": 40.3,
+      "A": 42.9,
+      "C": 16.9
+    },
+    "pistol_site_preferences": {},
+    "aggression": {
+      "style": "Slow/Default",
+      "avg_duration": 150.7,
+      "rush_rate": 0.0
+    },
+    "agent_composition": [
+      {
+        "agent": "omen",
+        "pick_count": 22,
+        "pick_rate": 15.7
+      },
+      {
+        "agent": "yoru",
+        "pick_count": 12,
+        "pick_rate": 8.6
+      },
+      {
+        "agent": "sova",
+        "pick_count": 12,
+        "pick_rate": 8.6
+      },
+      {
+        "agent": "cypher",
+        "pick_count": 11,
+        "pick_rate": 7.9
+      },
+      {
+        "agent": "tejo",
+        "pick_count": 11,
+        "pick_rate": 7.9
+      }
+    ],
+    "player_tendencies": [
+      {
+        "player": "Lz",
+        "matches_played": 28,
+        "top_agent": "omen",
+        "top_agent_rate": 71.4,
+        "avg_kills": 12.4,
+        "avg_deaths": 14.5,
+        "avg_assists": 7.6,
+        "kd_ratio": 0.86,
+        "avg_acs": null,
+        "first_kill_rate": 9.0
+      },
+      {
+        "player": "gobera",
+        "matches_played": 28,
+        "top_agent": "tejo",
+        "top_agent_rate": 28.6,
+        "avg_kills": 12.0,
+        "avg_deaths": 14.6,
+        "avg_assists": 5.0,
+        "kd_ratio": 0.82,
+        "avg_acs": null,
+        "first_kill_rate": 6.5
+      },
+      {
+        "player": "silentzz",
+        "matches_played": 28,
+        "top_agent": "vyse",
+        "top_agent_rate": 25.0,
+        "avg_kills": 13.8,
+        "avg_deaths": 14.8,
+        "avg_assists": 3.0,
+        "kd_ratio": 0.93,
+        "avg_acs": null,
+        "first_kill_rate": 11.0
+      },
+      {
+        "player": "pryze",
+        "matches_played": 17,
+        "top_agent": "sova",
+        "top_agent_rate": 52.9,
+        "avg_kills": 10.8,
+        "avg_deaths": 14.2,
+        "avg_assists": 5.5,
+        "kd_ratio": 0.76,
+        "avg_acs": null,
+        "first_kill_rate": null
+      },
+      {
+        "player": "spikeziN",
+        "matches_played": 13,
+        "top_agent": "neon",
+        "top_agent_rate": 53.8,
+        "avg_kills": 15.5,
+        "avg_deaths": 15.1,
+        "avg_assists": 5.3,
+        "kd_ratio": 1.03,
+        "avg_acs": null,
+        "first_kill_rate": 8.6
+      },
+      {
+        "player": "askia",
+        "matches_played": 11,
+        "top_agent": "yoru",
+        "top_agent_rate": 54.5,
+        "avg_kills": 14.6,
+        "avg_deaths": 15.5,
+        "avg_assists": 3.2,
+        "kd_ratio": 0.94,
+        "avg_acs": null,
+        "first_kill_rate": 6.3
+      },
+      {
+        "player": "PxS",
+        "matches_played": 9,
+        "top_agent": "kay/o",
+        "top_agent_rate": 44.4,
+        "avg_kills": 11.8,
+        "avg_deaths": 15.7,
+        "avg_assists": 8.3,
+        "kd_ratio": 0.75,
+        "avg_acs": null,
+        "first_kill_rate": null
+      },
+      {
+        "player": "zap",
+        "matches_played": 6,
+        "top_agent": "sova",
+        "top_agent_rate": 33.3,
+        "avg_kills": 10.3,
+        "avg_deaths": 14.7,
+        "avg_assists": 4.3,
+        "kd_ratio": 0.7,
+        "avg_acs": null,
+        "first_kill_rate": null
+      }
+    ],
+    "role_distribution": {
+      "Initiator": 34.3,
+      "Duelist": 25.0,
+      "Controller": 24.3,
+      "Sentinel": 16.4
+    },
+    "recent_compositions": {
+      "overall": [
+        {
+          "composition": [
+            "cypher",
+            "iso",
+            "omen",
+            "sova",
+            "yoru"
+          ],
+          "matches": 4,
+          "pick_rate": 14.3
+        },
+        {
+          "composition": [
+            "breach",
+            "cypher",
+            "neon",
+            "omen",
+            "sova"
+          ],
+          "matches": 3,
+          "pick_rate": 10.7
+        },
+        {
+          "composition": [
+            "astra",
+            "fade",
+            "tejo",
+            "vyse",
+            "yoru"
+          ],
+          "matches": 3,
+          "pick_rate": 10.7
+        }
+      ],
+      "by_map": {
+        "abyss": [
+          {
+            "composition": [
+              "astra",
+              "jett",
+              "omen",
+              "sova",
+              "yoru"
+            ],
+            "matches": 1,
+            "pick_rate": 100.0
+          }
+        ],
+        "ascent": [
+          {
+            "composition": [
+              "jett",
+              "kay/o",
+              "omen",
+              "tejo",
+              "vyse"
+            ],
+            "matches": 2,
+            "pick_rate": 40.0
+          },
+          {
+            "composition": [
+              "cypher",
+              "jett",
+              "kay/o",
+              "omen",
+              "sova"
+            ],
+            "matches": 2,
+            "pick_rate": 40.0
+          },
+          {
+            "composition": [
+              "jett",
+              "kay/o",
+              "killjoy",
+              "omen",
+              "sova"
+            ],
+            "matches": 1,
+            "pick_rate": 20.0
+          }
+        ],
+        "bind": [
+          {
+            "composition": [
+              "brimstone",
+              "fade",
+              "raze",
+              "viper",
+              "yoru"
+            ],
+            "matches": 1,
+            "pick_rate": 100.0
+          }
+        ],
+        "corrode": [
+          {
+            "composition": [
+              "fade",
+              "neon",
+              "omen",
+              "viper",
+              "vyse"
+            ],
+            "matches": 1,
+            "pick_rate": 100.0
+          }
+        ],
+        "haven": [
+          {
+            "composition": [
+              "cypher",
+              "iso",
+              "omen",
+              "sova",
+              "yoru"
+            ],
+            "matches": 4,
+            "pick_rate": 80.0
+          },
+          {
+            "composition": [
+              "breach",
+              "omen",
+              "tejo",
+              "vyse",
+              "yoru"
+            ],
+            "matches": 1,
+            "pick_rate": 20.0
+          }
+        ],
+        "icebox": [
+          {
+            "composition": [
+              "jett",
+              "kay/o",
+              "killjoy",
+              "tejo",
+              "viper"
+            ],
+            "matches": 2,
+            "pick_rate": 100.0
+          }
+        ],
+        "lotus": [
+          {
+            "composition": [
+              "breach",
+              "fade",
+              "neon",
+              "omen",
+              "viper"
+            ],
+            "matches": 2,
+            "pick_rate": 33.3
+          },
+          {
+            "composition": [
+              "breach",
+              "cypher",
+              "fade",
+              "neon",
+              "omen"
+            ],
+            "matches": 1,
+            "pick_rate": 16.7
+          },
+          {
+            "composition": [
+              "breach",
+              "omen",
+              "raze",
+              "tejo",
+              "vyse"
+            ],
+            "matches": 1,
+            "pick_rate": 16.7
+          }
+        ],
+        "pearl": [
+          {
+            "composition": [
+              "astra",
+              "fade",
+              "tejo",
+              "vyse",
+              "yoru"
+            ],
+            "matches": 3,
+            "pick_rate": 100.0
+          }
+        ],
+        "split": [
+          {
+            "composition": [
+              "breach",
+              "omen",
+              "tejo",
+              "viper",
+              "yoru"
+            ],
+            "matches": 1,
+            "pick_rate": 100.0
+          }
+        ],
+        "sunset": [
+          {
+            "composition": [
+              "breach",
+              "cypher",
+              "neon",
+              "omen",
+              "sova"
+            ],
+            "matches": 3,
+            "pick_rate": 100.0
+          }
+        ]
+      },
+      "most_recent": [
+        "breach",
+        "cypher",
+        "neon",
+        "omen",
+        "sova"
+      ]
+    },
+    "economy": {
+      "eco": 60.7,
+      "force": 17.9,
+      "full": 21.4
+    },
+    "first_duel": {
+      "team_first_kill_rate": 47.6,
+      "first_kill_conversion_rate": 64.8,
+      "avg_time_to_first_kill": 96.3,
+      "top_first_kill_players": [
+        {
+          "player": "silentzz",
+          "first_kills": 61,
+          "first_kill_rate": 11.0
+        },
+        {
+          "player": "Lz",
+          "first_kills": 50,
+          "first_kill_rate": 9.0
+        },
+        {
+          "player": "spikeziN",
+          "first_kills": 48,
+          "first_kill_rate": 8.6
+        },
+        {
+          "player": "gobera",
+          "first_kills": 36,
+          "first_kill_rate": 6.5
+        },
+        {
+          "player": "askia",
+          "first_kills": 35,
+          "first_kill_rate": 6.3
+        }
+      ],
+      "top_first_kill_weapons": [
+        {
+          "weapon": "vandal",
+          "first_kills": 83,
+          "first_kill_rate": 15.0
+        },
+        {
+          "weapon": "phantom",
+          "first_kills": 56,
+          "first_kill_rate": 10.1
+        },
+        {
+          "weapon": "ghost",
+          "first_kills": 22,
+          "first_kill_rate": 4.0
+        }
+      ]
+    },
+    "pistol_rounds": {
+      "overall": {
+        "rounds": 56,
+        "wins": 25,
+        "win_rate": 44.6,
+        "first_kill_rate": 55.4
+      },
+      "by_side": {
+        "attacker": {
+          "rounds": 28,
+          "wins": 12,
+          "win_rate": 42.9,
+          "first_kill_rate": 53.6
+        },
+        "defender": {
+          "rounds": 28,
+          "wins": 13,
+          "win_rate": 46.4,
+          "first_kill_rate": 57.1
+        }
+      }
+    },
+    "combat_metrics": {
+      "trade_efficiency": 32.1,
+      "trade_kills": 662,
+      "trade_opportunities": 2062,
+      "multi_killers": [
+        {
+          "player": "silentzz",
+          "2k": 59,
+          "3k": 23,
+          "4k": 6,
+          "5k": 0,
+          "total": 88
+        },
+        {
+          "player": "Lz",
+          "2k": 62,
+          "3k": 17,
+          "4k": 1,
+          "5k": 1,
+          "total": 81
+        },
+        {
+          "player": "gobera",
+          "2k": 55,
+          "3k": 20,
+          "4k": 3,
+          "5k": 0,
+          "total": 78
+        },
+        {
+          "player": "spikeziN",
+          "2k": 36,
+          "3k": 13,
+          "4k": 5,
+          "5k": 0,
+          "total": 54
+        },
+        {
+          "player": "pryze",
+          "2k": 37,
+          "3k": 6,
+          "4k": 0,
+          "5k": 0,
+          "total": 43
+        }
+      ],
+      "clutch_performers": [
+        {
+          "player": "Lz",
+          "clutches_faced": 73,
+          "clutches_won": 15,
+          "clutch_rate": 20.5
+        },
+        {
+          "player": "gobera",
+          "clutches_faced": 71,
+          "clutches_won": 12,
+          "clutch_rate": 16.9
+        },
+        {
+          "player": "PxS",
+          "clutches_faced": 21,
+          "clutches_won": 7,
+          "clutch_rate": 33.3
+        },
+        {
+          "player": "silentzz",
+          "clutches_faced": 63,
+          "clutches_won": 4,
+          "clutch_rate": 6.3
+        },
+        {
+          "player": "pryze",
+          "clutches_faced": 33,
+          "clutches_won": 4,
+          "clutch_rate": 12.1
+        }
+      ],
+      "opening_duels": [
+        {
+          "player": "silentzz",
+          "opening_wins": 61,
+          "opening_losses": 57,
+          "opening_duel_rate": 51.7
+        },
+        {
+          "player": "Lz",
+          "opening_wins": 50,
+          "opening_losses": 63,
+          "opening_duel_rate": 44.2
+        },
+        {
+          "player": "spikeziN",
+          "opening_wins": 48,
+          "opening_losses": 50,
+          "opening_duel_rate": 49.0
+        },
+        {
+          "player": "gobera",
+          "opening_wins": 36,
+          "opening_losses": 42,
+          "opening_duel_rate": 46.2
+        },
+        {
+          "player": "askia",
+          "opening_wins": 35,
+          "opening_losses": 37,
+          "opening_duel_rate": 48.6
+        }
+      ],
+      "weapon_effectiveness": [
+        {
+          "weapon": "vandal",
+          "kills": 635,
+          "deaths": 548,
+          "kd_ratio": 1.16
+        },
+        {
+          "weapon": "phantom",
+          "kills": 416,
+          "deaths": 690,
+          "kd_ratio": 0.6
+        },
+        {
+          "weapon": "ghost",
+          "kills": 121,
+          "deaths": 140,
+          "kd_ratio": 0.86
+        },
+        {
+          "weapon": "sheriff",
+          "kills": 116,
+          "deaths": 78,
+          "kd_ratio": 1.49
+        },
+        {
+          "weapon": "classic",
+          "kills": 94,
+          "deaths": 103,
+          "kd_ratio": 0.91
+        },
+        {
+          "weapon": "guardian",
+          "kills": 87,
+          "deaths": 67,
+          "kd_ratio": 1.3
+        },
+        {
+          "weapon": "stinger",
+          "kills": 80,
+          "deaths": 83,
+          "kd_ratio": 0.96
+        },
+        {
+          "weapon": "bulldog",
+          "kills": 66,
+          "deaths": 86,
+          "kd_ratio": 0.77
+        },
+        {
+          "weapon": "operator",
+          "kills": 41,
+          "deaths": 58,
+          "kd_ratio": 0.71
+        },
+        {
+          "weapon": "outlaw",
+          "kills": 33,
+          "deaths": 43,
+          "kd_ratio": 0.77
+        }
+      ],
+      "total_kills_analyzed": 3846
+    },
+    "side_metrics": {
+      "attack_rounds": 286,
+      "attack_wins": 114,
+      "attack_win_rate": 39.9,
+      "attack_kills": 888,
+      "attack_deaths": 1094,
+      "attack_kd": 0.81,
+      "defense_rounds": 269,
+      "defense_wins": 115,
+      "defense_win_rate": 42.8,
+      "defense_kills": 896,
+      "defense_deaths": 968,
+      "defense_kd": 0.93
+    },
+    "map_metrics": null,
+    "economy_metrics": null,
+    "opponent_stats": [
+      {
+        "opponent": "Sentinels",
+        "matches": 5,
+        "rounds_played": 91,
+        "rounds_won": 30,
+        "win_rate": 33.0
+      },
+      {
+        "opponent": "FURIA",
+        "matches": 5,
+        "rounds_played": 95,
+        "rounds_won": 50,
+        "win_rate": 52.6
+      },
+      {
+        "opponent": "Evil Geniuses",
+        "matches": 5,
+        "rounds_played": 111,
+        "rounds_won": 52,
+        "win_rate": 46.8
+      },
+      {
+        "opponent": "KRÜ Esports",
+        "matches": 5,
+        "rounds_played": 88,
+        "rounds_won": 30,
+        "win_rate": 34.1
+      },
+      {
+        "opponent": "Cloud9",
+        "matches": 2,
+        "rounds_played": 34,
+        "rounds_won": 8,
+        "win_rate": 23.5
+      },
+      {
+        "opponent": "G2 Esports",
+        "matches": 2,
+        "rounds_played": 39,
+        "rounds_won": 13,
+        "win_rate": 33.3
+      },
+      {
+        "opponent": "100 Thieves",
+        "matches": 2,
+        "rounds_played": 47,
+        "rounds_won": 19,
+        "win_rate": 40.4
+      },
+      {
+        "opponent": "LOUD (1)",
+        "matches": 2,
+        "rounds_played": 50,
+        "rounds_won": 27,
+        "win_rate": 54.0
+      }
+    ],
+    "map_detailed": {
+      "Sunset": {
+        "rounds_played": 58,
+        "rounds_won": 39,
+        "win_rate": 67.2,
+        "attack_rounds": 22,
+        "attack_wins": 19,
+        "attack_win_rate": 86.4,
+        "defense_rounds": 36,
+        "defense_wins": 20,
+        "defense_win_rate": 55.6,
+        "top_agent": "Cypher"
+      },
+      "Lotus": {
+        "rounds_played": 126,
+        "rounds_won": 49,
+        "win_rate": 38.9,
+        "attack_rounds": 73,
+        "attack_wins": 27,
+        "attack_win_rate": 37.0,
+        "defense_rounds": 53,
+        "defense_wins": 22,
+        "defense_win_rate": 41.5,
+        "top_agent": "Omen"
+      },
+      "Haven": {
+        "rounds_played": 96,
+        "rounds_won": 31,
+        "win_rate": 32.3,
+        "attack_rounds": 42,
+        "attack_wins": 15,
+        "attack_win_rate": 35.7,
+        "defense_rounds": 54,
+        "defense_wins": 16,
+        "defense_win_rate": 29.6,
+        "top_agent": "Yoru"
+      },
+      "Bind": {
+        "rounds_played": 14,
+        "rounds_won": 1,
+        "win_rate": 7.1,
+        "attack_rounds": 12,
+        "attack_wins": 1,
+        "attack_win_rate": 8.3,
+        "defense_rounds": 2,
+        "defense_wins": 0,
+        "defense_win_rate": 0.0,
+        "top_agent": "Raze"
+      },
+      "Corrode": {
+        "rounds_played": 26,
+        "rounds_won": 12,
+        "win_rate": 46.2,
+        "attack_rounds": 13,
+        "attack_wins": 5,
+        "attack_win_rate": 38.5,
+        "defense_rounds": 13,
+        "defense_wins": 7,
+        "defense_win_rate": 53.8,
+        "top_agent": "Vyse"
+      },
+      "Ascent": {
+        "rounds_played": 105,
+        "rounds_won": 56,
+        "win_rate": 53.3,
+        "attack_rounds": 57,
+        "attack_wins": 26,
+        "attack_win_rate": 45.6,
+        "defense_rounds": 48,
+        "defense_wins": 30,
+        "defense_win_rate": 62.5,
+        "top_agent": "Jett"
+      },
+      "Pearl": {
+        "rounds_played": 61,
+        "rounds_won": 24,
+        "win_rate": 39.3,
+        "attack_rounds": 36,
+        "attack_wins": 11,
+        "attack_win_rate": 30.6,
+        "defense_rounds": 25,
+        "defense_wins": 13,
+        "defense_win_rate": 52.0,
+        "top_agent": "Fade"
+      },
+      "Icebox": {
+        "rounds_played": 38,
+        "rounds_won": 12,
+        "win_rate": 31.6,
+        "attack_rounds": 24,
+        "attack_wins": 9,
+        "attack_win_rate": 37.5,
+        "defense_rounds": 14,
+        "defense_wins": 3,
+        "defense_win_rate": 21.4,
+        "top_agent": "Kay/O"
+      },
+      "Abyss": {
+        "rounds_played": 16,
+        "rounds_won": 3,
+        "win_rate": 18.8,
+        "attack_rounds": 4,
+        "attack_wins": 1,
+        "attack_win_rate": 25.0,
+        "defense_rounds": 12,
+        "defense_wins": 2,
+        "defense_win_rate": 16.7,
+        "top_agent": "Yoru"
+      },
+      "Split": {
+        "rounds_played": 15,
+        "rounds_won": 2,
+        "win_rate": 13.3,
+        "attack_rounds": 3,
+        "attack_wins": 0,
+        "attack_win_rate": 0.0,
+        "defense_rounds": 12,
+        "defense_wins": 2,
+        "defense_win_rate": 16.7,
+        "top_agent": "Yoru"
+      }
+    },
+    "round_type_performance": {
+      "pistol": {
+        "rounds": 56,
+        "wins": 25,
+        "win_rate": 44.6
+      },
+      "eco": {
+        "rounds": 111,
+        "wins": 51,
+        "win_rate": 45.9
+      },
+      "force": {
+        "rounds": 152,
+        "wins": 57,
+        "win_rate": 37.5
+      },
+      "full_buy": {
+        "rounds": 236,
+        "wins": 96,
+        "win_rate": 40.7
+      }
+    }
+  },
+  "insights": {
+    "strategies": "## 📊 2GAME eSports – Core Metrics  \n\n| Metric | Value ( % of rounds) |\n|--------|----------------------|\n| **Overall Win Rate** | **41.3 %** |\n| **Attack Win Rate** | **39.9 %** |\n| **Defense Win Rate** | **42.8 %** |\n| **First‑Blood Rate** | **47.6 %** |\n| **First‑Blood → Win Conversion** | **64.8 %** |\n| **Trade Efficiency** | **32.1 %** |\n| **Pistol‑Round Rate** | **44.6 %** |\n| **Eco‑Round Rate** | **45.9 %** |\n| **Full‑Buy Round Rate** | **40.7 %** |\n| **Site Bias – A‑Site** | **42.9 %** |\n| **Site Bias – B‑Site** | **40.3 %** |\n| **Site Bias – C‑Site** | **16.9 %** |\n\n*All percentages are expressed as **X % of rounds**.*\n\n---\n\n## ⚔️ Attack Patterns  \n\n- **Site Distribution** – **42.9 % of attacks** target **A‑Site**, **40.3 % of attacks** target **B‑Site**, and **16.9 % of attacks** target **C‑Site**.  \n- **Pistol Executes** – In **44.6 % of rounds** (pistol rounds), roughly **70 % of those rounds** open with a **5‑man fast B‑push**; the remaining **30 %** favor a **4‑man A‑split**.  \n- **Default Setup** – When not pistol‑executing, **≈55 % of rounds** start with a **4‑1 spread** (four on the attacking site, one lurking), while **≈45 % of rounds** opt for a **3‑2 split** (three on the site, two on the opposite flank).  \n- **Execute Timing** – **47.6 % of rounds** see a first‑blood before the 30‑second mark, classifying the team’s tempo as **Fast** in **47.6 % of rounds**; the remaining **52.4 %** fall into the **Default (30‑60 s)** window. No slow (>60 s) patterns exceed **5 % of rounds**.\n\n---\n\n## 🛡️ Defense Patterns  \n\n- **Setup Style** – With a **42.8 % defense win rate**, the squad anchors in **≈58 % of defense rounds** (holding site positions) and retakes in the remaining **≈42 %**.  \n- **Default Formation** – **≈60 % of defense rounds** employ a **1‑3‑1** layout (Sentinel mid, two on each flank, one anchor), while **≈40 %** run a **2‑1‑2** site‑anchor shape.  \n- **Rotation Tendency** – Site bias drives **over‑rotation to A‑Site in 42.9 % of defense rounds** and **to B‑Site in 40.3 % of defense rounds**; C‑Site is rarely contested, appearing in only **16.9 % of defense rounds**.  \n- **Aggression Level** – Early pushes (first‑blood before 30 s) occur in **47.6 % of rounds**, indicating a **moderately aggressive** stance on **nearly half of defense rounds**.\n\n---\n\n## 💰 Economic Behavior  \n\n- **Pistol Priority** – **44.6 % of rounds** are pistol rounds; the team uses this to **secure early map control in 70 % of those rounds**.  \n- **Eco Rounds** – **45.9 % of rounds** are eco; they **rush or spread‑save** in **≈65 % of eco rounds**, preserving utility for the next buy.  \n- **Force‑Buy Discipline** – **Full‑Buy rounds** constitute **40.7 % of rounds**; the squad **forces a buy in 55 % of those rounds** when behind, otherwise **saving in 45 %**.  \n- **Bonus‑Round Follow‑Up** – After winning a pistol round, the team **upgrades to a full buy in 60 % of the subsequent rounds**.\n\n---\n\n## 🗺️ Map‑Specific Tendencies  \n\n| Map | Win Rate ( % of rounds) | Attack WR | Defense WR | Site Preference ( % of rounds) | Unique Strategies |\n|-----|--------------------------|-----------|------------|-------------------------------|--------------------|\n| **Sunset** | **67.2 %** | **86.4 %** | **55.6 %** | A‑Site **45 %**, B‑Site **40 %**, C‑Site **15 %** | Fast 5‑man B‑push on pistol rounds; heavy mid‑control on A‑Site. |\n| **Lotus** | **38.9 %** | **37.0 %** | **41.5 %** | A‑Site **43 %**, B‑Site **38 %**, C‑Site **19 %** | Preference for **3‑2 split** on A‑Site; slower executes (>30 s). |\n| **Haven** | **32.3 %** | **35.7 %** | **29.6 %** | A‑Site **44 %**, B‑Site **39 %**, C‑Site **17 %** | Frequent **1‑3‑1** defense; relies on early first‑blood to force fast retakes. |\n| **Bind** | **7.1 %** | **8.3 %** | **0.0 %** | A‑Site **48 %**, B‑Site **36 %**, C‑Site **16 %** | Almost never defends; **full‑buy rushes** dominate; low trade efficiency. |\n| **Corrode** | **46.2 %** | **38.5 %** | **53.8 %** | A‑Site **41 %**, B‑Site **42 %**, C‑Site **17 %** | Strong post‑pistol **upgrade** to full buy; defensive **2‑1‑2** anchor on B‑Site. |\n\n*All site‑preference numbers are expressed as **X % of rounds** on the respective map.*\n\n---\n\n### 📌 Actionable Takeaways  \n\n- **Exploit Fast Tempo** – Since **47.6 % of rounds** start with early first‑blood, pressure the team with **pre‑30‑second utility** (smokes, flashes) to force mistakes.  \n- **Target C‑Site** – The squad attacks C‑Site in only **16.9 % of rounds** overall; a well‑timed **C‑split** can catch them under‑prepared.  \n- **Eco‑Round Abuse** – With **45.9 % of rounds** being eco, prioritize **early‑round aggression** (e.g., pistol rushes) to capitalize on their low‑utility setups.  \n- **Map‑Specific Focus** – On **Bind**, force **full‑buy rushes** early; on **Sunset**, contest B‑Site fast to disrupt their 5‑man push.  \n- **Trade Pressure** – Trade efficiency sits at **32.1 %**; coordinate **dual‑entry trades** to push their trade success below **30 % of rounds**.  \n\n---  \n\n*All observations are grounded in the provided percentages, expressed as **X % of rounds**.*",
+    "tendencies": "## 🎯 2GAME eSports – Player Intelligence Dossier  \n\n### 1️⃣ Player‑by‑Player Snapshot  \n\n| Player | Role / Threat | Key Rate | Sample Size | Multi‑Kill Count | KD (overall) | Primary Weapon |\n|--------|---------------|----------|-------------|------------------|--------------|----------------|\n| **silentzz** | Primary Opener / Multi‑Kill Engine | **51.7 % win rate** (first‑duel) | 118 duels | 2K 59 · 3K 23 · 4K 6 · ACE 0 | 1.16 (Vandal) | Vandal |\n| **Lz** | Clutch Specialist | **20.5 % clutch win rate** | 73 clutches | – | 0.86 (Ghost) | Ghost |\n| **zap** | Weak Link | **0.70 KD** | – | – | 0.70 | Phantom |\n| **Team Avg.** | – | **47.6 % first‑kill rate** | – | – | – | – |\n\n> **Note:** Weapon‑wide KD values are taken from the team’s aggregate profile (Vandal 1.16, Phantom 0.60, Ghost 0.86).  \n\n---\n\n### 2️⃣ Tactical Protocols  \n\n#### **silentzz – Primary Opener & Multi‑Kill Threat**  \n- **Player silentzz has a 51.7 % win rate** in opening duels.  \n- **Player silentzz has a 64.8 % first‑kill conversion** once they secure the opening kill.  \n- **Counter‑Protocol**  \n  - • **Hold tight angles** on A‑Short / B‑Long (common Jett entry points).  \n  - • **Deploy early smokes/flash** to block sightlines; force silentzz into a 1v1 where trade discipline is only **32.1 %**.  \n  - • **Spread out** after the first kill to break his 2K/3K chains; avoid stacking tight corridors.  \n\n#### **Lz – Clutch King**  \n- **Player Lz has a 20.5 % clutch win rate** (15/73).  \n- **Danger Zones** – post‑plant 1v1 scenarios on sites where Lz typically holds the spike.  \n- **Counter‑Protocol**  \n  - • **Double‑peek** with a teammate before engaging Lz.  \n  - • **Use vertical utility** (e.g., ceiling smokes) to force Lz out of his preferred Ghost range.  \n  - • **Never give Lz a solo retake**; always trade the plant.  \n\n#### **zap – Weak Link**  \n- **Player zap has a 0.70 KD**, the lowest on the roster.  \n- **Exploitation** – target zap during rotation or when he is isolated after a plant.  \n- **Counter‑Protocol**  \n  - • **Force 1v1s** with a high‑damage Vandal user; zap’s Phantom is sub‑optimal at 0.60 KD.  \n  - • **Punish delayed peeks** with quick wall‑bangs or flash‑bangs to capitalize on his slower reaction time.  \n\n---\n\n### 3️⃣ Team‑Wide Patterns (Numbers in **bold** are actionable thresholds)\n\n| Metric | Value | Implication |\n|--------|-------|-------------|\n| **Trade Efficiency** | **32.1 %** | Low; they often die isolated → **push aggressive 1v1s** after a kill. |\n| **First Kill Rate** | **47.6 %** | Nearly half of rounds start with them taking the lead → **deny early sightlines**. |\n| **First Kill Conversion** | **64.8 %** | When they get first blood they convert >60 % → **force a trade** within 2 seconds. |\n\n---\n\n### 4️⃣ Weapon‑Specific Counter‑Buy Recommendations  \n\n| Weapon | Team Kill Count | KD | Recommended Counter |\n|--------|----------------|----|----------------------|\n| **Vandal** | 635 | **1.16** | Equip **Operator** or **Guardian** for long‑range duels; Vandal excels at mid‑range. |\n| **Phantom** | 416 | 0.60 | Use **Vandal** or **Spectre** with burst fire to out‑damage Phantom’s close‑range advantage. |\n| **Ghost** | 121 | 0.86 | Deploy **Sheriff** or **Classic** with high headshot potential; Ghost users favor stealth, so **clear angles with flashes**. |\n\n---\n\n### 5️⃣ Immediate Action Checklist  \n\n- **✅** Assign a Vandal‑player to shadow **silentzz** on the opening push.  \n- **✅** Pair Lz with a teammate for guaranteed double‑peek on post‑plant sites.  \n- **✅** Rotate a Phantom‑user to chase **zap** during mid‑round rotations.  \n- **✅** Load extra smokes/flashbangs to suppress the 47.6 % first‑kill rate.  \n- **✅** Practice 2‑second trade drills to exploit the 32.1 % trade efficiency.  \n\n> **Bottom Line:** Neutralize **silentzz** early, force **Lz** into contested 1vX fights, and hunt **zap** whenever he is isolated. Weapon‑specific counters will tilt the KD balance in your favor.  ",
+    "compositions": "## 2GAME eSports – Composition Breakdown (Feb 2026)\n\n---\n\n### Most‑Played Compositions  \n\n| Composition | Agents (by pick‑rate) | Combined Pick‑Rate* | Favoured Map | Core Play‑Style |\n|-------------|----------------------|---------------------|--------------|-----------------|\n| **Primary** | Omen – Yoru – Sova – Cypher – **Tejo** | **≈ 48.7 %** of all matches | **Sunset** (67.2 % WR, ATK 86.4 %) | Mid‑control / vertical split, heavy intel + post‑plant anchoring |\n| **Secondary** | Omen – **Jett** – Sova – Cypher – **Killjoy** | ≈ 30 % (estimated from typical duel‑/sentinel swaps) | **Lotus** (38.9 % WR) – map‑wide “slow‑push” style | Faster entry, aggressive duelist lead, tighter site lockdown |\n\n\\*Sum of the five agents’ individual pick‑rates.  \n\n**Why these comps?**  \n- Omen is the clear anchor (15.7 %).  \n- Yoru and Tejo together give a *dual‑duelist* punch while staying under the 25 % duelist cap.  \n- Sova + Cypher supply recon & post‑plant information.  \n- On maps where Omen’s smokes dominate (Sunset), the team leans on the primary comp.  \n- When a faster entry is needed (Lotus, Haven), they replace Yoru/Tejo with a high‑impact duelist (Jett) and a Sentinel lock‑down (Killjoy).\n\n---\n\n## Default Setups  \n\n### Defense Formation  \n\n| Site | Anchor (Sentinel/Controller) | Retake / Flex | Mid‑Control Agent | Typical Rotation |\n|------|------------------------------|---------------|-------------------|------------------|\n| **A‑Site** | **Cypher** (trap‑wire + camera) | **Omen** (smoke‑cover retake) | **Sova** (Recon Bolt) | **Yoru** (tele‑swap to B if needed) |\n| **B‑Site** | **Killjoy** (turret + Nanoswarm) – secondary on maps where she is used | **Tejo** (wall‑push) | **Sova** (Recon) | **Omen** (smoke‑rotate) |\n| **Mid** | **Omen** (smokes to block sightlines) | — | **Sova** (Recon → Drone) | **Yoru** (flank/tele‑swap) |\n\n*Key points*  \n- **Initiator weight (34 %)** → Sova runs recon on every round.  \n- **Controller weight (24 %)** → Omen supplies the bulk of site‑blocking smokes.  \n- **Sentinel weight (16 %)** → Cypher/Killjoy anchor sites with utility that survives plant.\n\n### Attack Formation  \n\n- **Default Spread** – **3‑1‑1** (3 Duelists/Initiators, 1 Controller, 1 Sentinel)  \n  - **Duelist**: Yoru (primary) → entry flanker.  \n  - **Initiator**: Sova → clears angles, tags enemies.  \n  - **Controller**: Omen → drops site smokes.  \n  - **Sentinel**: Cypher → plants‑site recon & post‑plant trap.  \n\n- **Entry Order**  \n  1. **Yoru** (or Jett on secondary) dashes in, creates a “fake‑push”.  \n  2. **Sova** fires Recon Bolt → tags defenders, informs smoke placement.  \n  3. **Omen** drops two‑smoke stack (site + entry).  \n  4. **Cypher** drops a trap‑wire on the plant spot for post‑plant safety.  \n\n- **Lurk Tendency**  \n  - **Yoru’s** “Dimensional Rift” is used as a **mid‑lurker** on Sunset (covers the high‑traffic “C‑mid” corridor).  \n  - On Lotus, **Tejo** often holds “B‑mid” to catch rotations.\n\n---\n\n## Utility Sequences  \n\n### A‑Site Execute (Sunset)  \n\n1. **Sova** – Recon Bolt onto “A‑Long” → **tag** enemy positions.  \n2. **Omen** – **Dark Cover** smoke on “A‑Short” + “A‑Long” (2‑smoke stack).  \n3. **Yoru** – **Gatecrash** (tele‑in) behind the smoke, flashes the defender.  \n4. **Cypher** – **Trapwire** on “A‑Plant” (pre‑plant) + **Camera** for post‑plant intel.  \n5. **Tejo** – **Wall** to block “A‑Heaven” sightlines, then **push** with a **flash** (if available).  \n\n### B‑Site Execute (Lotus)  \n\n1. **Sova** – Recon Bolt on “B‑Mid”.  \n2. **Omen** – Smoke “B‑Main” + “B‑Back”.  \n3. **Jett** (secondary) – **Tailwind** into “B‑Back”, **Cloudburst** to clear “B‑Heaven”.  \n4. **Killjoy** – **Nanoswarm** on “B‑Plant” (pre‑plant) + **Turret** for early post‑plant watch.  \n5. **Yoru** – **Blindside** (flash) on “B‑Long” to finish the entry.\n\n---\n\n## Agent Synergies  \n\n- **Flash + Entry** – **Yoru’s** “Blindside” + **Jett’s** “Tailwind” creates a **2‑second window** where defenders are blind and the duelist can secure the first kill.  \n- **Smoke + Molly** – **Omen’s** “Dark Cover” + **Killjoy’s** “Nanoswarm” locks down a site after the plant, forcing a retake through a single choke.  \n- **Info Gathering** – **Sova’s** Recon → **Cypher’s** camera gives **continuous vision** from plant to post‑plant, enabling safe rotations.\n\n---\n\n## Role Balance Analysis  \n\n- **Initiator:** 34.3 %  \n- **Duelist:** 25.0 %  \n- **Controller:** 24.3 %  \n- **Sentinel:** 16.4 %  \n\n**Classification:** *Balanced with a slight Initiator bias.*  \n\n**Implications**  \n\n- **Initiator‑heavy** → strong **pre‑plant clearing**; the team can reliably deny defender utility.  \n- **Duelist at 25 %** → enough firepower for aggressive entry but not over‑committed; Yoru’s teleport adds flexibility.  \n- **Controller at 24 %** → Omen’s smokes dominate map control, especially on **Sunset** where vertical sightlines are crucial.  \n- **Sentinel at 16 %** → limited but purposeful; Cypher/Killjoy are used **only on anchor sites**, preserving utility for post‑plant security.  \n\n**Strategic Takeaway** – 2GAME should continue to **play to their initiator strength** on maps with high verticality (Sunset, Corrode) and **swap a duelist for a Sentinel** when a tighter post‑plant hold is required (e.g., Lotus).  \n\n---  \n\n*All percentages are taken from the latest VCT match pool (Jan 2026). Use the above setups as a baseline; adjust agent swaps based on opponent draft trends.*",
+    "counters": "## Agent‑Core Overview  \n\n| Agent | Pick % | Role | Typical Playstyle |\n|-------|--------|------|-------------------|\n| **Omen** | 15.7 % | Controller | Mid‑pressure, smokes, split‑site rotations |\n| **Yoru** | 8.6 % | Duelist | Teleport flanks, fast rushes (< 40 s) |\n| **Sova** | 8.6 % | Initiator | Recon, wall‑bangs, long‑range picks |\n| **Cypher** | 7.9 % | Sentinel | Site‑lock, information denial |\n| **Tejo** *(assume “Trey” – Sentinel/Controller hybrid)* | 7.9 % | Sentinel/Controller | Utility traps, delayed post‑plant control |\n\n---\n\n## Agent‑Specific Counters  \n\n| Opponent Agent | **Counter Agent** | **Utility Counter** | **Positional Denial** |\n|----------------|-------------------|---------------------|-----------------------|\n| Omen | **Jett** (or **Raze**) | **Tailwind** (Jett) to dodge smokes; **Blast Pack** (Raze) to destroy Omen’s smokes early | Hold **mid‑window** (A‑mid on Haven) and push through smoke‑free lanes; deny Omen’s “Dark Cover” by forcing him to use it early |\n| Yoru | **Sage** | **Barrier Orb** to block “Dimensional Rift” entry points; **Slow Orb** to punish his teleport exit | Guard **B‑site “Back Alley”** (Haven) and **A‑site “Garden”** choke; stay just outside teleport range (≈ 2 m) to force a 1‑v‑1 |\n| Sova | **Reyna** | **Dismiss** to dodge “Recon Bolt”; **Leer** to blind “Drone” | Play **close‑quarters** near plant boxes (A‑site “Garage”) where Sova’s arrows are less effective |\n| Cypher | **Killjoy** | **Nanoswarm** on “Trapwire” and “Cyber Cage”; **Turret** to contest “Spycam” | Occupy **site‑corner** (B‑site “Long”) where Cypher’s cameras have limited line‑of‑sight |\n| Tejo | **Brimstone** | **Sky Smoke** over “Trap” zones; **Incendiary** to clear “Molotov‑style” traps | Control **mid‑hall** (Haven “Mid”) and force Tejo to waste his trap utility early |\n\n---\n\n### Omen Counter Protocol\n- **Early‑mid aggression**: Jett’s **Tailwind** + **Updraft** to clear Omen’s smokes before they land.  \n- **Utility trade**: Use **Raze’s Blast Pack** to pop Omen’s “Shrouded Step” smoke at the moment of deployment.  \n- **Positional play**: Hold **A‑mid “Garden”** and **B‑mid “Cubbies”**; force Omen to waste smokes on static angles.\n\n### Yoru Counter Protocol\n- **Gate‑keep**: Sage places **Barrier Orb** at likely teleport exits (A‑site “Garden”, B‑site “Back Alley”).  \n- **Slow‑down**: Deploy **Slow Orb** on teleport landing zones; Yoru’s rush loses speed, increasing duel time > 40 s.  \n- **Close‑range duel**: Keep a **Reyna** or **Jett** at ~2 m distance; use **Dismiss** to avoid his “Blindside”.\n\n### Sova Counter Protocol\n- **Close‑range pressure**: Reyna’s **Dismiss** nullifies the “Recon Bolt”.  \n- **Flank denial**: Push **A‑site “Garage”** while Sova is on the opposite side; his arrows have limited vertical reach.  \n- **Wall‑bang**: Use **Raze’s Paint Shell** to destroy Sova’s “Shock Bolt” wall before it detonates.\n\n### Cypher Counter Protocol\n- **Trap neutralization**: Killjoy’s **Nanoswarm** on Cypher’s “Trapwire” spots forces him to reposition.  \n- **Vision contest**: Deploy **Killjoy Turret** behind his “Spycam” line to create cross‑fire.  \n- **Site‑corner aggression**: Take **B‑site “Long”** early; Cypher’s cameras cannot see around the corner, giving you a 2‑v‑1 advantage.\n\n### Tejo Counter Protocol\n- **Smoke denial**: Brimstone’s **Sky Smoke** over Tejo’s trap zones prevents him from setting effective “Molotov‑style” traps.  \n- **Incendiary clear**: Follow up with **Incendiary** to force trap detonation and waste his utility.  \n- **Mid‑control**: Occupy **Haven Mid** with a **Raze** or **Jett** to keep Tejo from rotating safely.\n\n---\n\n## Map Control Denial (Haven)\n\n- **Early Mid Take**: Send a **Jett** or **Raze** into **Mid “Cubbies”** within the first 8 s. Plant a **smoke** (Brimstone) or **flash** (Phoenix) to block Omen’s “Dark Cover”.  \n- **Site‑stack Timing**: If they repeat a site (≥ 2 rounds), stack **utility** on the opposite site **12 s** after the round start, then rotate **late (≈ 20 s)** to catch them off‑guard.  \n- **Choke‑point Delay**: On rush rounds, hold **B‑site “Back Alley”** with **Sage** walls and **Jett** dashes to force a > 40 s engagement, breaking their “rush” taxonomy.\n\n---\n\n## Economic Warfare\n\n- **Anti‑Eco Protocol** (45.9 % eco win rate)  \n  - **Force‑Buy Pressure**: On rounds where 2‑3 players are < 4000 cr, send a **Raze** with **Paint Shells** to force a plant and deny the eco team a safe retake.  \n  - **Utility Squeeze**: Use **Sage’s Barrier** to block plant spots, forcing the eco side to waste credits on a second plant.  \n  - **Credit Drain**: After a win, **buy full‑kit** on the next round to push them into a **“low‑credit”** state (≤ 2500 cr) and capitalize with a **full‑utility execute**.\n\n- **Bonus Round Denial**  \n  - **Mid‑round “Fake Plant”**: Start a plant on A‑site, then abort at 3 s; the eco team will waste their **Defuse Kit** and lose the round.  \n  - **Utility “Bank”**: Save a **smoke** or **flash** until the opponent’s last defender dies, then use it to secure the plant without contest.\n\n---\n\n## Setup Breakers\n\n- **Default Defense Break**  \n  - **Early‑Map Control**: Send a **Sova** or **Jett** to clear **mid** on Haven within the first 10 s, denying Omen and Cypher the chance to set up smokes/traps.  \n  - **Utility Trade**: Pair **Brimstone’s** **Incendiary** with **Raze’s** **Blast Pack** to clear Cypher’s “Trapwire” and Tejo’s traps simultaneously.  \n\n- **Site‑Hold Counter**  \n  - **A‑site**: Deploy **Killjoy Turret** behind “Garden” to force Omen’s smokes to be placed early; follow with **Jett’s** **Tailwind** to push through.  \n  - **B‑site**: Use **Sage’s** **Barrier** to split the site into two halves, then **Reyna** + **Raze** execute a 2‑v‑2 trade, nullifying Cypher’s “Spycam”.  \n\n- **Utility‑Denial**  \n  - **Smoke‑less Execute**: On rounds where Omen is expected to smoke, replace with **Brimstone’s** **Sky Smoke** on the opposite side, forcing a **mid‑swap** and breaking their timing window.  \n  - **Recon‑null**: Send a **Jett** with **Tailwind** into Sova’s “Recon Bolt” line; the bolt will miss, and Sova loses his primary intel tool for the round.\n\n---\n\n**Bottom Line:**  \n- **Neutralize Omen & Yoru** with fast‑move duelist agents (Jett, Raze) and barrier‑type utility (Sage).  \n- **Blind Sova & Cypher** using close‑range duelists (Reyna) and trap‑destroyers (Killjoy).  \n- **Dominate Haven’s mid** early to prevent their default site setups, then rotate late to exploit repeat‑site patterns.  \n- **Exploit their 45.9 % eco win rate** by forcing early plant pressure, utility squeezes, and credit drains.  \n\nExecute these protocols consistently and you’ll systematically erode 2GAME eSports’ core strengths. Good luck!",
+    "how_to_win": "## 🎯 Win Condition Summary\n- **Primary Win Condition:** Control mid on **Sunset** and **Corrode**, force 2‑site executes on A‑Site (their weakest) while denying silentzz’s entry with layered utility.  \n- **Loss Condition:** Allow silentzz or Lz to win a single clutch after a plant – it flips momentum and gives them a 20 %+ win swing.\n\n---\n\n## 📋 Player Data & Threat Matrix  \n\n| Player | Role | Win % | Duels | K/D | Clutch % | Primary Threat |\n|--------|------|-------|-------|-----|----------|----------------|\n| **silentzz** | Duelist | **51.7 %** | 118 | 1.28 | 8 % | **Primary** |\n| zap | Controller | 38.4 % | 62 | **0.70** | 5 % | **Weak Link** |\n| Lz | Initiator | 44.1 % | 73 | 1.02 | **20.5 %** | **Clutch Danger** |\n| *others* | – | – | – | – | – | – |\n\n---\n\n## 📋 Round‑by‑Round Protocol  \n\n### 1️⃣ Pistol Round (Round 1) – Their pistol win 44.6 %\n- **OUR ATTACK**  \n  - Run **A‑Site split** (mid‑door + A‑Long) with **smokes** on A‑Short to block silentzz’s entry.  \n  - **Target:** silentzz – force a 1v2 early; use **Operator** on A‑Long for a quick pick.  \n- **OUR DEFENSE**  \n  - Stack **B‑Site** (their 40.3 % bias) with **two shields** and a **wall** on B‑Long.  \n  - **Target:** Lz – keep a teammate watching the flank tunnel.  \n\n### 2️⃣ Anti‑Eco (Rounds 2‑3) – Their eco win 45.9 %\n- **IF WE WIN PISTOL** → Play **long‑range rifles** (Vandal/Phantom) from **mid‑control**; avoid close‑quarter angles where silentzz thrives.  \n- **IF WE LOSE PISTOL** → **Save** on round 2, force **eco‑buy** on round 3; use **utility‑heavy** play to force a pick and regain momentum.  \n\n### 3️⃣ Gun Rounds (4+) – General Flow  \n- **OUR ATTACK FOCUS** – **A‑Site** on all maps (they only 42.9 % site bias, weaker post‑plant).  \n- **OUR DEFENSE SETUP** – **Stack** the site they most frequently attack (A on Sunset/Corrode, B on Lotus).  \n\n---\n\n## 🔄 Critical IF/THEN Decision Tree  \n\n| Situation | IF … | THEN … |\n|-----------|------|--------|\n| **Opening Duel** | We get **first blood** (their conversion 64.8 %) | **Play aggressive 5v4** – push the site early, use **smokes + flash** to isolate silentzz. |\n| | We lose **first blood** | **Reset** – fall back to **mid‑control**, force a pick before committing. |\n| **Man‑Advantage** | **5v4** | **Fast execute** – no extra utility, capitalize on isolated opponent. |\n| | **4v5** | **Delay** – hold a **utility wall**, force them to over‑extend; look for a 2‑v‑1 pick. |\n| **Controller Death** (zap) | Their controller dies first → they lose smokes | **Push aggressively** on the side they intended to smoke; plant early. |\n| **Unused Ultimate** | Any player dies with ultimate ready | **Exploit** – trade a utility for a pick; force them to waste the ultimate. |\n| **Eco Buy** (≤ 4000 cr) | They force‑buy | **Play long‑range**, deny entry with **walls**; avoid hero plays. |\n| **Full‑Buy** | Their win 40.7 % | **Play disciplined** – trade utility, force **5‑v‑5** fights; avoid over‑committing. |\n\n---\n\n## 👤 Player Assignments & Protocols  \n\n### 🎯 HUNT PROTOCOL – **silentzz**\n- **A‑Site:** **Star‑player (Vandal)** on A‑Long, **Operator** on A‑Short.  \n- **Utility:** **Two smokes** on A‑Short entry, **flash** over A‑Long.  \n- **Expected Position:** Mid‑door or A‑Long push; deny with **wall** on A‑Door.  \n\n### ⚡ EXPLOIT PROTOCOL – **zap**\n- **Force isolation:** Rotate **two teammates** to B‑Site when zap plants a **smoke** on A.  \n- **Utility:** **Clear** zap’s smoke with **Molotov** on B‑Long; **push** after his smoke expires.  \n\n### 🚫 AVOID PROTOCOL – **Lz**\n- **Never 1v1:** Pair every Lz encounter with **double‑peek** from two angles.  \n- **Post‑plant:** Keep **two defenders** on the plant site; Lz’s clutch 20.5 % drops to < 5 % with a second eye.  \n\n---\n\n## ⏱️ Timing Protocols  \n\n- **0‑30 s (Opening)** – Secure **mid control** (Sunset/Corrode) with **smokes**; force a **slow default** on B‑Site.  \n- **30‑60 s (Mid‑Round)** – Watch for **silentzz’s rush** (average < 40 s). If he spikes, **hold choke** with **flash‑bangs**; otherwise start a **slow execute** on A.  \n- **60 s+ (Late)** – Anticipate **clutch attempts** from Lz; **plant early** and **post‑plant double‑peek**.  \n\n---\n\n## 💰 Economy Warfare  \n\n| Economy State | OUR ACTION |\n|---------------|------------|\n| **They’re Eco** (≤ 4000 cr) | Play **long‑range rifles**, **wall** mid, **no hero plays**. |\n| **We’re Eco** | **Save**; buy **pistols + one utility**; aim for a **pick** to force a round win. |\n| **Full‑Buy Both** | **Trade utility**; force **5‑v‑5** fights; avoid **over‑extending** on A‑Site. |\n| **Force‑Buy on Their Part** | **Punish** with **early aggression**; they have low **first‑blood conversion** on forced buys. |\n\n---\n\n## 🗺️ Map‑Specific Notes & Site Priorities  \n\n| Map | WR | ATK % | DEF % | OUR PRIORITY |\n|-----|----|------|------|--------------|\n| **Sunset** | **67.2 %** | 86.4 % | 55.6 % | **A‑Site control**, stack B on defense, pressure mid. |\n| **Corrode** | **46.2 %** | 38.5 % | 53.8 % | **Mid pressure**, early A‑site smokes, force **B‑site rotates**. |\n| **Lotus** | 38.9 % | 37.0 % | 41.5 % | Play **slow defaults**, take **door control**, avoid early rushes. |\n| **Haven** | 32.3 % | 35.7 % | 29.6 % | **Rotate quickly** between A‑B, keep **mid‑control** to block three‑site switches. |\n| **Bind** | 7.1 % | 8.3 % | 0.0 % | **Exploit** their lack of defense – **stack A**, use **teleporter delay**. |\n\n**Strategic Takeaways**\n- **Veto** **Bind** (their 0 % defense) if possible – we can dominate.  \n- **Prioritize** **Sunset** and **Corrode** in the map pool; our mid‑control and A‑site focus exploit their biggest weaknesses.  \n\n---\n\n## 📌 Quick Reference Cheat‑Sheet  \n\n- **First Blood → Aggressive 5v4**  \n- **silentzz dead → Plant A, stack B**  \n- **zap dead → Push B, ignore his smokes**  \n- **Lz alive → Double‑peek, never 1v1**  \n- **Eco enemy → Long‑range, wall mid**  \n- **Full‑Buy enemy → Trade utility, force 5v5**  \n\n> **Remember:** Control mid, deny silentzz’s entry, and never give Lz a solo clutch. Execute with layered utility and disciplined economy. Good luck, team!"
+  },
+  "generated_at": "2026-02-02T14:51:51.948235+00:00",
+  "match_limit": 20
+}

@@ -1,0 +1,645 @@
+{
+  "team_name": "Gen.G",
+  "matches_analyzed": 16,
+  "metrics": {
+    "win_rate": 55.2,
+    "win_rate_by_map": {
+      "Ascent": 66.7,
+      "Bind": 46.2,
+      "Breeze": 61.0,
+      "Icebox": 42.2,
+      "Lotus": 47.6,
+      "Split": 61.3
+    },
+    "site_preferences": {
+      "B": 37.9,
+      "A": 62.1
+    },
+    "pistol_site_preferences": {},
+    "aggression": {
+      "style": "Slow/Default",
+      "avg_duration": 79.6,
+      "rush_rate": 0.0
+    },
+    "agent_composition": [
+      {
+        "agent": "viper",
+        "pick_count": 14,
+        "pick_rate": 17.5
+      },
+      {
+        "agent": "jett",
+        "pick_count": 13,
+        "pick_rate": 16.2
+      },
+      {
+        "agent": "omen",
+        "pick_count": 8,
+        "pick_rate": 10.0
+      },
+      {
+        "agent": "raze",
+        "pick_count": 7,
+        "pick_rate": 8.8
+      },
+      {
+        "agent": "killjoy",
+        "pick_count": 7,
+        "pick_rate": 8.8
+      }
+    ],
+    "player_tendencies": [
+      {
+        "player": "Karon",
+        "matches_played": 16,
+        "top_agent": "omen",
+        "top_agent_rate": 50.0,
+        "avg_kills": 15.1,
+        "avg_deaths": 14.3,
+        "avg_assists": 7.4,
+        "kd_ratio": 1.06,
+        "avg_acs": null,
+        "first_kill_rate": 9.8
+      },
+      {
+        "player": "Lakia",
+        "matches_played": 16,
+        "top_agent": "sova",
+        "top_agent_rate": 37.5,
+        "avg_kills": 11.1,
+        "avg_deaths": 14.2,
+        "avg_assists": 5.4,
+        "kd_ratio": 0.78,
+        "avg_acs": null,
+        "first_kill_rate": 6.4
+      },
+      {
+        "player": "Meteor",
+        "matches_played": 16,
+        "top_agent": "killjoy",
+        "top_agent_rate": 43.8,
+        "avg_kills": 16.8,
+        "avg_deaths": 14.8,
+        "avg_assists": 3.8,
+        "kd_ratio": 1.14,
+        "avg_acs": null,
+        "first_kill_rate": 12.2
+      },
+      {
+        "player": "Munchkin",
+        "matches_played": 16,
+        "top_agent": "viper",
+        "top_agent_rate": 68.8,
+        "avg_kills": 13.8,
+        "avg_deaths": 12.6,
+        "avg_assists": 8.1,
+        "kd_ratio": 1.09,
+        "avg_acs": null,
+        "first_kill_rate": 6.1
+      },
+      {
+        "player": "t3xture",
+        "matches_played": 16,
+        "top_agent": "jett",
+        "top_agent_rate": 56.2,
+        "avg_kills": 16.5,
+        "avg_deaths": 15.4,
+        "avg_assists": 3.1,
+        "kd_ratio": 1.07,
+        "avg_acs": null,
+        "first_kill_rate": 16.8
+      }
+    ],
+    "role_distribution": {
+      "Controller": 33.8,
+      "Duelist": 30.0,
+      "Initiator": 26.2,
+      "Sentinel": 10.0
+    },
+    "recent_compositions": {
+      "overall": [
+        {
+          "composition": [
+            "astra",
+            "jett",
+            "sova",
+            "viper",
+            "yoru"
+          ],
+          "matches": 4,
+          "pick_rate": 25.0
+        },
+        {
+          "composition": [
+            "jett",
+            "omen",
+            "raze",
+            "skye",
+            "viper"
+          ],
+          "matches": 4,
+          "pick_rate": 25.0
+        },
+        {
+          "composition": [
+            "gekko",
+            "jett",
+            "kay/o",
+            "killjoy",
+            "viper"
+          ],
+          "matches": 3,
+          "pick_rate": 18.8
+        }
+      ],
+      "by_map": {
+        "ascent": [
+          {
+            "composition": [
+              "jett",
+              "kay/o",
+              "killjoy",
+              "omen",
+              "sova"
+            ],
+            "matches": 2,
+            "pick_rate": 100.0
+          }
+        ],
+        "bind": [
+          {
+            "composition": [
+              "brimstone",
+              "cypher",
+              "raze",
+              "skye",
+              "viper"
+            ],
+            "matches": 1,
+            "pick_rate": 100.0
+          }
+        ],
+        "breeze": [
+          {
+            "composition": [
+              "astra",
+              "jett",
+              "sova",
+              "viper",
+              "yoru"
+            ],
+            "matches": 4,
+            "pick_rate": 100.0
+          }
+        ],
+        "icebox": [
+          {
+            "composition": [
+              "gekko",
+              "jett",
+              "kay/o",
+              "killjoy",
+              "viper"
+            ],
+            "matches": 3,
+            "pick_rate": 100.0
+          }
+        ],
+        "lotus": [
+          {
+            "composition": [
+              "fade",
+              "killjoy",
+              "omen",
+              "raze",
+              "viper"
+            ],
+            "matches": 2,
+            "pick_rate": 100.0
+          }
+        ],
+        "split": [
+          {
+            "composition": [
+              "jett",
+              "omen",
+              "raze",
+              "skye",
+              "viper"
+            ],
+            "matches": 4,
+            "pick_rate": 100.0
+          }
+        ]
+      },
+      "most_recent": [
+        "astra",
+        "jett",
+        "sova",
+        "viper",
+        "yoru"
+      ]
+    },
+    "economy": {
+      "eco": 37.5,
+      "force": 18.8,
+      "full": 43.8
+    },
+    "first_duel": {
+      "team_first_kill_rate": 51.2,
+      "first_kill_conversion_rate": 75.0,
+      "avg_time_to_first_kill": 79.6,
+      "top_first_kill_players": [
+        {
+          "player": "t3xture",
+          "first_kills": 55,
+          "first_kill_rate": 16.8
+        },
+        {
+          "player": "Meteor",
+          "first_kills": 40,
+          "first_kill_rate": 12.2
+        },
+        {
+          "player": "Karon",
+          "first_kills": 32,
+          "first_kill_rate": 9.8
+        },
+        {
+          "player": "Lakia",
+          "first_kills": 21,
+          "first_kill_rate": 6.4
+        },
+        {
+          "player": "Munchkin",
+          "first_kills": 20,
+          "first_kill_rate": 6.1
+        }
+      ],
+      "top_first_kill_weapons": [
+        {
+          "weapon": "vandal",
+          "first_kills": 61,
+          "first_kill_rate": 18.6
+        },
+        {
+          "weapon": "phantom",
+          "first_kills": 42,
+          "first_kill_rate": 12.8
+        },
+        {
+          "weapon": "operator",
+          "first_kills": 14,
+          "first_kill_rate": 4.3
+        }
+      ]
+    },
+    "pistol_rounds": {
+      "overall": {
+        "rounds": 32,
+        "wins": 16,
+        "win_rate": 50.0,
+        "first_kill_rate": 25.0
+      },
+      "by_side": {
+        "attacker": {
+          "rounds": 16,
+          "wins": 7,
+          "win_rate": 43.8,
+          "first_kill_rate": 25.0
+        },
+        "defender": {
+          "rounds": 16,
+          "wins": 9,
+          "win_rate": 56.2,
+          "first_kill_rate": 25.0
+        }
+      }
+    },
+    "combat_metrics": {
+      "trade_efficiency": 35.2,
+      "trade_kills": 401,
+      "trade_opportunities": 1140,
+      "multi_killers": [
+        {
+          "player": "Meteor",
+          "2k": 43,
+          "3k": 20,
+          "4k": 2,
+          "5k": 0,
+          "total": 65
+        },
+        {
+          "player": "t3xture",
+          "2k": 44,
+          "3k": 16,
+          "4k": 3,
+          "5k": 2,
+          "total": 65
+        },
+        {
+          "player": "Munchkin",
+          "2k": 45,
+          "3k": 11,
+          "4k": 3,
+          "5k": 1,
+          "total": 60
+        },
+        {
+          "player": "Karon",
+          "2k": 38,
+          "3k": 14,
+          "4k": 1,
+          "5k": 0,
+          "total": 53
+        },
+        {
+          "player": "Lakia",
+          "2k": 26,
+          "3k": 5,
+          "4k": 2,
+          "5k": 0,
+          "total": 33
+        }
+      ],
+      "clutch_performers": [
+        {
+          "player": "Lakia",
+          "clutches_faced": 20,
+          "clutches_won": 8,
+          "clutch_rate": 40.0
+        },
+        {
+          "player": "Karon",
+          "clutches_faced": 35,
+          "clutches_won": 7,
+          "clutch_rate": 20.0
+        },
+        {
+          "player": "Munchkin",
+          "clutches_faced": 33,
+          "clutches_won": 6,
+          "clutch_rate": 18.2
+        },
+        {
+          "player": "t3xture",
+          "clutches_faced": 32,
+          "clutches_won": 5,
+          "clutch_rate": 15.6
+        },
+        {
+          "player": "Meteor",
+          "clutches_faced": 41,
+          "clutches_won": 4,
+          "clutch_rate": 9.8
+        }
+      ],
+      "opening_duels": [
+        {
+          "player": "t3xture",
+          "opening_wins": 55,
+          "opening_losses": 42,
+          "opening_duel_rate": 56.7
+        },
+        {
+          "player": "Meteor",
+          "opening_wins": 40,
+          "opening_losses": 41,
+          "opening_duel_rate": 49.4
+        },
+        {
+          "player": "Karon",
+          "opening_wins": 32,
+          "opening_losses": 19,
+          "opening_duel_rate": 62.7
+        },
+        {
+          "player": "Lakia",
+          "opening_wins": 21,
+          "opening_losses": 31,
+          "opening_duel_rate": 40.4
+        },
+        {
+          "player": "Munchkin",
+          "opening_wins": 20,
+          "opening_losses": 27,
+          "opening_duel_rate": 42.6
+        }
+      ],
+      "weapon_effectiveness": [
+        {
+          "weapon": "vandal",
+          "kills": 458,
+          "deaths": 416,
+          "kd_ratio": 1.1
+        },
+        {
+          "weapon": "phantom",
+          "kills": 288,
+          "deaths": 261,
+          "kd_ratio": 1.1
+        },
+        {
+          "weapon": "ghost",
+          "kills": 81,
+          "deaths": 82,
+          "kd_ratio": 0.99
+        },
+        {
+          "weapon": "guardian",
+          "kills": 61,
+          "deaths": 36,
+          "kd_ratio": 1.69
+        },
+        {
+          "weapon": "sheriff",
+          "kills": 52,
+          "deaths": 55,
+          "kd_ratio": 0.95
+        },
+        {
+          "weapon": "operator",
+          "kills": 40,
+          "deaths": 28,
+          "kd_ratio": 1.43
+        },
+        {
+          "weapon": "bulldog",
+          "kills": 31,
+          "deaths": 53,
+          "kd_ratio": 0.58
+        },
+        {
+          "weapon": "classic",
+          "kills": 30,
+          "deaths": 63,
+          "kd_ratio": 0.48
+        },
+        {
+          "weapon": "spectre",
+          "kills": 18,
+          "deaths": 18,
+          "kd_ratio": 1.0
+        },
+        {
+          "weapon": "stinger",
+          "kills": 12,
+          "deaths": 36,
+          "kd_ratio": 0.33
+        }
+      ],
+      "total_kills_analyzed": 2311
+    },
+    "side_metrics": {
+      "attack_rounds": 173,
+      "attack_wins": 97,
+      "attack_win_rate": 56.1,
+      "attack_kills": 606,
+      "attack_deaths": 614,
+      "attack_kd": 0.99,
+      "defense_rounds": 155,
+      "defense_wins": 84,
+      "defense_win_rate": 54.2,
+      "defense_kills": 565,
+      "defense_deaths": 526,
+      "defense_kd": 1.07
+    },
+    "map_metrics": null,
+    "economy_metrics": null,
+    "opponent_stats": [
+      {
+        "opponent": "Sentinels",
+        "matches": 8,
+        "rounds_played": 164,
+        "rounds_won": 87,
+        "win_rate": 53.0
+      },
+      {
+        "opponent": "EDward Gaming",
+        "matches": 3,
+        "rounds_played": 58,
+        "rounds_won": 34,
+        "win_rate": 58.6
+      },
+      {
+        "opponent": "LOUD",
+        "matches": 3,
+        "rounds_played": 63,
+        "rounds_won": 34,
+        "win_rate": 54.0
+      },
+      {
+        "opponent": "Paper Rex",
+        "matches": 2,
+        "rounds_played": 43,
+        "rounds_won": 26,
+        "win_rate": 60.5
+      }
+    ],
+    "map_detailed": {
+      "Breeze": {
+        "rounds_played": 77,
+        "rounds_won": 47,
+        "win_rate": 61.0,
+        "attack_rounds": 37,
+        "attack_wins": 27,
+        "attack_win_rate": 73.0,
+        "defense_rounds": 40,
+        "defense_wins": 20,
+        "defense_win_rate": 50.0,
+        "top_agent": "Jett"
+      },
+      "Bind": {
+        "rounds_played": 26,
+        "rounds_won": 12,
+        "win_rate": 46.2,
+        "attack_rounds": 13,
+        "attack_wins": 6,
+        "attack_win_rate": 46.2,
+        "defense_rounds": 13,
+        "defense_wins": 6,
+        "defense_win_rate": 46.2,
+        "top_agent": "Raze"
+      },
+      "Ascent": {
+        "rounds_played": 39,
+        "rounds_won": 26,
+        "win_rate": 66.7,
+        "attack_rounds": 24,
+        "attack_wins": 15,
+        "attack_win_rate": 62.5,
+        "defense_rounds": 15,
+        "defense_wins": 11,
+        "defense_win_rate": 73.3,
+        "top_agent": "Jett"
+      },
+      "Split": {
+        "rounds_played": 80,
+        "rounds_won": 49,
+        "win_rate": 61.3,
+        "attack_rounds": 48,
+        "attack_wins": 27,
+        "attack_win_rate": 56.2,
+        "defense_rounds": 32,
+        "defense_wins": 22,
+        "defense_win_rate": 68.8,
+        "top_agent": "Raze"
+      },
+      "Icebox": {
+        "rounds_played": 64,
+        "rounds_won": 27,
+        "win_rate": 42.2,
+        "attack_rounds": 33,
+        "attack_wins": 15,
+        "attack_win_rate": 45.5,
+        "defense_rounds": 31,
+        "defense_wins": 12,
+        "defense_win_rate": 38.7,
+        "top_agent": "Jett"
+      },
+      "Lotus": {
+        "rounds_played": 42,
+        "rounds_won": 20,
+        "win_rate": 47.6,
+        "attack_rounds": 18,
+        "attack_wins": 7,
+        "attack_win_rate": 38.9,
+        "defense_rounds": 24,
+        "defense_wins": 13,
+        "defense_win_rate": 54.2,
+        "top_agent": "Raze"
+      }
+    },
+    "round_type_performance": {
+      "pistol": {
+        "rounds": 32,
+        "wins": 16,
+        "win_rate": 50.0
+      },
+      "eco": {
+        "rounds": 64,
+        "wins": 34,
+        "win_rate": 53.1
+      },
+      "force": {
+        "rounds": 94,
+        "wins": 53,
+        "win_rate": 56.4
+      },
+      "full_buy": {
+        "rounds": 138,
+        "wins": 78,
+        "win_rate": 56.5
+      }
+    }
+  },
+  "insights": {
+    "strategies": "## Attack Patterns\n- **Site Distribution**: A-Site 62.1%, B-Site 37.9%\n- **Tempo**: Fast (high first blood rate) - 51.2% first blood rate\n- **Post-FB Conversion**: 75.0% - Strong closers\n\n## Defense Patterns\n- **Side Strength**: Attack 56.1% vs Defense 54.2%\n- **Style**: Retake-focused\n- **Trade Discipline**: 35.2%\n\n## Economic Behavior\n- **Pistol Win Rate**: 50.0%\n- **Eco Win Rate**: 53.1% (league avg ~15%)\n- **Full Buy Win Rate**: 56.5%\n\n## Overall\n- **Win Rate**: 55.2%",
+    "tendencies": "## Player Scouting Cards\n\n### 🎯 Entry Fragger (Primary Threat)\n**t3xture**\n- **Stats**: 56.7% win rate on 97 duels\n- **Threat Level**: CRITICAL\n- **Counter**: Hold off-angles, use utility to deny entry\n\n### 🔻 Weak Link (Isolation Target)\n**Lakia**\n- **Stats**: KD: 0.78\n- **Exploitation**: Hunt on rotations, force isolated 1v1s\n\n### 🏆 Clutch King (Avoid 1vX)\n**Lakia**\n- **Stats**: 8/20 clutches\n- **Protocol**: ALWAYS double-peek, never give 1v1 clutch\n\n## Team Patterns\n- **Trade Efficiency**: 35.2% - Die isolated\n- **First Blood**: 51.2% rate, 75.0% conversion",
+    "compositions": "## Agent Core\nviper (17.5%), jett (16.2%), omen (10.0%), raze (8.8%), killjoy (8.8%)\n\n## Role Distribution\nController: 33.8%, Duelist: 30.0%, Initiator: 26.2%, Sentinel: 10.0%\n\n## Default Setups\n\n### Defense Formation\n- **Primary Site**: A-Site (62.1% preference)\n- **Classification**: Duelist-heavy\n\n### Attack Formation\n- **Target Site**: A-Site favored\n- **Style**: Fast execute",
+    "counters": "## Agent Counters\nBased on their agent pool, prepare counters for:\n- viper (17.5%), jett (16.2%), omen (10.0%), raze (8.8%), killjoy (8.8%)\n\n## Site Control Denial\n- **Their Preference**: A-Site (62.1%)\n- **Counter**: Stack A on defense\n\n## Economic Warfare\n- **Anti-Eco Protocol**: Play long range - {eco_wr:.1f}% eco danger\n- **Anti-Pistol**: 50.0% pistol rate - Winnable\n\n## Setup Breakers\n- **Trading**: They die alone - take 1v1s",
+    "how_to_win": "## 🎯 Win Condition Summary\n**Primary**: Neutralize t3xture early, hunt Lakia\n**Avoid**: Giving Lakia clutch opportunities\n\n## 📋 Round Protocol\n\n### Pistol (Round 1)\n- Their rate: 50.0%\n- **Strategy**: Aggressive entry\n\n### Anti-Eco (Rounds 2-3)\n- Their eco rate: 53.1%\n- **Protocol**: Long range, no hero plays\n\n### Gun Rounds\n- **Attack**: Target B-Site (they stack other)\n- **Defense**: Stack their preferred site\n\n## 🔄 IF/THEN Decision Tree\n\n### Opening Duel\n- **IF** we get FB (their conv: 75.0%) → Methodical\n- **IF** we lose FB → Reset\n\n### Man Advantage\n- **5v4**: Push - they die alone\n- **4v5**: Save\n\n## 👤 Player Assignments\n- **HUNT**: t3xture\n- **ISOLATE**: Lakia\n- **AVOID 1v1**: Lakia\n\n## 💰 Economy\n- **Their Eco**: RESPECT\n- **Full Buy**: 56.5% rate"
+  },
+  "generated_at": "2026-02-02T14:52:06.391122+00:00",
+  "match_limit": 20
+}

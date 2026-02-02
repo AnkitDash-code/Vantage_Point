@@ -1,0 +1,120 @@
+﻿VALORANT Domain Knowledge Reference
+Essential Game Mechanics and Data Structures for AI Implementation
+
+1. Game Structure Overview
+VALORANT is a 5v5 tactical shooter where matches are divided into discrete rounds. Understanding this structure is critical for data modeling and analysis.
+
+1.1 Match Format
+• Best of 24 rounds (first to 13 wins)
+• Teams switch sides at round 12 (Attack ↔ Defense)
+• Overtime triggers at 12-12 (win by 2)
+• Each round is independent with defined start/end states
+
+1.2 Round Phases
+PhaseDurationDescriptionBuy Phase45 secondsPlayers purchase weapons, shields, and abilities using credits earned from previous roundsAction Phase100 secondsCombat phase where Attackers try to plant spike and Defenders prevent itPost-Plant45 secondsSpike timer countdown; Defenders must defuse (7 seconds) or Attackers protect until detonation
+2. Economy System
+The economy dictates team strategy and must be modeled as a finite state machine for accurate analysis.
+
+2.1 Credit Earning Rules
+EventCreditsNotesRound Loss1900Base amountConsecutive Loss Bonus+500/roundMax 2900Round Win (Elimination)3000Full team wipeRound Win (Spike Detonation/Defuse)3500Objective playKill200Per eliminationSpike Plant300Team bonus
+2.2 Buy States
+StateCredit RangeStrategic ImplicationsEco Round< 2000Save credits, minimal purchases (pistols only), expect to lose but save for next roundForce Buy2000-3900Risky buy with SMGs/light armor to break enemy economy or make desperate playFull Buy> 3900Rifles, heavy shields, full utility - standard competitive loadout
+3. Agent Roles and Performance Metrics
+VALORANT agents are categorized into four roles. Role-based analysis is essential for detecting player mistakes.
+
+3.1 Role Definitions
+RoleExamplesPrimary FunctionKey MetricsDuelistJett, Raze, Phoenix, Reyna, Yoru, NeonEntry fragging - first contact to open sitesFirst Blood %, Entry Success Rate, K/DControllerOmen, Viper, Brimstone, Astra, Harbor, CloveSmoke placement to block vision and control mapKAST %, Survival Rate, Ability UsageInitiatorSova, Breach, Skye, KAY/O, Fade, GekkoGather intel and set up teammates with utilityAssist Rate, Damage per Round, Flash AssistsSentinelKilljoy, Cypher, Sage, Chamber, Deadlock, VyseDefensive anchors and map control through traps/wallsKAST %, Multi-kills on defense, Trap Activations
+3.2 Critical Metrics Formulas
+KAST (Kill, Assist, Survive, Trade)
+Percentage of rounds where player gets a kill, assist, survives, or is traded within 5 seconds of death. Formula: KAST = (K + A + S + T) / Total Rounds × 100
+
+First Blood %
+Percentage of rounds where player gets the first kill. Formula: FB% = First Bloods / Total Rounds × 100
+
+ACS (Average Combat Score)
+Weighted scoring system: Kill = 150 points, Death = -50 points, Assist = 50 points, First Blood = +25, Multi-kill bonuses. Formula: ACS = Total Combat Score / Rounds Played
+
+4. Map Structure and Sites
+VALORANT has 11 competitive maps (as of 2026). Each map has 2-3 spike plant sites.
+
+4.1 Active Map Pool
+Map NameSitesCharacteristicsAscentA, BMid-focused map with doors, open sightlinesBindA, BTwo teleporters, no mid, aggressive playHavenA, B, COnly 3-site map, complex rotationsSplitA, BVertical gameplay with rafters, tight chokepointsIceboxA, BHeavy verticality, ziplines, tight corridorsBreezeA, BLarge open spaces, long sightlinesFractureA, BAttackers spawn on both sides, unique layoutPearlA, BTraditional three-lane structure, no midLotusA, B, CThree sites with rotating doorsSunsetA, BComplex mid control with multiple levelsAbyssA, BNo barriers - falling off map possible
+5. Strategic Patterns for Analysis
+5.1 Playstyle Taxonomy
+Use round duration and site attack timing to classify strategies:
+
+Rush (< 40 seconds)
+• Fast execution with minimal utility setup
+• High variance - win quickly or lose fast
+• Often used on Eco/Force Buy rounds
+
+Default (40-80 seconds)
+• Standard map control with utility
+• Gather information before committing
+• Most common in Full Buy rounds
+
+Slow/Default (> 80 seconds)
+• Extensive map control and utility drainage
+• Late-round execute after forcing rotations
+• High success rate but time pressure
+
+5.2 Common Micro-Errors to Detect
+These patterns indicate coaching opportunities:
+
+Free Death
+Death within first 15 seconds with 0 damage dealt or utility used. Indicates: overpeek, bad positioning, or unnecessary aggression.
+
+Controller Dying First
+Catastrophic error - team loses smokes for entire round. Should be <5% death rate in first 30 seconds.
+
+Duelist Baiting
+High K/D but low First Blood percentage. Indicates player not fulfilling entry role and letting teammates die first.
+
+Bad Economy Decision
+Force buying when team has <4000 credits per player. Should coordinate full save or full buy.
+
+Unused Ultimate
+High-impact ability available but not used in losing round. Check if player died with ultimate ready.
+
+6. GRID API Data Mapping
+Critical fields to extract from GRID GraphQL responses:
+
+6.1 Match Level
+• match.id: Unique identifier
+• match.teams: Array of two teams
+• match.map.name: Map played
+• match.segments: Array of rounds
+
+6.2 Segment (Round) Level
+• segment.segmentIndex: Round number (1-24+)
+• segment.winner: Winning team ID
+• segment.endReason: 'Elimination' | 'Spike Detonation' | 'Spike Defused' | 'Time'
+• segment.duration: Round length in seconds
+• segment.plantLocation: Site where spike planted (if applicable)
+
+6.3 Player Stats Level
+• player.id: Unique player identifier
+• player.inGameName: Display name
+• player.agent.name: Character played
+• playerStats.kills: Total eliminations
+• playerStats.deaths: Total deaths
+• playerStats.assists: Damage assists
+• playerStats.acs: Average Combat Score
+• playerStats.economy: Credits spent/earned
+
+7. Implementation Priorities
+For AI coding assistance, focus on these areas in order:
+
+Phase 1 Essentials:
+• Win rate calculation per map
+• Site attack preference (A/B/C frequencies)
+• Agent composition analysis
+• Aggression index (round duration)
+• Economy state distribution
+
+Phase 2 Advanced:
+• Free death detection heuristic
+• Role-based performance evaluation
+• Impact scoring algorithm
+• Correlation analysis (errors → losses)
+

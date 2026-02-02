@@ -1,0 +1,49 @@
+query TeamMatches($teamName: String!, $limit: Int!, $gameTitle: String!) {
+  matches(
+    filter: {
+      teams: { name: { eq: $teamName } }
+      game: { title: { eq: $gameTitle } }
+    }
+    limit: $limit
+    orderBy: { field: START_TIME, direction: DESC }
+  ) {
+    id
+    startTime
+    teams {
+      id
+      name
+    }
+    map {
+      name
+    }
+    segments {
+      segmentIndex
+      winner {
+        id
+        name
+      }
+      endReason
+      duration
+      plantLocation
+    }
+    players {
+      id
+      inGameName
+      team {
+        id
+        name
+      }
+      agent {
+        name
+        role
+      }
+      playerStats {
+        kills
+        deaths
+        assists
+        acs
+        economy
+      }
+    }
+  }
+}

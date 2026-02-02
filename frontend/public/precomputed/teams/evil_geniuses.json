@@ -1,0 +1,952 @@
+{
+  "team_name": "Evil Geniuses",
+  "matches_analyzed": 20,
+  "metrics": {
+    "win_rate": 47.6,
+    "win_rate_by_map": {
+      "Abyss": 53.5,
+      "Ascent": 45.7,
+      "Bind": 48.8,
+      "Corrode": 48.8,
+      "Fracture": 55.4,
+      "Haven": 37.6,
+      "Icebox": 48.9,
+      "Lotus": 49.8,
+      "Pearl": 48.2,
+      "Split": 40.7,
+      "Sunset": 48.4
+    },
+    "site_preferences": {
+      "B": 34.8,
+      "A": 50.6,
+      "C": 14.6
+    },
+    "pistol_site_preferences": {},
+    "aggression": {
+      "style": "Slow/Default",
+      "avg_duration": 152.0,
+      "rush_rate": 0.0
+    },
+    "agent_composition": [
+      {
+        "agent": "omen",
+        "pick_count": 27,
+        "pick_rate": 10.8
+      },
+      {
+        "agent": "sova",
+        "pick_count": 21,
+        "pick_rate": 8.4
+      },
+      {
+        "agent": "raze",
+        "pick_count": 19,
+        "pick_rate": 7.6
+      },
+      {
+        "agent": "viper",
+        "pick_count": 19,
+        "pick_rate": 7.6
+      },
+      {
+        "agent": "cypher",
+        "pick_count": 17,
+        "pick_rate": 6.8
+      }
+    ],
+    "player_tendencies": [
+      {
+        "player": "Derrek",
+        "matches_played": 50,
+        "top_agent": "sova",
+        "top_agent_rate": 34.0,
+        "avg_kills": 14.5,
+        "avg_deaths": 14.7,
+        "avg_assists": 6.2,
+        "kd_ratio": 0.98,
+        "avg_acs": null,
+        "first_kill_rate": 5.1
+      },
+      {
+        "player": "NaturE",
+        "matches_played": 50,
+        "top_agent": "breach",
+        "top_agent_rate": 32.0,
+        "avg_kills": 12.7,
+        "avg_deaths": 15.3,
+        "avg_assists": 8.3,
+        "kd_ratio": 0.83,
+        "avg_acs": null,
+        "first_kill_rate": 5.1
+      },
+      {
+        "player": "supamen",
+        "matches_played": 50,
+        "top_agent": "omen",
+        "top_agent_rate": 46.0,
+        "avg_kills": 14.4,
+        "avg_deaths": 15.0,
+        "avg_assists": 5.8,
+        "kd_ratio": 0.96,
+        "avg_acs": null,
+        "first_kill_rate": 6.1
+      },
+      {
+        "player": "icy",
+        "matches_played": 38,
+        "top_agent": "raze",
+        "top_agent_rate": 42.1,
+        "avg_kills": 15.4,
+        "avg_deaths": 16.3,
+        "avg_assists": 3.6,
+        "kd_ratio": 0.94,
+        "avg_acs": null,
+        "first_kill_rate": 13.0
+      },
+      {
+        "player": "yay",
+        "matches_played": 38,
+        "top_agent": "jett",
+        "top_agent_rate": 28.9,
+        "avg_kills": 16.7,
+        "avg_deaths": 16.6,
+        "avg_assists": 3.8,
+        "kd_ratio": 1.01,
+        "avg_acs": null,
+        "first_kill_rate": 18.4
+      },
+      {
+        "player": "Apoth",
+        "matches_played": 12,
+        "top_agent": "cypher",
+        "top_agent_rate": 58.3,
+        "avg_kills": 9.9,
+        "avg_deaths": 14.8,
+        "avg_assists": 5.1,
+        "kd_ratio": 0.67,
+        "avg_acs": null,
+        "first_kill_rate": null
+      },
+      {
+        "player": "JAWGEMO",
+        "matches_played": 12,
+        "top_agent": "neon",
+        "top_agent_rate": 41.7,
+        "avg_kills": 16.3,
+        "avg_deaths": 16.2,
+        "avg_assists": 5.2,
+        "kd_ratio": 1.01,
+        "avg_acs": null,
+        "first_kill_rate": null
+      }
+    ],
+    "role_distribution": {
+      "Initiator": 33.6,
+      "Controller": 29.6,
+      "Duelist": 21.6,
+      "Sentinel": 15.2
+    },
+    "recent_compositions": {
+      "overall": [
+        {
+          "composition": [
+            "clove",
+            "fade",
+            "raze",
+            "tejo",
+            "viper"
+          ],
+          "matches": 7,
+          "pick_rate": 14.0
+        },
+        {
+          "composition": [
+            "breach",
+            "cypher",
+            "fade",
+            "neon",
+            "omen"
+          ],
+          "matches": 5,
+          "pick_rate": 10.0
+        },
+        {
+          "composition": [
+            "cypher",
+            "jett",
+            "kay/o",
+            "omen",
+            "sova"
+          ],
+          "matches": 5,
+          "pick_rate": 10.0
+        }
+      ],
+      "by_map": {
+        "abyss": [
+          {
+            "composition": [
+              "astra",
+              "jett",
+              "omen",
+              "sova",
+              "vyse"
+            ],
+            "matches": 2,
+            "pick_rate": 100.0
+          }
+        ],
+        "ascent": [
+          {
+            "composition": [
+              "cypher",
+              "jett",
+              "kay/o",
+              "omen",
+              "sova"
+            ],
+            "matches": 4,
+            "pick_rate": 100.0
+          }
+        ],
+        "bind": [
+          {
+            "composition": [
+              "brimstone",
+              "gekko",
+              "omen",
+              "raze",
+              "skye"
+            ],
+            "matches": 3,
+            "pick_rate": 75.0
+          },
+          {
+            "composition": [
+              "brimstone",
+              "fade",
+              "gekko",
+              "raze",
+              "viper"
+            ],
+            "matches": 1,
+            "pick_rate": 25.0
+          }
+        ],
+        "corrode": [
+          {
+            "composition": [
+              "chamber",
+              "neon",
+              "omen",
+              "sova",
+              "viper"
+            ],
+            "matches": 4,
+            "pick_rate": 100.0
+          }
+        ],
+        "fracture": [
+          {
+            "composition": [
+              "breach",
+              "brimstone",
+              "killjoy",
+              "raze",
+              "tejo"
+            ],
+            "matches": 2,
+            "pick_rate": 66.7
+          },
+          {
+            "composition": [
+              "breach",
+              "brimstone",
+              "cypher",
+              "raze",
+              "tejo"
+            ],
+            "matches": 1,
+            "pick_rate": 33.3
+          }
+        ],
+        "haven": [
+          {
+            "composition": [
+              "breach",
+              "cypher",
+              "omen",
+              "sova",
+              "waylay"
+            ],
+            "matches": 3,
+            "pick_rate": 60.0
+          },
+          {
+            "composition": [
+              "breach",
+              "cypher",
+              "jett",
+              "omen",
+              "sova"
+            ],
+            "matches": 2,
+            "pick_rate": 40.0
+          }
+        ],
+        "icebox": [
+          {
+            "composition": [
+              "jett",
+              "kay/o",
+              "killjoy",
+              "sova",
+              "viper"
+            ],
+            "matches": 2,
+            "pick_rate": 50.0
+          },
+          {
+            "composition": [
+              "clove",
+              "harbor",
+              "killjoy",
+              "sage",
+              "sova"
+            ],
+            "matches": 1,
+            "pick_rate": 25.0
+          },
+          {
+            "composition": [
+              "clove",
+              "harbor",
+              "iso",
+              "killjoy",
+              "sova"
+            ],
+            "matches": 1,
+            "pick_rate": 25.0
+          }
+        ],
+        "lotus": [
+          {
+            "composition": [
+              "clove",
+              "fade",
+              "raze",
+              "tejo",
+              "viper"
+            ],
+            "matches": 7,
+            "pick_rate": 58.3
+          },
+          {
+            "composition": [
+              "breach",
+              "cypher",
+              "fade",
+              "neon",
+              "omen"
+            ],
+            "matches": 3,
+            "pick_rate": 25.0
+          },
+          {
+            "composition": [
+              "chamber",
+              "clove",
+              "fade",
+              "raze",
+              "viper"
+            ],
+            "matches": 1,
+            "pick_rate": 8.3
+          }
+        ],
+        "pearl": [
+          {
+            "composition": [
+              "astra",
+              "jett",
+              "tejo",
+              "vyse",
+              "yoru"
+            ],
+            "matches": 4,
+            "pick_rate": 80.0
+          },
+          {
+            "composition": [
+              "astra",
+              "jett",
+              "phoenix",
+              "sova",
+              "vyse"
+            ],
+            "matches": 1,
+            "pick_rate": 20.0
+          }
+        ],
+        "split": [
+          {
+            "composition": [
+              "astra",
+              "breach",
+              "raze",
+              "tejo",
+              "viper"
+            ],
+            "matches": 2,
+            "pick_rate": 50.0
+          },
+          {
+            "composition": [
+              "chamber",
+              "omen",
+              "raze",
+              "skye",
+              "viper"
+            ],
+            "matches": 2,
+            "pick_rate": 50.0
+          }
+        ],
+        "sunset": [
+          {
+            "composition": [
+              "breach",
+              "cypher",
+              "fade",
+              "neon",
+              "omen"
+            ],
+            "matches": 2,
+            "pick_rate": 66.7
+          },
+          {
+            "composition": [
+              "cypher",
+              "jett",
+              "kay/o",
+              "omen",
+              "sova"
+            ],
+            "matches": 1,
+            "pick_rate": 33.3
+          }
+        ]
+      },
+      "most_recent": [
+        "brimstone",
+        "fade",
+        "gekko",
+        "raze",
+        "viper"
+      ]
+    },
+    "economy": {
+      "eco": 50.0,
+      "force": 14.0,
+      "full": 36.0
+    },
+    "first_duel": {
+      "team_first_kill_rate": 47.8,
+      "first_kill_conversion_rate": 70.1,
+      "avg_time_to_first_kill": 98.3,
+      "top_first_kill_players": [
+        {
+          "player": "yay",
+          "first_kills": 111,
+          "first_kill_rate": 18.4
+        },
+        {
+          "player": "icy",
+          "first_kills": 78,
+          "first_kill_rate": 13.0
+        },
+        {
+          "player": "supamen",
+          "first_kills": 37,
+          "first_kill_rate": 6.1
+        },
+        {
+          "player": "NaturE",
+          "first_kills": 31,
+          "first_kill_rate": 5.1
+        },
+        {
+          "player": "Derrek",
+          "first_kills": 31,
+          "first_kill_rate": 5.1
+        }
+      ],
+      "top_first_kill_weapons": [
+        {
+          "weapon": "vandal",
+          "first_kills": 69,
+          "first_kill_rate": 11.5
+        },
+        {
+          "weapon": "phantom",
+          "first_kills": 68,
+          "first_kill_rate": 11.3
+        },
+        {
+          "weapon": "operator",
+          "first_kills": 28,
+          "first_kill_rate": 4.7
+        }
+      ]
+    },
+    "pistol_rounds": {
+      "overall": {
+        "rounds": 56,
+        "wins": 24,
+        "win_rate": 42.9,
+        "first_kill_rate": 50.0
+      },
+      "by_side": {
+        "attacker": {
+          "rounds": 28,
+          "wins": 13,
+          "win_rate": 46.4,
+          "first_kill_rate": 46.4
+        },
+        "defender": {
+          "rounds": 28,
+          "wins": 11,
+          "win_rate": 39.3,
+          "first_kill_rate": 53.6
+        }
+      }
+    },
+    "combat_metrics": {
+      "trade_efficiency": 35.9,
+      "trade_kills": 792,
+      "trade_opportunities": 2204,
+      "multi_killers": [
+        {
+          "player": "yay",
+          "2k": 72,
+          "3k": 29,
+          "4k": 11,
+          "5k": 2,
+          "total": 114
+        },
+        {
+          "player": "Derrek",
+          "2k": 74,
+          "3k": 21,
+          "4k": 3,
+          "5k": 0,
+          "total": 98
+        },
+        {
+          "player": "supamen",
+          "2k": 65,
+          "3k": 26,
+          "4k": 3,
+          "5k": 0,
+          "total": 94
+        },
+        {
+          "player": "icy",
+          "2k": 65,
+          "3k": 20,
+          "4k": 8,
+          "5k": 0,
+          "total": 93
+        },
+        {
+          "player": "NaturE",
+          "2k": 50,
+          "3k": 17,
+          "4k": 3,
+          "5k": 1,
+          "total": 71
+        }
+      ],
+      "clutch_performers": [
+        {
+          "player": "NaturE",
+          "clutches_faced": 66,
+          "clutches_won": 13,
+          "clutch_rate": 19.7
+        },
+        {
+          "player": "icy",
+          "clutches_faced": 63,
+          "clutches_won": 13,
+          "clutch_rate": 20.6
+        },
+        {
+          "player": "supamen",
+          "clutches_faced": 79,
+          "clutches_won": 12,
+          "clutch_rate": 15.2
+        },
+        {
+          "player": "Derrek",
+          "clutches_faced": 75,
+          "clutches_won": 9,
+          "clutch_rate": 12.0
+        },
+        {
+          "player": "yay",
+          "clutches_faced": 52,
+          "clutches_won": 6,
+          "clutch_rate": 11.5
+        }
+      ],
+      "opening_duels": [
+        {
+          "player": "yay",
+          "opening_wins": 111,
+          "opening_losses": 103,
+          "opening_duel_rate": 51.9
+        },
+        {
+          "player": "icy",
+          "opening_wins": 78,
+          "opening_losses": 91,
+          "opening_duel_rate": 46.2
+        },
+        {
+          "player": "supamen",
+          "opening_wins": 37,
+          "opening_losses": 46,
+          "opening_duel_rate": 44.6
+        },
+        {
+          "player": "NaturE",
+          "opening_wins": 31,
+          "opening_losses": 46,
+          "opening_duel_rate": 40.3
+        },
+        {
+          "player": "Derrek",
+          "opening_wins": 31,
+          "opening_losses": 28,
+          "opening_duel_rate": 52.5
+        }
+      ],
+      "weapon_effectiveness": [
+        {
+          "weapon": "phantom",
+          "kills": 586,
+          "deaths": 638,
+          "kd_ratio": 0.92
+        },
+        {
+          "weapon": "vandal",
+          "kills": 571,
+          "deaths": 712,
+          "kd_ratio": 0.8
+        },
+        {
+          "weapon": "ghost",
+          "kills": 132,
+          "deaths": 134,
+          "kd_ratio": 0.99
+        },
+        {
+          "weapon": "sheriff",
+          "kills": 127,
+          "deaths": 71,
+          "kd_ratio": 1.79
+        },
+        {
+          "weapon": "classic",
+          "kills": 110,
+          "deaths": 146,
+          "kd_ratio": 0.75
+        },
+        {
+          "weapon": "guardian",
+          "kills": 99,
+          "deaths": 75,
+          "kd_ratio": 1.32
+        },
+        {
+          "weapon": "operator",
+          "kills": 80,
+          "deaths": 56,
+          "kd_ratio": 1.43
+        },
+        {
+          "weapon": "bulldog",
+          "kills": 59,
+          "deaths": 77,
+          "kd_ratio": 0.77
+        },
+        {
+          "weapon": "stinger",
+          "kills": 56,
+          "deaths": 80,
+          "kd_ratio": 0.7
+        },
+        {
+          "weapon": "outlaw",
+          "kills": 32,
+          "deaths": 36,
+          "kd_ratio": 0.89
+        }
+      ],
+      "total_kills_analyzed": 4252
+    },
+    "side_metrics": {
+      "attack_rounds": 549,
+      "attack_wins": 277,
+      "attack_win_rate": 50.5,
+      "attack_kills": 1063,
+      "attack_deaths": 1148,
+      "attack_kd": 0.93,
+      "defense_rounds": 510,
+      "defense_wins": 227,
+      "defense_win_rate": 44.5,
+      "defense_kills": 985,
+      "defense_deaths": 1056,
+      "defense_kd": 0.93
+    },
+    "map_metrics": null,
+    "economy_metrics": null,
+    "opponent_stats": [
+      {
+        "opponent": "LOUD (1)",
+        "matches": 8,
+        "rounds_played": 185,
+        "rounds_won": 93,
+        "win_rate": 50.3
+      },
+      {
+        "opponent": "100 Thieves",
+        "matches": 7,
+        "rounds_played": 152,
+        "rounds_won": 63,
+        "win_rate": 41.4
+      },
+      {
+        "opponent": "FURIA",
+        "matches": 6,
+        "rounds_played": 116,
+        "rounds_won": 78,
+        "win_rate": 67.2
+      },
+      {
+        "opponent": "G2 Esports",
+        "matches": 6,
+        "rounds_played": 124,
+        "rounds_won": 52,
+        "win_rate": 41.9
+      },
+      {
+        "opponent": "2GAME eSports",
+        "matches": 5,
+        "rounds_played": 111,
+        "rounds_won": 59,
+        "win_rate": 53.2
+      },
+      {
+        "opponent": "Sentinels",
+        "matches": 4,
+        "rounds_played": 74,
+        "rounds_won": 22,
+        "win_rate": 29.7
+      },
+      {
+        "opponent": "Cloud9",
+        "matches": 4,
+        "rounds_played": 93,
+        "rounds_won": 45,
+        "win_rate": 48.4
+      },
+      {
+        "opponent": "KRÜ Esports",
+        "matches": 4,
+        "rounds_played": 87,
+        "rounds_won": 53,
+        "win_rate": 60.9
+      },
+      {
+        "opponent": "MIBR (1)",
+        "matches": 4,
+        "rounds_played": 76,
+        "rounds_won": 24,
+        "win_rate": 31.6
+      },
+      {
+        "opponent": "Leviatán Esports",
+        "matches": 2,
+        "rounds_played": 41,
+        "rounds_won": 15,
+        "win_rate": 36.6
+      }
+    ],
+    "map_detailed": {
+      "Bind": {
+        "rounds_played": 80,
+        "rounds_won": 39,
+        "win_rate": 48.8,
+        "attack_rounds": 46,
+        "attack_wins": 24,
+        "attack_win_rate": 52.2,
+        "defense_rounds": 34,
+        "defense_wins": 15,
+        "defense_win_rate": 44.1,
+        "top_agent": "Raze"
+      },
+      "Corrode": {
+        "rounds_played": 86,
+        "rounds_won": 42,
+        "win_rate": 48.8,
+        "attack_rounds": 49,
+        "attack_wins": 26,
+        "attack_win_rate": 53.1,
+        "defense_rounds": 37,
+        "defense_wins": 16,
+        "defense_win_rate": 43.2,
+        "top_agent": "Neon"
+      },
+      "Ascent": {
+        "rounds_played": 81,
+        "rounds_won": 37,
+        "win_rate": 45.7,
+        "attack_rounds": 35,
+        "attack_wins": 15,
+        "attack_win_rate": 42.9,
+        "defense_rounds": 46,
+        "defense_wins": 22,
+        "defense_win_rate": 47.8,
+        "top_agent": "Cypher"
+      },
+      "Lotus": {
+        "rounds_played": 249,
+        "rounds_won": 124,
+        "win_rate": 49.8,
+        "attack_rounds": 121,
+        "attack_wins": 62,
+        "attack_win_rate": 51.2,
+        "defense_rounds": 128,
+        "defense_wins": 62,
+        "defense_win_rate": 48.4,
+        "top_agent": "Fade"
+      },
+      "Haven": {
+        "rounds_played": 101,
+        "rounds_won": 38,
+        "win_rate": 37.6,
+        "attack_rounds": 53,
+        "attack_wins": 26,
+        "attack_win_rate": 49.1,
+        "defense_rounds": 48,
+        "defense_wins": 12,
+        "defense_win_rate": 25.0,
+        "top_agent": "Cypher"
+      },
+      "Sunset": {
+        "rounds_played": 62,
+        "rounds_won": 30,
+        "win_rate": 48.4,
+        "attack_rounds": 36,
+        "attack_wins": 18,
+        "attack_win_rate": 50.0,
+        "defense_rounds": 26,
+        "defense_wins": 12,
+        "defense_win_rate": 46.2,
+        "top_agent": "Cypher"
+      },
+      "Split": {
+        "rounds_played": 86,
+        "rounds_won": 35,
+        "win_rate": 40.7,
+        "attack_rounds": 45,
+        "attack_wins": 13,
+        "attack_win_rate": 28.9,
+        "defense_rounds": 41,
+        "defense_wins": 22,
+        "defense_win_rate": 53.7,
+        "top_agent": "Raze"
+      },
+      "Pearl": {
+        "rounds_played": 112,
+        "rounds_won": 54,
+        "win_rate": 48.2,
+        "attack_rounds": 60,
+        "attack_wins": 33,
+        "attack_win_rate": 55.0,
+        "defense_rounds": 52,
+        "defense_wins": 21,
+        "defense_win_rate": 40.4,
+        "top_agent": "Vyse"
+      },
+      "Icebox": {
+        "rounds_played": 94,
+        "rounds_won": 46,
+        "win_rate": 48.9,
+        "attack_rounds": 50,
+        "attack_wins": 27,
+        "attack_win_rate": 54.0,
+        "defense_rounds": 44,
+        "defense_wins": 19,
+        "defense_win_rate": 43.2,
+        "top_agent": "Killjoy"
+      },
+      "Fracture": {
+        "rounds_played": 65,
+        "rounds_won": 36,
+        "win_rate": 55.4,
+        "attack_rounds": 34,
+        "attack_wins": 21,
+        "attack_win_rate": 61.8,
+        "defense_rounds": 31,
+        "defense_wins": 15,
+        "defense_win_rate": 48.4,
+        "top_agent": "Raze"
+      },
+      "Abyss": {
+        "rounds_played": 43,
+        "rounds_won": 23,
+        "win_rate": 53.5,
+        "attack_rounds": 20,
+        "attack_wins": 12,
+        "attack_win_rate": 60.0,
+        "defense_rounds": 23,
+        "defense_wins": 11,
+        "defense_win_rate": 47.8,
+        "top_agent": "Jett"
+      }
+    },
+    "round_type_performance": {
+      "pistol": {
+        "rounds": 100,
+        "wins": 46,
+        "win_rate": 46.0
+      },
+      "eco": {
+        "rounds": 200,
+        "wins": 93,
+        "win_rate": 46.5
+      },
+      "force": {
+        "rounds": 288,
+        "wins": 138,
+        "win_rate": 47.9
+      },
+      "full_buy": {
+        "rounds": 471,
+        "wins": 227,
+        "win_rate": 48.2
+      }
+    }
+  },
+  "insights": {
+    "strategies": "## Attack Patterns\n- **Site Distribution**: A-Site 50.6%, B-Site 34.8%\n- **Tempo**: Default/Methodical - 47.8% first blood rate\n- **Post-FB Conversion**: 70.1% - Strong closers\n\n## Defense Patterns\n- **Side Strength**: Attack 50.5% vs Defense 44.5%\n- **Style**: Retake-focused\n- **Trade Discipline**: 35.9%\n\n## Economic Behavior\n- **Pistol Win Rate**: 46.0%\n- **Eco Win Rate**: 46.5% (league avg ~15%)\n- **Full Buy Win Rate**: 48.2%\n\n## Overall\n- **Win Rate**: 47.6%",
+    "tendencies": "## Player Scouting Cards\n\n### 🎯 Entry Fragger (Primary Threat)\n**yay**\n- **Stats**: 51.9% win rate on 214 duels\n- **Threat Level**: CRITICAL\n- **Counter**: Hold off-angles, use utility to deny entry\n\n### 🔻 Weak Link (Isolation Target)\n**Apoth**\n- **Stats**: KD: 0.67\n- **Exploitation**: Hunt on rotations, force isolated 1v1s\n\n### 🏆 Clutch King (Avoid 1vX)\n**NaturE**\n- **Stats**: 13/66 clutches\n- **Protocol**: ALWAYS double-peek, never give 1v1 clutch\n\n## Team Patterns\n- **Trade Efficiency**: 35.9% - Die isolated\n- **First Blood**: 47.8% rate, 70.1% conversion",
+    "compositions": "## Agent Core\nomen (10.8%), sova (8.4%), raze (7.6%), viper (7.6%), cypher (6.8%)\n\n## Role Distribution\nInitiator: 33.6%, Controller: 29.6%, Duelist: 21.6%, Sentinel: 15.2%\n\n## Default Setups\n\n### Defense Formation\n- **Primary Site**: A-Site (50.6% preference)\n- **Classification**: Duelist-heavy\n\n### Attack Formation\n- **Target Site**: A-Site favored\n- **Style**: Slow default",
+    "counters": "## Agent Counters\nBased on their agent pool, prepare counters for:\n- omen (10.8%), sova (8.4%), raze (7.6%), viper (7.6%), cypher (6.8%)\n\n## Site Control Denial\n- **Their Preference**: A-Site (50.6%)\n- **Counter**: Stack A on defense\n\n## Economic Warfare\n- **Anti-Eco Protocol**: Play long range - {eco_wr:.1f}% eco danger\n- **Anti-Pistol**: 46.0% pistol rate - Winnable\n\n## Setup Breakers\n- **Trading**: They die alone - take 1v1s",
+    "how_to_win": "## 🎯 Win Condition Summary\n**Primary**: Neutralize yay early, hunt Apoth\n**Avoid**: Giving NaturE clutch opportunities\n\n## 📋 Round Protocol\n\n### Pistol (Round 1)\n- Their rate: 46.0%\n- **Strategy**: Aggressive entry\n\n### Anti-Eco (Rounds 2-3)\n- Their eco rate: 46.5%\n- **Protocol**: Long range, no hero plays\n\n### Gun Rounds\n- **Attack**: Target B-Site (they stack other)\n- **Defense**: Stack their preferred site\n\n## 🔄 IF/THEN Decision Tree\n\n### Opening Duel\n- **IF** we get FB (their conv: 70.1%) → Methodical\n- **IF** we lose FB → Reset\n\n### Man Advantage\n- **5v4**: Push - they die alone\n- **4v5**: Save\n\n## 👤 Player Assignments\n- **HUNT**: yay\n- **ISOLATE**: Apoth\n- **AVOID 1v1**: NaturE\n\n## 💰 Economy\n- **Their Eco**: RESPECT\n- **Full Buy**: 48.2% rate"
+  },
+  "generated_at": "2026-02-02T14:51:58.150558+00:00",
+  "match_limit": 20
+}

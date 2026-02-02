@@ -1,0 +1,166 @@
+﻿Vantage Point: Product Requirements Document
+AI-Driven VALORANT Intelligence Platform for Sky's the Limit Hackathon
+
+1. Executive Summary
+Vantage Point is an AI-powered esports analytics platform designed for VALORANT competitive teams. The system transforms raw match telemetry from GRID API into actionable strategic intelligence through a two-phase development approach: starting with an Automated Scouting Report Generator (Category 2) and evolving into a comprehensive Assistant Coach (Category 1).
+
+Key Objectives:
+• Phase 1 (Days 1-5): Deliver a fully functional Category 2 Scouting Report Generator
+• Phase 2 (Days 6-10): Extend to Category 1 Assistant Coach with micro-error detection
+• Prize Target: $6,000 cash + GDC trip + Cloud9 swag + JetBrains licenses
+• Deadline: February 3, 2026
+
+2. Product Vision & Strategy
+2.1 Problem Statement
+Professional VALORANT teams generate massive amounts of match data but lack tools to convert this data into immediately actionable strategic insights. Coaches spend hours manually reviewing VODs to identify opponent tendencies and player mistakes. Current analytics tools provide statistics without context or strategic recommendations.
+
+2.2 Solution Overview
+Vantage Point uses Retrieval-Augmented Generation (RAG) to combine quantitative analytics with qualitative strategic knowledge. The system:
+
+• Automatically fetches and analyzes opponent match history from GRID API
+• Detects statistical anomalies and strategic patterns
+• Generates natural language reports with specific counter-strategies
+• Provides visual analytics through interactive charts and graphs
+
+2.3 Competitive Positioning
+AspectVantage PointBlitz.ggVLR.ggAI InsightsRAG-powered recommendationsBasic stats onlyManual analysisOpponent ScoutingAutomated reports with countersLimitedStats aggregationData SourceOfficial GRID APIRiot APICommunity data
+3. Technical Architecture
+3.1 System Overview
+Vantage Point follows a three-tier architecture optimized for solo development and rapid iteration:
+
+• Data Layer: GRID API integration with local caching
+• Logic Layer: Python analytics engine with FastAPI
+• Presentation Layer: Next.js 14 React application
+
+3.2 Technology Stack
+LayerTechnologyJustificationBackendPython 3.11+ with FastAPINative async/await for concurrent API calls, automatic Pydantic validation, industry standard for data scienceData ProcessingPandas + NumPyVectorized operations for fast aggregation, DataFrame structure matches tabular match dataAI/LLMGroq (Llama 3) + LangChainFree high-speed inference, excellent for RAG, prompt management with LangChainVector StoreFAISS + SentenceTransformersLocal execution (no API costs), fast similarity search, all-MiniLM-L6-v2 model optimized for semantic retrievalFrontendNext.js 14 + ReactComponent-based UI, built-in routing, TypeScript support for type safetyStylingTailwind CSS + Shadcn/UIUtility-first rapid development, pre-built components for professional esports aestheticVisualizationRechartsReact-native charts, responsive design, supports bar/line/radar charts for stats
+4. Feature Requirements
+4.1 Phase 1: Automated Scouting Report (Category 2)
+Priority: P0 (Must Have for Submission)
+
+FR-1.1: Team Search and Selection
+• User inputs opponent team name (e.g., 'Sentinels', 'Cloud9')
+• Optional map filter (e.g., 'Ascent', 'Haven')
+• System validates team exists in GRID database
+• Loading state with progress indicator
+
+FR-1.2: Data Fetching and Caching
+• Fetch last 20-50 matches from GRID API via GraphQL
+• Cache results locally in data/debug_cache/ as JSON files
+• Debug mode toggle to use cached data during development
+• Handle API rate limits and errors gracefully
+
+FR-1.3: Strategic Analysis Metrics
+The system must calculate and display:
+
+• Win Rate by Map (percentage across all analyzed matches)
+• Site Attack Preference (A, B, C site statistics)
+• Aggression Index (calculated from average round duration)
+• Agent Composition Frequency (top 5 most-picked agents)
+• Role Distribution (Duelist, Controller, Initiator, Sentinel percentages)
+• Economy Patterns (Eco/Force Buy/Full Buy round distribution)
+
+FR-1.4: AI-Generated Insights
+Generate natural language report with four sections:
+
+• Strategies: Overall playstyle (Rush vs Default vs Slow)
+• Tendencies: Statistical patterns (site preference, timing)
+• Compositions: Agent synergies and role balance
+• How to Win: RAG-powered counter-strategies from VALORANT guides
+
+FR-1.5: Data Visualization
+• Bar chart: Agent pick rates
+• Line chart: Win rate trend over last 20 matches
+• Radar chart: Role distribution balance
+• Color-coded heatmap for site preferences
+
+4.2 Phase 2: Assistant Coach Upgrade (Category 1)
+Priority: P1 (Extension if Time Permits)
+
+FR-2.1: Match-Specific Analysis
+• User selects specific match ID from team history
+• System fetches granular event logs (kill feed, buy phase)
+• Display round-by-round timeline (Win/Loss/Draw)
+
+FR-2.2: Micro-Error Detection
+Implement heuristic algorithms to detect:
+
+• Free Deaths: Player dies within 15 seconds with 0 impact
+• Bad Economy: Force buying when team has <4000 credits
+• Role Failures: Duelist with low First Blood %, Controller dying first
+• Utility Waste: High-value abilities unused before round end
+
+FR-2.3: Impact Scoring
+• Assign weighted impact scores to each error type
+• Correlate high impact rounds with round losses
+• Generate 'Root Cause' summary linking micro to macro outcomes
+
+FR-2.4: Interactive Timeline UI
+• Horizontal round strip with color coding (Green=Win, Red=Loss)
+• Click round to open modal with detected errors
+• Show specific player names, timestamps, and error descriptions
+
+5. Development Execution Plan
+5.1 Phase 1: Days 1-5 (Category 2 MVP)
+Day 1-2: Data Infrastructure
+• Apply for GRID API access via hackathon form
+• Write seed_match_data.py to crawl and cache 50 Cloud9 matches
+• Implement GridClient with debug mode toggle
+• Create normalize_to_dataframe function for Pandas processing
+
+Day 3: Analytics Engine
+• Build ScoutingAnalyzer class with metric calculations
+• Implement win rate, aggression index, site preference algorithms
+• Write unit tests against golden dataset
+
+Day 4: AI Integration
+• Scrape VALORANT strategy guides with WebBaseLoader
+• Build FAISS vector index with SentenceTransformers embeddings
+• Implement RAG pipeline with LangChain + Groq
+• Design prompt templates for four-section report
+
+Day 5: Frontend Development
+• Setup Next.js project with Tailwind + Shadcn/UI
+• Create SearchBar component with team autocomplete
+• Build ReportView with charts using Recharts
+• Implement dark mode esports aesthetic (slate/blue/neon)
+• Connect to FastAPI backend with fetch API
+
+5.2 Phase 2: Days 6-10 (Category 1 Extension)
+Day 6-7: Granular Data Layer
+• Extend GridClient to fetch event-level data (kills, buys)
+• Parse kill feed timestamps and positions
+• Extract buy phase economy and weapon purchases
+
+Day 8: Error Detection Logic
+• Write detect_free_death() heuristic function
+• Write detect_bad_buy() economy analyzer
+• Implement impact scoring algorithm with weights
+• Calculate correlation between errors and round losses
+
+Day 9-10: Coach UI Components
+• Build Timeline component with round visualization
+• Create ErrorModal for detailed round analysis
+• Add feature flag toggle (scout vs coach mode)
+• Record 3-minute demo video showing both modes
+
+6. Risk Management
+RiskImpactProbabilityMitigationGRID API delay/rejectionCriticalMediumApply immediately, use public VLR.gg data as backupLLM hallucinationHighHighAnchor with hard stats in prompts, RAG retrieval from verified guidesPhase 2 complexityMediumMediumFeature flag to revert to Phase 1 if unstableTime overrunMediumHighPrioritize Phase 1 MVP, skip Phase 2 if needed
+7. Success Metrics & Judging Criteria
+7.1 Hackathon Judging Criteria Alignment
+CriterionHow Vantage Point Addresses ItEvidenceTechnology ImplementationClean FastAPI architecture, proper Pydantic validation, vectorized Pandas operations, RAG with FAISS + LangChainGitHub repo + code walkthrough in demoDesign (UX)Professional esports dark theme with Tailwind, responsive Recharts visualizations, intuitive search flowLive demo in video + screenshotsPotential ImpactSaves coaches 5+ hours per week, provides insights impossible to derive manually at scale, democratizes pro-level analyticsUse case testimonials in videoIdea CreativityUnique RAG approach for counter-strategies, Moneyball-style error correlation in Phase 2, dual-mode architectureTechnical explanation + differentiation from competitors
+8. Appendices
+8.1 Submission Checklist
+• Public GitHub repository with OSI license (MIT recommended)
+• 3-minute demo video uploaded to YouTube/Vimeo
+• Complete Devpost submission form with category selection
+• README with setup instructions and architecture diagram
+• Evidence of JetBrains IDE usage (screenshots/video)
+• GRID API integration demonstrated in code
+
+8.2 Key URLs
+• Hackathon Page: https://cloud9.devpost.com
+• GRID API Application: https://grid.gg/hackathon-application-form/
+• JetBrains Tools: https://www.jetbrains.com
+• Groq API: https://groq.com
+

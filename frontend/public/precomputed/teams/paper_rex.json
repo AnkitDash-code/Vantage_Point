@@ -1,0 +1,667 @@
+{
+  "team_name": "Paper Rex",
+  "matches_analyzed": 17,
+  "metrics": {
+    "win_rate": 48.4,
+    "win_rate_by_map": {
+      "Ascent": 47.8,
+      "Bind": 48.9,
+      "Lotus": 41.1,
+      "Split": 53.1,
+      "Sunset": 51.9
+    },
+    "site_preferences": {
+      "A": 51.4,
+      "C": 17.1,
+      "B": 31.4
+    },
+    "pistol_site_preferences": {},
+    "aggression": {
+      "style": "Slow/Default",
+      "avg_duration": 88.5,
+      "rush_rate": 0.0
+    },
+    "agent_composition": [
+      {
+        "agent": "omen",
+        "pick_count": 15,
+        "pick_rate": 17.6
+      },
+      {
+        "agent": "raze",
+        "pick_count": 13,
+        "pick_rate": 15.3
+      },
+      {
+        "agent": "viper",
+        "pick_count": 11,
+        "pick_rate": 12.9
+      },
+      {
+        "agent": "skye",
+        "pick_count": 8,
+        "pick_rate": 9.4
+      },
+      {
+        "agent": "jett",
+        "pick_count": 8,
+        "pick_rate": 9.4
+      }
+    ],
+    "player_tendencies": [
+      {
+        "player": "Monyet",
+        "matches_played": 17,
+        "top_agent": "raze",
+        "top_agent_rate": 58.8,
+        "avg_kills": 14.7,
+        "avg_deaths": 17.0,
+        "avg_assists": 6.4,
+        "kd_ratio": 0.87,
+        "avg_acs": null,
+        "first_kill_rate": 12.3
+      },
+      {
+        "player": "d4v41",
+        "matches_played": 17,
+        "top_agent": "skye",
+        "top_agent_rate": 41.2,
+        "avg_kills": 13.8,
+        "avg_deaths": 15.2,
+        "avg_assists": 8.4,
+        "kd_ratio": 0.9,
+        "avg_acs": null,
+        "first_kill_rate": 4.4
+      },
+      {
+        "player": "f0rsakeN",
+        "matches_played": 17,
+        "top_agent": "kay/o",
+        "top_agent_rate": 23.5,
+        "avg_kills": 16.1,
+        "avg_deaths": 15.8,
+        "avg_assists": 7.8,
+        "kd_ratio": 1.02,
+        "avg_acs": null,
+        "first_kill_rate": 12.0
+      },
+      {
+        "player": "mindfreak",
+        "matches_played": 17,
+        "top_agent": "viper",
+        "top_agent_rate": 52.9,
+        "avg_kills": 12.8,
+        "avg_deaths": 15.2,
+        "avg_assists": 4.8,
+        "kd_ratio": 0.84,
+        "avg_acs": null,
+        "first_kill_rate": 3.3
+      },
+      {
+        "player": "something",
+        "matches_played": 17,
+        "top_agent": "jett",
+        "top_agent_rate": 47.1,
+        "avg_kills": 16.1,
+        "avg_deaths": 14.9,
+        "avg_assists": 4.6,
+        "kd_ratio": 1.08,
+        "avg_acs": null,
+        "first_kill_rate": 14.8
+      }
+    ],
+    "role_distribution": {
+      "Controller": 36.5,
+      "Duelist": 28.2,
+      "Initiator": 27.1,
+      "Sentinel": 8.2
+    },
+    "recent_compositions": {
+      "overall": [
+        {
+          "composition": [
+            "gekko",
+            "kay/o",
+            "omen",
+            "sage",
+            "viper"
+          ],
+          "matches": 4,
+          "pick_rate": 23.5
+        },
+        {
+          "composition": [
+            "jett",
+            "omen",
+            "raze",
+            "skye",
+            "viper"
+          ],
+          "matches": 3,
+          "pick_rate": 17.6
+        },
+        {
+          "composition": [
+            "fade",
+            "gekko",
+            "omen",
+            "raze",
+            "viper"
+          ],
+          "matches": 3,
+          "pick_rate": 17.6
+        }
+      ],
+      "by_map": {
+        "ascent": [
+          {
+            "composition": [
+              "fade",
+              "gekko",
+              "omen",
+              "raze",
+              "viper"
+            ],
+            "matches": 3,
+            "pick_rate": 100.0
+          }
+        ],
+        "bind": [
+          {
+            "composition": [
+              "brimstone",
+              "fade",
+              "harbor",
+              "raze",
+              "reyna"
+            ],
+            "matches": 1,
+            "pick_rate": 50.0
+          },
+          {
+            "composition": [
+              "brimstone",
+              "harbor",
+              "raze",
+              "reyna",
+              "skye"
+            ],
+            "matches": 1,
+            "pick_rate": 50.0
+          }
+        ],
+        "lotus": [
+          {
+            "composition": [
+              "cypher",
+              "jett",
+              "omen",
+              "raze",
+              "skye"
+            ],
+            "matches": 3,
+            "pick_rate": 75.0
+          },
+          {
+            "composition": [
+              "astra",
+              "jett",
+              "omen",
+              "raze",
+              "skye"
+            ],
+            "matches": 1,
+            "pick_rate": 25.0
+          }
+        ],
+        "split": [
+          {
+            "composition": [
+              "jett",
+              "omen",
+              "raze",
+              "skye",
+              "viper"
+            ],
+            "matches": 3,
+            "pick_rate": 75.0
+          },
+          {
+            "composition": [
+              "jett",
+              "omen",
+              "raze",
+              "viper",
+              "yoru"
+            ],
+            "matches": 1,
+            "pick_rate": 25.0
+          }
+        ],
+        "sunset": [
+          {
+            "composition": [
+              "gekko",
+              "kay/o",
+              "omen",
+              "sage",
+              "viper"
+            ],
+            "matches": 4,
+            "pick_rate": 100.0
+          }
+        ]
+      },
+      "most_recent": [
+        "cypher",
+        "jett",
+        "omen",
+        "raze",
+        "skye"
+      ]
+    },
+    "economy": {
+      "eco": 41.2,
+      "force": 35.3,
+      "full": 23.5
+    },
+    "first_duel": {
+      "team_first_kill_rate": 46.7,
+      "first_kill_conversion_rate": 70.2,
+      "avg_time_to_first_kill": 88.5,
+      "top_first_kill_players": [
+        {
+          "player": "something",
+          "first_kills": 54,
+          "first_kill_rate": 14.8
+        },
+        {
+          "player": "Monyet",
+          "first_kills": 45,
+          "first_kill_rate": 12.3
+        },
+        {
+          "player": "f0rsakeN",
+          "first_kills": 44,
+          "first_kill_rate": 12.0
+        },
+        {
+          "player": "d4v41",
+          "first_kills": 16,
+          "first_kill_rate": 4.4
+        },
+        {
+          "player": "mindfreak",
+          "first_kills": 12,
+          "first_kill_rate": 3.3
+        }
+      ],
+      "top_first_kill_weapons": [
+        {
+          "weapon": "vandal",
+          "first_kills": 60,
+          "first_kill_rate": 16.4
+        },
+        {
+          "weapon": "phantom",
+          "first_kills": 21,
+          "first_kill_rate": 5.7
+        },
+        {
+          "weapon": "operator",
+          "first_kills": 15,
+          "first_kill_rate": 4.1
+        }
+      ]
+    },
+    "pistol_rounds": {
+      "overall": {
+        "rounds": 34,
+        "wins": 23,
+        "win_rate": 67.6,
+        "first_kill_rate": 52.9
+      },
+      "by_side": {
+        "attacker": {
+          "rounds": 17,
+          "wins": 10,
+          "win_rate": 58.8,
+          "first_kill_rate": 47.1
+        },
+        "defender": {
+          "rounds": 17,
+          "wins": 13,
+          "win_rate": 76.5,
+          "first_kill_rate": 58.8
+        }
+      }
+    },
+    "combat_metrics": {
+      "trade_efficiency": 33.5,
+      "trade_kills": 444,
+      "trade_opportunities": 1327,
+      "multi_killers": [
+        {
+          "player": "f0rsakeN",
+          "2k": 45,
+          "3k": 18,
+          "4k": 7,
+          "5k": 1,
+          "total": 71
+        },
+        {
+          "player": "something",
+          "2k": 49,
+          "3k": 11,
+          "4k": 5,
+          "5k": 0,
+          "total": 65
+        },
+        {
+          "player": "d4v41",
+          "2k": 50,
+          "3k": 10,
+          "4k": 0,
+          "5k": 0,
+          "total": 60
+        },
+        {
+          "player": "Monyet",
+          "2k": 45,
+          "3k": 11,
+          "4k": 2,
+          "5k": 2,
+          "total": 60
+        },
+        {
+          "player": "mindfreak",
+          "2k": 36,
+          "3k": 13,
+          "4k": 3,
+          "5k": 0,
+          "total": 52
+        }
+      ],
+      "clutch_performers": [
+        {
+          "player": "d4v41",
+          "clutches_faced": 52,
+          "clutches_won": 9,
+          "clutch_rate": 17.3
+        },
+        {
+          "player": "f0rsakeN",
+          "clutches_faced": 31,
+          "clutches_won": 7,
+          "clutch_rate": 22.6
+        },
+        {
+          "player": "Monyet",
+          "clutches_faced": 38,
+          "clutches_won": 6,
+          "clutch_rate": 15.8
+        },
+        {
+          "player": "mindfreak",
+          "clutches_faced": 31,
+          "clutches_won": 4,
+          "clutch_rate": 12.9
+        },
+        {
+          "player": "something",
+          "clutches_faced": 42,
+          "clutches_won": 4,
+          "clutch_rate": 9.5
+        }
+      ],
+      "opening_duels": [
+        {
+          "player": "something",
+          "opening_wins": 54,
+          "opening_losses": 42,
+          "opening_duel_rate": 56.2
+        },
+        {
+          "player": "Monyet",
+          "opening_wins": 45,
+          "opening_losses": 63,
+          "opening_duel_rate": 41.7
+        },
+        {
+          "player": "f0rsakeN",
+          "opening_wins": 44,
+          "opening_losses": 38,
+          "opening_duel_rate": 53.7
+        },
+        {
+          "player": "d4v41",
+          "opening_wins": 16,
+          "opening_losses": 17,
+          "opening_duel_rate": 48.5
+        },
+        {
+          "player": "mindfreak",
+          "opening_wins": 12,
+          "opening_losses": 35,
+          "opening_duel_rate": 25.5
+        }
+      ],
+      "weapon_effectiveness": [
+        {
+          "weapon": "vandal",
+          "kills": 482,
+          "deaths": 651,
+          "kd_ratio": 0.74
+        },
+        {
+          "weapon": "phantom",
+          "kills": 214,
+          "deaths": 241,
+          "kd_ratio": 0.89
+        },
+        {
+          "weapon": "ghost",
+          "kills": 83,
+          "deaths": 65,
+          "kd_ratio": 1.28
+        },
+        {
+          "weapon": "operator",
+          "kills": 80,
+          "deaths": 37,
+          "kd_ratio": 2.16
+        },
+        {
+          "weapon": "classic",
+          "kills": 67,
+          "deaths": 72,
+          "kd_ratio": 0.93
+        },
+        {
+          "weapon": "sheriff",
+          "kills": 57,
+          "deaths": 58,
+          "kd_ratio": 0.98
+        },
+        {
+          "weapon": "spectre",
+          "kills": 51,
+          "deaths": 28,
+          "kd_ratio": 1.82
+        },
+        {
+          "weapon": "bulldog",
+          "kills": 45,
+          "deaths": 28,
+          "kd_ratio": 1.61
+        },
+        {
+          "weapon": "judge",
+          "kills": 32,
+          "deaths": 5,
+          "kd_ratio": 6.4
+        },
+        {
+          "weapon": "stinger",
+          "kills": 31,
+          "deaths": 33,
+          "kd_ratio": 0.94
+        }
+      ],
+      "total_kills_analyzed": 2575
+    },
+    "side_metrics": {
+      "attack_rounds": 194,
+      "attack_wins": 92,
+      "attack_win_rate": 47.4,
+      "attack_kills": 632,
+      "attack_deaths": 734,
+      "attack_kd": 0.86,
+      "defense_rounds": 172,
+      "defense_wins": 85,
+      "defense_win_rate": 49.4,
+      "defense_kills": 616,
+      "defense_deaths": 593,
+      "defense_kd": 1.04
+    },
+    "map_metrics": null,
+    "economy_metrics": null,
+    "opponent_stats": [
+      {
+        "opponent": "Sentinels",
+        "matches": 4,
+        "rounds_played": 79,
+        "rounds_won": 34,
+        "win_rate": 43.0
+      },
+      {
+        "opponent": "Karmine Corp",
+        "matches": 3,
+        "rounds_played": 68,
+        "rounds_won": 33,
+        "win_rate": 48.5
+      },
+      {
+        "opponent": "Team Heretics",
+        "matches": 3,
+        "rounds_played": 66,
+        "rounds_won": 36,
+        "win_rate": 54.5
+      },
+      {
+        "opponent": "EDward Gaming",
+        "matches": 3,
+        "rounds_played": 65,
+        "rounds_won": 31,
+        "win_rate": 47.7
+      },
+      {
+        "opponent": "LOUD",
+        "matches": 2,
+        "rounds_played": 45,
+        "rounds_won": 26,
+        "win_rate": 57.8
+      },
+      {
+        "opponent": "Gen.G",
+        "matches": 2,
+        "rounds_played": 43,
+        "rounds_won": 17,
+        "win_rate": 39.5
+      }
+    ],
+    "map_detailed": {
+      "Lotus": {
+        "rounds_played": 90,
+        "rounds_won": 37,
+        "win_rate": 41.1,
+        "attack_rounds": 49,
+        "attack_wins": 19,
+        "attack_win_rate": 38.8,
+        "defense_rounds": 41,
+        "defense_wins": 18,
+        "defense_win_rate": 43.9,
+        "top_agent": "Raze"
+      },
+      "Ascent": {
+        "rounds_played": 69,
+        "rounds_won": 33,
+        "win_rate": 47.8,
+        "attack_rounds": 37,
+        "attack_wins": 18,
+        "attack_win_rate": 48.6,
+        "defense_rounds": 32,
+        "defense_wins": 15,
+        "defense_win_rate": 46.9,
+        "top_agent": "Raze"
+      },
+      "Split": {
+        "rounds_played": 81,
+        "rounds_won": 43,
+        "win_rate": 53.1,
+        "attack_rounds": 39,
+        "attack_wins": 19,
+        "attack_win_rate": 48.7,
+        "defense_rounds": 42,
+        "defense_wins": 24,
+        "defense_win_rate": 57.1,
+        "top_agent": "Raze"
+      },
+      "Sunset": {
+        "rounds_played": 81,
+        "rounds_won": 42,
+        "win_rate": 51.9,
+        "attack_rounds": 45,
+        "attack_wins": 24,
+        "attack_win_rate": 53.3,
+        "defense_rounds": 36,
+        "defense_wins": 18,
+        "defense_win_rate": 50.0,
+        "top_agent": "Omen"
+      },
+      "Bind": {
+        "rounds_played": 45,
+        "rounds_won": 22,
+        "win_rate": 48.9,
+        "attack_rounds": 24,
+        "attack_wins": 12,
+        "attack_win_rate": 50.0,
+        "defense_rounds": 21,
+        "defense_wins": 10,
+        "defense_win_rate": 47.6,
+        "top_agent": "Raze"
+      }
+    },
+    "round_type_performance": {
+      "pistol": {
+        "rounds": 34,
+        "wins": 23,
+        "win_rate": 67.6
+      },
+      "eco": {
+        "rounds": 68,
+        "wins": 32,
+        "win_rate": 47.1
+      },
+      "force": {
+        "rounds": 100,
+        "wins": 44,
+        "win_rate": 44.0
+      },
+      "full_buy": {
+        "rounds": 164,
+        "wins": 78,
+        "win_rate": 47.6
+      }
+    }
+  },
+  "insights": {
+    "strategies": "## Attack Patterns\n- **Site Distribution**: A-Site 51.4%, B-Site 31.4%\n- **Tempo**: Default/Methodical - 46.7% first blood rate\n- **Post-FB Conversion**: 70.2% - Strong closers\n\n## Defense Patterns\n- **Side Strength**: Attack 47.4% vs Defense 49.4%\n- **Style**: Anchor-heavy\n- **Trade Discipline**: 33.5%\n\n## Economic Behavior\n- **Pistol Win Rate**: 67.6%\n- **Eco Win Rate**: 47.1% (league avg ~15%)\n- **Full Buy Win Rate**: 47.6%\n\n## Overall\n- **Win Rate**: 48.4%",
+    "tendencies": "## Player Scouting Cards\n\n### 🎯 Entry Fragger (Primary Threat)\n**Monyet**\n- **Stats**: 41.7% win rate on 108 duels\n- **Threat Level**: CRITICAL\n- **Counter**: Hold off-angles, use utility to deny entry\n\n### 🔻 Weak Link (Isolation Target)\n**mindfreak**\n- **Stats**: KD: 0.84\n- **Exploitation**: Hunt on rotations, force isolated 1v1s\n\n### 🏆 Clutch King (Avoid 1vX)\n**d4v41**\n- **Stats**: 9/52 clutches\n- **Protocol**: ALWAYS double-peek, never give 1v1 clutch\n\n## Team Patterns\n- **Trade Efficiency**: 33.5% - Die isolated\n- **First Blood**: 46.7% rate, 70.2% conversion",
+    "compositions": "## Agent Core\nomen (17.6%), raze (15.3%), viper (12.9%), skye (9.4%), jett (9.4%)\n\n## Role Distribution\nController: 36.5%, Duelist: 28.2%, Initiator: 27.1%, Sentinel: 8.2%\n\n## Default Setups\n\n### Defense Formation\n- **Primary Site**: A-Site (51.4% preference)\n- **Classification**: Duelist-heavy\n\n### Attack Formation\n- **Target Site**: A-Site favored\n- **Style**: Slow default",
+    "counters": "## Agent Counters\nBased on their agent pool, prepare counters for:\n- omen (17.6%), raze (15.3%), viper (12.9%), skye (9.4%), jett (9.4%)\n\n## Site Control Denial\n- **Their Preference**: A-Site (51.4%)\n- **Counter**: Stack A on defense\n\n## Economic Warfare\n- **Anti-Eco Protocol**: Play long range - {eco_wr:.1f}% eco danger\n- **Anti-Pistol**: 67.6% pistol rate - Respect their pistol\n\n## Setup Breakers\n- **Trading**: They die alone - take 1v1s",
+    "how_to_win": "## 🎯 Win Condition Summary\n**Primary**: Neutralize Monyet early, hunt mindfreak\n**Avoid**: Giving d4v41 clutch opportunities\n\n## 📋 Round Protocol\n\n### Pistol (Round 1)\n- Their rate: 67.6%\n- **Strategy**: Play for trades\n\n### Anti-Eco (Rounds 2-3)\n- Their eco rate: 47.1%\n- **Protocol**: Long range, no hero plays\n\n### Gun Rounds\n- **Attack**: Target B-Site (they stack other)\n- **Defense**: Stack their preferred site\n\n## 🔄 IF/THEN Decision Tree\n\n### Opening Duel\n- **IF** we get FB (their conv: 70.2%) → Methodical\n- **IF** we lose FB → Reset\n\n### Man Advantage\n- **5v4**: Push - they die alone\n- **4v5**: Save\n\n## 👤 Player Assignments\n- **HUNT**: Monyet\n- **ISOLATE**: mindfreak\n- **AVOID 1v1**: d4v41\n\n## 💰 Economy\n- **Their Eco**: RESPECT\n- **Full Buy**: 47.6% rate"
+  },
+  "generated_at": "2026-02-02T14:52:16.757254+00:00",
+  "match_limit": 20
+}

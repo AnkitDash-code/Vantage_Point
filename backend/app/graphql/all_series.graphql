@@ -1,0 +1,37 @@
+query AllSeries($first: Int!, $after: String, $titleId: ID!) {
+  allSeries(
+    first: $first,
+    after: $after,
+    filter: {
+      titleId: $titleId
+      types: ESPORTS
+    },
+    orderBy: StartTimeScheduled,
+    orderDirection: DESC
+  ) {
+    totalCount
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+    edges {
+      node {
+        id
+        title {
+          id
+        }
+        tournament {
+          id
+          name
+        }
+        startTimeScheduled
+        teams {
+          baseInfo {
+            name
+          }
+          scoreAdvantage
+        }
+      }
+    }
+  }
+}

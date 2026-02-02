@@ -1,0 +1,579 @@
+{
+  "team_name": "Funplus Phoenix",
+  "matches_analyzed": 4,
+  "metrics": {
+    "win_rate": 39.5,
+    "win_rate_by_map": {
+      "Breeze": 45.8,
+      "Icebox": 38.1,
+      "Lotus": 43.5,
+      "Sunset": 27.8
+    },
+    "site_preferences": {
+      "A": 55.6,
+      "B": 44.4
+    },
+    "pistol_site_preferences": {},
+    "aggression": {
+      "style": "Slow/Default",
+      "avg_duration": 93.5,
+      "rush_rate": 0.0
+    },
+    "agent_composition": [
+      {
+        "agent": "viper",
+        "pick_count": 4,
+        "pick_rate": 20.0
+      },
+      {
+        "agent": "sova",
+        "pick_count": 2,
+        "pick_rate": 10.0
+      },
+      {
+        "agent": "jett",
+        "pick_count": 2,
+        "pick_rate": 10.0
+      },
+      {
+        "agent": "chamber",
+        "pick_count": 2,
+        "pick_rate": 10.0
+      },
+      {
+        "agent": "omen",
+        "pick_count": 2,
+        "pick_rate": 10.0
+      }
+    ],
+    "player_tendencies": [
+      {
+        "player": "AAAAY",
+        "matches_played": 4,
+        "top_agent": "sova",
+        "top_agent_rate": 50.0,
+        "avg_kills": 12.0,
+        "avg_deaths": 17.5,
+        "avg_assists": 5.8,
+        "kd_ratio": 0.69,
+        "avg_acs": null,
+        "first_kill_rate": 1.2
+      },
+      {
+        "player": "BerLIN",
+        "matches_played": 4,
+        "top_agent": "omen",
+        "top_agent_rate": 50.0,
+        "avg_kills": 11.5,
+        "avg_deaths": 16.5,
+        "avg_assists": 6.8,
+        "kd_ratio": 0.7,
+        "avg_acs": null,
+        "first_kill_rate": 12.8
+      },
+      {
+        "player": "Life2",
+        "matches_played": 4,
+        "top_agent": "chamber",
+        "top_agent_rate": 50.0,
+        "avg_kills": 17.8,
+        "avg_deaths": 17.0,
+        "avg_assists": 2.5,
+        "kd_ratio": 1.04,
+        "avg_acs": null,
+        "first_kill_rate": 15.1
+      },
+      {
+        "player": "Lysoar",
+        "matches_played": 4,
+        "top_agent": "viper",
+        "top_agent_rate": 100.0,
+        "avg_kills": 11.0,
+        "avg_deaths": 15.2,
+        "avg_assists": 4.2,
+        "kd_ratio": 0.72,
+        "avg_acs": null,
+        "first_kill_rate": 5.8
+      },
+      {
+        "player": "autumn",
+        "matches_played": 4,
+        "top_agent": "phoenix",
+        "top_agent_rate": 25.0,
+        "avg_kills": 17.0,
+        "avg_deaths": 17.8,
+        "avg_assists": 4.0,
+        "kd_ratio": 0.96,
+        "avg_acs": null,
+        "first_kill_rate": 22.1
+      }
+    ],
+    "role_distribution": {
+      "Controller": 40.0,
+      "Duelist": 30.0,
+      "Initiator": 20.0,
+      "Sentinel": 10.0
+    },
+    "recent_compositions": {
+      "overall": [
+        {
+          "composition": [
+            "chamber",
+            "gekko",
+            "omen",
+            "raze",
+            "viper"
+          ],
+          "matches": 1,
+          "pick_rate": 25.0
+        },
+        {
+          "composition": [
+            "chamber",
+            "harbor",
+            "phoenix",
+            "sova",
+            "viper"
+          ],
+          "matches": 1,
+          "pick_rate": 25.0
+        },
+        {
+          "composition": [
+            "gekko",
+            "jett",
+            "omen",
+            "reyna",
+            "viper"
+          ],
+          "matches": 1,
+          "pick_rate": 25.0
+        }
+      ],
+      "by_map": {
+        "breeze": [
+          {
+            "composition": [
+              "astra",
+              "jett",
+              "sova",
+              "viper",
+              "yoru"
+            ],
+            "matches": 1,
+            "pick_rate": 100.0
+          }
+        ],
+        "icebox": [
+          {
+            "composition": [
+              "gekko",
+              "jett",
+              "omen",
+              "reyna",
+              "viper"
+            ],
+            "matches": 1,
+            "pick_rate": 100.0
+          }
+        ],
+        "lotus": [
+          {
+            "composition": [
+              "chamber",
+              "gekko",
+              "omen",
+              "raze",
+              "viper"
+            ],
+            "matches": 1,
+            "pick_rate": 100.0
+          }
+        ],
+        "sunset": [
+          {
+            "composition": [
+              "chamber",
+              "harbor",
+              "phoenix",
+              "sova",
+              "viper"
+            ],
+            "matches": 1,
+            "pick_rate": 100.0
+          }
+        ]
+      },
+      "most_recent": [
+        "chamber",
+        "harbor",
+        "phoenix",
+        "sova",
+        "viper"
+      ]
+    },
+    "economy": {
+      "eco": 75.0,
+      "force": 25.0,
+      "full": 0.0
+    },
+    "first_duel": {
+      "team_first_kill_rate": 57.0,
+      "first_kill_conversion_rate": 59.2,
+      "avg_time_to_first_kill": 93.5,
+      "top_first_kill_players": [
+        {
+          "player": "autumn",
+          "first_kills": 19,
+          "first_kill_rate": 22.1
+        },
+        {
+          "player": "Life2",
+          "first_kills": 13,
+          "first_kill_rate": 15.1
+        },
+        {
+          "player": "BerLIN",
+          "first_kills": 11,
+          "first_kill_rate": 12.8
+        },
+        {
+          "player": "Lysoar",
+          "first_kills": 5,
+          "first_kill_rate": 5.8
+        },
+        {
+          "player": "AAAAY",
+          "first_kills": 1,
+          "first_kill_rate": 1.2
+        }
+      ],
+      "top_first_kill_weapons": [
+        {
+          "weapon": "vandal",
+          "first_kills": 29,
+          "first_kill_rate": 33.7
+        },
+        {
+          "weapon": "phantom",
+          "first_kills": 3,
+          "first_kill_rate": 3.5
+        },
+        {
+          "weapon": "ghost",
+          "first_kills": 3,
+          "first_kill_rate": 3.5
+        }
+      ]
+    },
+    "pistol_rounds": {
+      "overall": {
+        "rounds": 8,
+        "wins": 2,
+        "win_rate": 25.0,
+        "first_kill_rate": 25.0
+      },
+      "by_side": {
+        "attacker": {
+          "rounds": 4,
+          "wins": 1,
+          "win_rate": 25.0,
+          "first_kill_rate": 25.0
+        },
+        "defender": {
+          "rounds": 4,
+          "wins": 1,
+          "win_rate": 25.0,
+          "first_kill_rate": 25.0
+        }
+      }
+    },
+    "combat_metrics": {
+      "trade_efficiency": 30.1,
+      "trade_kills": 101,
+      "trade_opportunities": 336,
+      "multi_killers": [
+        {
+          "player": "autumn",
+          "2k": 13,
+          "3k": 3,
+          "4k": 2,
+          "5k": 0,
+          "total": 18
+        },
+        {
+          "player": "Life2",
+          "2k": 12,
+          "3k": 2,
+          "4k": 1,
+          "5k": 1,
+          "total": 16
+        },
+        {
+          "player": "AAAAY",
+          "2k": 12,
+          "3k": 1,
+          "4k": 0,
+          "5k": 0,
+          "total": 13
+        },
+        {
+          "player": "Lysoar",
+          "2k": 11,
+          "3k": 1,
+          "4k": 0,
+          "5k": 0,
+          "total": 12
+        },
+        {
+          "player": "BerLIN",
+          "2k": 6,
+          "3k": 2,
+          "4k": 0,
+          "5k": 0,
+          "total": 8
+        }
+      ],
+      "clutch_performers": [
+        {
+          "player": "Life2",
+          "clutches_faced": 16,
+          "clutches_won": 3,
+          "clutch_rate": 18.8
+        },
+        {
+          "player": "autumn",
+          "clutches_faced": 7,
+          "clutches_won": 2,
+          "clutch_rate": 28.6
+        },
+        {
+          "player": "AAAAY",
+          "clutches_faced": 12,
+          "clutches_won": 1,
+          "clutch_rate": 8.3
+        },
+        {
+          "player": "BerLIN",
+          "clutches_faced": 10,
+          "clutches_won": 1,
+          "clutch_rate": 10.0
+        },
+        {
+          "player": "Lysoar",
+          "clutches_faced": 10,
+          "clutches_won": 0,
+          "clutch_rate": 0.0
+        }
+      ],
+      "opening_duels": [
+        {
+          "player": "autumn",
+          "opening_wins": 19,
+          "opening_losses": 7,
+          "opening_duel_rate": 73.1
+        },
+        {
+          "player": "Life2",
+          "opening_wins": 13,
+          "opening_losses": 13,
+          "opening_duel_rate": 50.0
+        },
+        {
+          "player": "BerLIN",
+          "opening_wins": 11,
+          "opening_losses": 11,
+          "opening_duel_rate": 50.0
+        },
+        {
+          "player": "Lysoar",
+          "opening_wins": 5,
+          "opening_losses": 4,
+          "opening_duel_rate": 55.6
+        },
+        {
+          "player": "AAAAY",
+          "opening_wins": 1,
+          "opening_losses": 2,
+          "opening_duel_rate": 33.3
+        }
+      ],
+      "weapon_effectiveness": [
+        {
+          "weapon": "vandal",
+          "kills": 169,
+          "deaths": 160,
+          "kd_ratio": 1.06
+        },
+        {
+          "weapon": "phantom",
+          "kills": 21,
+          "deaths": 51,
+          "kd_ratio": 0.41
+        },
+        {
+          "weapon": "ghost",
+          "kills": 17,
+          "deaths": 31,
+          "kd_ratio": 0.55
+        },
+        {
+          "weapon": "sheriff",
+          "kills": 13,
+          "deaths": 13,
+          "kd_ratio": 1.0
+        },
+        {
+          "weapon": "classic",
+          "kills": 12,
+          "deaths": 10,
+          "kd_ratio": 1.2
+        },
+        {
+          "weapon": "guardian",
+          "kills": 10,
+          "deaths": 5,
+          "kd_ratio": 2.0
+        },
+        {
+          "weapon": "bulldog",
+          "kills": 9,
+          "deaths": 28,
+          "kd_ratio": 0.32
+        },
+        {
+          "weapon": "operator",
+          "kills": 7,
+          "deaths": 8,
+          "kd_ratio": 0.88
+        },
+        {
+          "weapon": "stinger",
+          "kills": 2,
+          "deaths": 5,
+          "kd_ratio": 0.4
+        },
+        {
+          "weapon": "shorty",
+          "kills": 1,
+          "deaths": 2,
+          "kd_ratio": 0.5
+        }
+      ],
+      "total_kills_analyzed": 613
+    },
+    "side_metrics": {
+      "attack_rounds": 48,
+      "attack_wins": 21,
+      "attack_win_rate": 43.8,
+      "attack_kills": 161,
+      "attack_deaths": 187,
+      "attack_kd": 0.86,
+      "defense_rounds": 38,
+      "defense_wins": 13,
+      "defense_win_rate": 34.2,
+      "defense_kills": 116,
+      "defense_deaths": 149,
+      "defense_kd": 0.78
+    },
+    "map_metrics": null,
+    "economy_metrics": null,
+    "opponent_stats": [
+      {
+        "opponent": "LOUD",
+        "matches": 2,
+        "rounds_played": 42,
+        "rounds_won": 16,
+        "win_rate": 38.1
+      },
+      {
+        "opponent": "Karmine Corp",
+        "matches": 2,
+        "rounds_played": 44,
+        "rounds_won": 18,
+        "win_rate": 40.9
+      }
+    ],
+    "map_detailed": {
+      "Sunset": {
+        "rounds_played": 18,
+        "rounds_won": 5,
+        "win_rate": 27.8,
+        "attack_rounds": 12,
+        "attack_wins": 4,
+        "attack_win_rate": 33.3,
+        "defense_rounds": 6,
+        "defense_wins": 1,
+        "defense_win_rate": 16.7,
+        "top_agent": "Sova"
+      },
+      "Breeze": {
+        "rounds_played": 24,
+        "rounds_won": 11,
+        "win_rate": 45.8,
+        "attack_rounds": 12,
+        "attack_wins": 4,
+        "attack_win_rate": 33.3,
+        "defense_rounds": 12,
+        "defense_wins": 7,
+        "defense_win_rate": 58.3,
+        "top_agent": "Sova"
+      },
+      "Icebox": {
+        "rounds_played": 21,
+        "rounds_won": 8,
+        "win_rate": 38.1,
+        "attack_rounds": 12,
+        "attack_wins": 5,
+        "attack_win_rate": 41.7,
+        "defense_rounds": 9,
+        "defense_wins": 3,
+        "defense_win_rate": 33.3,
+        "top_agent": "Gekko"
+      },
+      "Lotus": {
+        "rounds_played": 23,
+        "rounds_won": 10,
+        "win_rate": 43.5,
+        "attack_rounds": 12,
+        "attack_wins": 8,
+        "attack_win_rate": 66.7,
+        "defense_rounds": 11,
+        "defense_wins": 2,
+        "defense_win_rate": 18.2,
+        "top_agent": "Gekko"
+      }
+    },
+    "round_type_performance": {
+      "pistol": {
+        "rounds": 8,
+        "wins": 2,
+        "win_rate": 25.0
+      },
+      "eco": {
+        "rounds": 16,
+        "wins": 5,
+        "win_rate": 31.2
+      },
+      "force": {
+        "rounds": 24,
+        "wins": 9,
+        "win_rate": 37.5
+      },
+      "full_buy": {
+        "rounds": 38,
+        "wins": 18,
+        "win_rate": 47.4
+      }
+    }
+  },
+  "insights": {
+    "strategies": "## Attack Patterns\n- **Site Distribution**: A-Site 55.6%, B-Site 44.4%\n- **Tempo**: Fast (high first blood rate) - 57.0% first blood rate\n- **Post-FB Conversion**: 59.2% - Throw leads often\n\n## Defense Patterns\n- **Side Strength**: Attack 43.8% vs Defense 34.2%\n- **Style**: Retake-focused\n- **Trade Discipline**: 30.1%\n\n## Economic Behavior\n- **Pistol Win Rate**: 25.0%\n- **Eco Win Rate**: 31.2% (league avg ~15%)\n- **Full Buy Win Rate**: 47.4%\n\n## Overall\n- **Win Rate**: 39.5%",
+    "tendencies": "## Player Scouting Cards\n\n### 🎯 Entry Fragger (Primary Threat)\n**autumn**\n- **Stats**: 73.1% win rate on 26 duels\n- **Threat Level**: CRITICAL\n- **Counter**: Hold off-angles, use utility to deny entry\n\n### 🔻 Weak Link (Isolation Target)\n**AAAAY**\n- **Stats**: KD: 0.69\n- **Exploitation**: Hunt on rotations, force isolated 1v1s\n\n### 🏆 Clutch King (Avoid 1vX)\n**Life2**\n- **Stats**: 3/16 clutches\n- **Protocol**: ALWAYS double-peek, never give 1v1 clutch\n\n## Team Patterns\n- **Trade Efficiency**: 30.1% - Die isolated\n- **First Blood**: 57.0% rate, 59.2% conversion",
+    "compositions": "## Agent Core\nviper (20.0%), sova (10.0%), jett (10.0%), chamber (10.0%), omen (10.0%)\n\n## Role Distribution\nController: 40.0%, Duelist: 30.0%, Initiator: 20.0%, Sentinel: 10.0%\n\n## Default Setups\n\n### Defense Formation\n- **Primary Site**: A-Site (55.6% preference)\n- **Classification**: Duelist-heavy\n\n### Attack Formation\n- **Target Site**: A-Site favored\n- **Style**: Fast execute",
+    "counters": "## Agent Counters\nBased on their agent pool, prepare counters for:\n- viper (20.0%), sova (10.0%), jett (10.0%), chamber (10.0%), omen (10.0%)\n\n## Site Control Denial\n- **Their Preference**: A-Site (55.6%)\n- **Counter**: Stack A on defense\n\n## Economic Warfare\n- **Anti-Eco Protocol**: Play long range - {eco_wr:.1f}% eco danger\n- **Anti-Pistol**: 25.0% pistol rate - Winnable\n\n## Setup Breakers\n- **Trading**: They die alone - take 1v1s",
+    "how_to_win": "## 🎯 Win Condition Summary\n**Primary**: Neutralize autumn early, hunt AAAAY\n**Avoid**: Giving Life2 clutch opportunities\n\n## 📋 Round Protocol\n\n### Pistol (Round 1)\n- Their rate: 25.0%\n- **Strategy**: Aggressive entry\n\n### Anti-Eco (Rounds 2-3)\n- Their eco rate: 31.2%\n- **Protocol**: Long range, no hero plays\n\n### Gun Rounds\n- **Attack**: Target B-Site (they stack other)\n- **Defense**: Stack their preferred site\n\n## 🔄 IF/THEN Decision Tree\n\n### Opening Duel\n- **IF** we get FB (their conv: 59.2%) → Play fast 5v4\n- **IF** we lose FB → Reset\n\n### Man Advantage\n- **5v4**: Push - they die alone\n- **4v5**: Try retake\n\n## 👤 Player Assignments\n- **HUNT**: autumn\n- **ISOLATE**: AAAAY\n- **AVOID 1v1**: Life2\n\n## 💰 Economy\n- **Their Eco**: RESPECT\n- **Full Buy**: 47.4% rate"
+  },
+  "generated_at": "2026-02-02T14:52:02.269964+00:00",
+  "match_limit": 20
+}
